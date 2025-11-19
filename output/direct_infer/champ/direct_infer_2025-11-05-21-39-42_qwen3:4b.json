@@ -1,0 +1,3782 @@
+[
+    {
+        "question": "Let a string consist of digit 1, 2, 3. How many such strings of length 6 have adjacent digit differing by less than or equal to 1?",
+        "infer_answer": "",
+        "gold_answer": "239",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many strings of length 5 using the digits {0, 1, ..., 9} (with leading zeros allowed) have strictly increasing digits?",
+        "infer_answer": "To determine how many strings of length 5 using the digits $\\{0, 1, \\dots, 9\\}$ (with leading zeros allowed) have **strictly increasing digits**, we begin by understanding what such a string must look like.\n\n---\n\n### Understanding the Problem\n\nA **string of length 5** with **strictly increasing digits** means that each digit in the string is greater than the previous one. For example, \"01234\" is valid because $0 < 1 < 2 < 3 < 4$, but \"10234\" is not valid because $1 > 0$.\n\nImportantly, **leading zeros are allowed**, so strings like \"01234\" are acceptable.\n\nThis implies that for any such string, all five digits must be **distinct** and arranged in **strictly increasing order**.\n\n---\n\n### Key Insight: Subsets and Combinations\n\nThe critical observation here is that **each strictly increasing string of length 5 corresponds uniquely to a subset of 5 distinct digits from the set $\\{0, 1, \\dots, 9\\}$**.\n\nWhy?\n\n- If you choose any 5 distinct digits from the 10 available digits, there is exactly **one way** to arrange them in strictly increasing order.\n- Conversely, every string of length 5 with strictly increasing digits must be formed by choosing 5 distinct digits and arranging them in increasing order.\n\nThus, the number of such strings is equal to the number of **5-element subsets** of the set $\\{0, 1, \\dots, 9\\}$.\n\n---\n\n### Counting the Number of Valid Strings\n\nWe now compute the number of 5-element subsets of a 10-element set:\n\n$$\n\\binom{10}{5} = \\frac{10!}{5! \\cdot (10 - 5)!} = \\frac{10 \\times 9 \\times 8 \\times",
+        "gold_answer": "C(10, 5), or equivalently 252",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully) and the placing is also invariant to a 180-degree rotation.",
+        "infer_answer": "",
+        "gold_answer": "2^floor(n/2)*floor(n/2)!",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A one-to-one mapping p: {1, 2, ..., n}->{1, 2, ..., n} is called an involution, if p∘p=identity (i.e., p(p(i))=i for all i∈{1, ..., n}). Find the number of involutions on {1, 2, 3, 4, 5, 6}.",
+        "infer_answer": "",
+        "gold_answer": "76",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many subsets of {1, 2,..., 10} have no two successive numbers?",
+        "infer_answer": "",
+        "gold_answer": "144",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "In how many ways can you take an odd number of objects from n (distinct) objects?",
+        "infer_answer": "",
+        "gold_answer": "2^(n-1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Consider a row of 11 seats. A child sits on each. Each child may move by at most one seat. How many possible rearrangements are there (including the original one)?",
+        "infer_answer": "",
+        "gold_answer": "144",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many strings of length 5 and consisting solely of the digits 1, 2, 3 and 4 have the property that any 1 and 2 are never neighbors (i.e., the string does not contain \"12\" or \"21\" as substrings).",
+        "infer_answer": "",
+        "gold_answer": "634",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Consider all 2^n−1 nonempty subsets of the set {1, 2,..., n}. For every such subset, we find the product of the reciprocals of each of its elements. Find the sum of all these products, as an expression of n.",
+        "infer_answer": "",
+        "gold_answer": "n",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many sequences of positive integer numbers have sum n, as an expression of n?",
+        "infer_answer": "To solve the problem of determining **how many sequences of positive integers have sum $ n $**, we must first clarify what is meant by a \"sequence of positive integers\" in this context.\n\n---\n\n### Understanding the Problem\n\nIn combinatorics, when we talk about **sequences of positive integers** that sum to a given number $ n $, and where **order matters**, this corresponds to the concept of **compositions** of $ n $. A *composition* of an integer $ n $ is an ordered list of **positive integers** (i.e., each term is at least 1) that sum to $ n $.\n\nFor example:\n- For $ n = 3 $, the compositions are:  \n  $[1,1,1], [1,2], [2,1], [3]$ → total of **4** sequences.\n- For $ n = 4 $, the compositions are:  \n  $[1,1,1,1], [1,1,2], [1,2,1], [2,1,1], [1,3], [3,1], [2,2], [4]$ → total of **8** sequences.\n\nThis pattern suggests that the number of such sequences grows exponentially with $ n $.\n\n---\n\n### General Formula\n\nThe number of **compositions** of a positive integer $ n $ is well-known in combinatorics and is given by:\n\n$$\n\\text{Number of compositions of } n = 2^{n-1}\n$$\n\nThis result can be derived from the following reasoning:\n\n- Consider $ n $ units (e.g., $ n = 3 $: [1,1,1]).\n- There are $ n - 1 $ gaps between these units where you can choose to place a **break** (to separate the sequence into parts).\n- Each gap has two choices: either **break** or **no break**.\n- Therefore, the total number of ways to split the sequence is $ 2^{n-1} $.\n\nThis matches the observed pattern:\n- $ n = 1 $: $ 2^{0} = 1 $\n- $ n = 2 $: $ 2^{1} = 2 $\n- $ n = 3 $: $ 2^{2} = 4 $\n- $ n = 4 $: $ 2^{3} = 8 $\n\nHence, the number of **ordered sequences of positive integers** that sum to $ n $ is exactly the number of compositions of $ n $, which is $ 2^{n-1} $",
+        "gold_answer": "2^(n-1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A diagnoal in a convex polygon is any line connecting two non-adjacent vertices. How many diagonals are there in a convex polygon of n vertices, as an expression of n?",
+        "infer_answer": "To determine the number of diagonals in a convex polygon with $ n $ vertices, we begin by understanding what defines a diagonal: it is a line segment connecting two **non-adjacent** vertices.\n\n---\n\n### Step 1: Total Number of Vertex Pairs\n\nIn any set of $ n $ distinct points (vertices), the total number of ways to choose 2 points is given by the combination:\n\n$$\n\\binom{n}{2} = \\frac{n(n - 1)}{2}\n$$\n\nThis represents all possible line segments that can be drawn between any two vertices.\n\n---\n\n### Step 2: Subtract the Sides of the Polygon\n\nIn a convex polygon, there are exactly $ n $ sides — each side connects two adjacent vertices. These are the only pairs of vertices that are **adjacent**, and hence do **not** form diagonals.\n\nTherefore, the number of **diagonals** is:\n\n$$\n\\text{Diagonals} = \\binom{n}{2} - n = \\frac{n(n - 1)}{2} - n\n$$\n\n---\n\n### Step 3: Simplify the Expression\n\nWe simplify the expression:\n\n$$\n\\frac{n(n - 1)}{2} - n = \\frac{n(n - 1) - 2n}{2} = \\frac{n^2 - n - 2n}{2} = \\frac{n^2 - 3n}{2} = \\frac{n(n - 3)}{2}\n$$\n\n---\n\n### Final Answer\n\nThus, the number of diagonals in a convex polygon with $ n $ vertices is:\n\n$$\n\\boxed{\\frac{n(n - 3)}{2}}\n$$",
+        "gold_answer": "n(n-3)/2",
+        "standardized_infer_answer": "\\frac{n(n - 3)}{2}",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Along a one-way street there are n parking lots. One-by-one n cars numbered 1 to n enter the street. Each driver i heads to his favorite parking lot a_i, and, if it is free, he occupies it. Otherwise, he continues to the next free lot and occupies it. But if all succeeding lots are occupied, he leaves for good. How many sequences {a_1, ..., a_n} are such that every driver can park, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "(n+1)^(n-1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Of 3n+1 objects, n are indistinguishable, and the remaining ones are distinct. In how many ways can we choose n objects, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "4^n",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A gardener plants 3 apple trees, 3 peach trees and 2 cherry trees in a row, with a random order. What is the probability that no two apple trees are next two each other?",
+        "infer_answer": "",
+        "gold_answer": "5/14, or approximately 35.7%",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the number of ways to fill a 2 x 21 rectangle with 2 x 1 tiles such that the tiling is same when the rectangle is flipped around the middle column.",
+        "infer_answer": "",
+        "gold_answer": "89",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let A be a string of n binary digits (leading 0s are allowed). How many such strings have the substring \"01\" appearing exactly m times, as an expression of m and n?",
+        "infer_answer": "",
+        "gold_answer": "C(n+1, 2m+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does a polyhedron exists with an odd number of faces, each face having an odd number of edges?",
+        "infer_answer": "To determine whether a polyhedron can exist with an **odd number of faces**, where **each face has an odd number of edges**, we analyze the problem using fundamental properties of polyhedra and graph theory.\n\n---\n\n### Step 1: Understanding the Problem\n\nWe are asked if there exists a **polyhedron** (a 3D solid with flat faces) such that:\n\n- The **number of faces $ F $** is **odd**\n- Each **face has an odd number of edges**\n\nThis implies that for each face, the number of edges (i.e., the degree of the face in the dual graph) is an **odd integer**.\n\n---\n\n### Step 2: Use of Euler’s Formula\n\nFor any convex polyhedron (and more generally, for planar graphs), **Euler's formula** holds:\n\n$$\nV - E + F = 2\n$$\n\nWhere:\n- $ V $ = number of vertices\n- $ E $ = number of edges\n- $ F $ = number of faces\n\nHowever, this formula alone doesn't directly help us with the parity condition. So we turn to another key concept.\n\n---\n\n### Step 3: Sum of Face Degrees\n\nIn a polyhedron, each edge is shared by **two faces**. Therefore, the total number of edge-face incidences is:\n\n$$\n\\sum_{i=1}^{F} k_i = 2E\n$$\n\nWhere $ k_i $ is the number of edges around the $ i $-th face.\n\nNow, since **each face has an odd number of edges**, all $ k_i $ are odd numbers. The sum of $ F $ odd numbers is:\n\n- **Odd** if $ F $ is **odd**\n- **Even** if $ F $ is **even**\n\nBut from above, $ \\sum k_i = 2E $, which is **always even** (since it's twice the number of edges).\n\nSo we have:\n\n$$\n\\text{Sum of } k_i = 2E \\Rightarrow \\text{Even}\n$$\n\nTherefore, the number of faces $ F $ must be **even**, because the sum of $ F $ odd numbers is even",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many different ordered triples (a, b, c) of non-negative integers are there such that a+b+c=99?",
+        "infer_answer": "To determine the number of **different ordered triples** $(a, b, c)$ of **non-negative integers** such that:\n\n$$\na + b + c = 99\n$$\n\nwe can apply the **stars and bars** method from combinatorics.\n\n---\n\n### Step 1: Understanding the Problem\n\nWe are looking for all **ordered triples** $(a, b, c)$ where:\n- $a, b, c \\in \\mathbb{Z}_{\\geq 0}$ (i.e., non-negative integers)\n- $a + b + c = 99$\n\nThis is a classic problem in combinatorics involving counting the number of **non-negative integer solutions** to an equation of the form:\n\n$$\nx_1 + x_2 + \\cdots + x_n = k\n$$\n\nIn this case:\n- $n = 3$ (since there are three variables: $a, b, c$)\n- $k = 99$\n\n---\n\n### Step 2: Apply the Stars and Bars Theorem\n\nThe number of **non-negative integer solutions** to the equation:\n\n$$\nx_1 + x_2 + \\cdots + x_n = k\n$$\n\nis given by:\n\n$$\n\\binom{k + n - 1}{n - 1}\n$$\n\nSubstituting $n = 3$ and $k = 99$, we get:\n\n$$\n\\binom{99 + 3 - 1}{3 - 1} = \\binom{101}{2}\n$$\n\n---\n\n### Step 3: Compute the Binomial Coefficient\n\n$$\n\\binom{101}{2} = \\frac{101 \\times 100}{2} = \\frac{10100}{2} = 5050\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{5050}\n$$",
+        "gold_answer": "5050",
+        "standardized_infer_answer": "5050",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 1,
+            "em": 1,
+            "f1": 1.0,
+            "math_equal": true
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find a closed-form formula of sum_(k=1)^n C(n, k)*k^2.",
+        "infer_answer": "",
+        "gold_answer": "n(n+1)*2^(n-2)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the number of ways to fill a 2 x 5 rectangle with 1 x 1 tiles and three-cell L-shaped tiles (i.e., a 2 x 2 tile without a corner).",
+        "infer_answer": "",
+        "gold_answer": "87",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Each of the faces of a cube is painted by a different color. How many of the colorings are distinct up to rotations?",
+        "infer_answer": "",
+        "gold_answer": "30",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let 1≤r≤n and consider all subsets of r elements of the set {1, 2, ..., n}. What is the arithmetic mean of the smallest element of these subsets, as an expression of n and r?",
+        "infer_answer": "",
+        "gold_answer": "(n+1)/(r+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Among all strings of length n consisting of digit 1, 2, 3 and 4, how many of them have an even number of 1s, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "(4^n+2^n)/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is it possible to label the edges of a cube by 1, 2,..., 12 so that, at each vertex, the labels of the edges leaving that vertex have the same sum?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully), as an expression of n.",
+        "infer_answer": "To determine the number of ways to place $ n $ rooks on an $ n \\times n $ chessboard such that **no two rooks attack each other** (i.e., they are not in the same row or column), we analyze the problem as follows:\n\n---\n\n### Understanding the Problem\n\n- A **rook** attacks all squares in its row and column.\n- Therefore, for **peaceful placement**, **each rook must be in a distinct row and a distinct column**.\n- Since there are $ n $ rooks and $ n $ rows and $ n $ columns, this means:\n  - Each rook occupies exactly one row.\n  - Each rook occupies exactly one column.\n  - No two rooks share a row or column.\n\nThis is equivalent to choosing a **permutation** of the $ n $ columns for the $ n $ rows. That is, for each row, we assign a unique column where the rook will be placed.\n\n---\n\n### Counting the Number of Valid Placements\n\nLet’s count how many such placements exist:\n\n- For the **first row**, we can choose any of the $ n $ columns.\n- For the **second row**, we cannot choose the same column as the first rook, so we have $ n - 1 $ choices.\n- For the **third row**, we have $ n - 2 $ choices, and so on...\n- Finally, for the **$ n $-th row**, we have only **1** choice left.\n\nThus, the total number of valid placements is:\n\n$$\nn \\times (n - 1) \\times (n - 2) \\times \\cdots \\times 1 = n!\n$$\n\nThis is the definition of **$ n! $** (factorial).\n\n---\n\n### Interpretation via Permutation Matrices\n\nAnother way to think about this is through **permutation matrices**. A permutation matrix has exactly one '1' in each row and each column, which corresponds to the positions of $ n $ non-attacking rooks on an $ n \\times n $ board. The number of such matrices is precisely $ n! $, since it's the number of permutations of $ n $ elements.\n\n---\n\n### Final Answer\n\n$$\n\\boxed{n!}\n$$",
+        "gold_answer": "n!",
+        "standardized_infer_answer": "n!",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 1,
+            "em": 1,
+            "f1": 1.0,
+            "math_equal": true
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many strings of length 6 and consisting solely of the digits 1, 2 and 3 have the property that any two adjacent digits differ by at most 1.",
+        "infer_answer": "",
+        "gold_answer": "239",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many strings of length 5 using the digits {0, 1, ..., 9} (with leading zeros allowed) have strictly increasing or decreasing digits?",
+        "infer_answer": "",
+        "gold_answer": "2*C(10, 5), or equivalently 504",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the number of strings consisting of 5 digits of 1, 2 and 3 where no two 1s are neighbors.",
+        "infer_answer": "",
+        "gold_answer": "164",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A diagnoal in a convex polygon is any line connecting two non-adjacent vertices. For a convex polygon of n vertices, we draw all possible diagonals and suppose that no three diagonals pass through the same point. How many such intersection points do we have in the interior of the polygon, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "C(n, 4), or an equivalent form such as n(n-1)(n-2)(n-3)/4!",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "When (x+y+z)^1999 is expanded and like terms are collected (e.g., collecting 2*x^2*y*z^3 and 3*x^2*y*z^3 into a single term of 5*x^2*y*z^3), how many terms will there be?",
+        "infer_answer": "To determine how many **distinct terms** appear when the expression $(x + y + z)^{1999}$ is expanded and like terms are collected, we need to understand the structure of the expansion.\n\n---\n\n### Step 1: Understanding the Structure of the Expansion\n\nWhen expanding a trinomial like $(x + y + z)^n$, each term in the final expression has the form:\n\n$$\nx^i y^j z^k\n$$\n\nwhere $i, j, k$ are non-negative integers such that:\n\n$$\ni + j + k = n\n$$\n\nThis means that for each value of $n$, the number of **distinct terms** corresponds to the number of **non-negative integer solutions** to the equation:\n\n$$\ni + j + k = n\n$$\n\n---\n\n### Step 2: Counting the Number of Solutions\n\nThis is a classic **stars and bars** problem. The number of non-negative integer solutions to the equation:\n\n$$\ni + j + k = n\n$$\n\nis given by the binomial coefficient:\n\n$$\n\\binom{n + 3 - 1}{3 - 1} = \\binom{n + 2}{2}\n$$\n\nHere, $n = 1999$, so the number of distinct terms is:\n\n$$\n\\binom{1999 + 2}{2} = \\binom{2001}{2}\n$$\n\n---\n\n### Step 3: Computing the Final Value\n\nWe compute:\n\n$$\n\\binom{2001}{2} = \\frac{2001 \\times 2000}{2} = 2001 \\times 1000 = 2,\\!001,\\!000\n$$\n\n---\n\n### Final Answer\n\n$$\n\\boxed{2001000}\n$$",
+        "gold_answer": "2001000",
+        "standardized_infer_answer": "2001000",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 1,
+            "em": 1,
+            "f1": 1.0,
+            "math_equal": true
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "8 dogs fight over 3 cookies. It is possible that a dog gets more than one cookie or no cookies. However, no two dogs would share the same cookie and there are no cookies left unclaimed. If the cookies are the same but the dogs are different (e.g., dog A, B, C each getting one cookie is one result but dog B, C, D each getting one cookie is a different result), how many possible results are there?",
+        "infer_answer": "",
+        "gold_answer": "120",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "In how many ways can 4 horses go through the finish (with possibility of ties)?",
+        "infer_answer": "",
+        "gold_answer": "75",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "From the set {1, 2, 3, ..., n+1}, select quadruple (x, y, z, u), with duplicate allowed, such that u>max(x, y, z). In how many ways can this be done?",
+        "infer_answer": "",
+        "gold_answer": "sum_(i=1)^n i^3, or equivalently (n(n+1)/2)^2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Among all sequences of positive integer numbers have sum n, for integer k<n-1, how many times does the number k appear, as an expression of n and k?",
+        "infer_answer": "",
+        "gold_answer": "(n-k+3)*2^(n-k-2)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "2n players are participating in a tennis tournament. Find the number of ways that n pairs can be constructed for the first round, as an expression of n.",
+        "infer_answer": "",
+        "gold_answer": "(2n)!/(2^n*n!)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "n people sit around a circular table. How many of the n! arrangements are distinct (i.e., do not have the same neighboring relations), as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "n!/(2n)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "From the set {1, 2, 3, ..., n+1}, select triple (x, y, z), with duplicate allowed, such that z>max(x, y). In how many ways can this be done, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "sum_(i=1)^n i^2, or equivalently n(n+1)(2n+1)/6",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "There are three different toys. We give one toy to each child, selected among four boys and six girls. We want to make sure that at least two boys are selected. In how many ways can this be done?",
+        "infer_answer": "",
+        "gold_answer": "240",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the number of ways to fill a 2 x 7 rectangle with 2 x 1 and 2 x 2 tiles.",
+        "infer_answer": "",
+        "gold_answer": "85",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the number of ways to fill a 2 x 11 rectangle with 2 x 1 tiles.",
+        "infer_answer": "",
+        "gold_answer": "144",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x be a root of the polynomial ax^2+bx+c, with a>0, a+b+c≥0, a-b+c≥0, a-c≥0. What is the range of x, expressed as an interval?",
+        "infer_answer": "",
+        "gold_answer": "[-1, 1]",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, what is the smallest value of (a^2+b^2)/(a+b)^2?",
+        "infer_answer": "To find the **smallest value** of the expression  \n$$\n\\frac{a^2 + b^2}{(a + b)^2}\n$$  \nfor **positive real numbers** $ a $ and $ b $, we proceed with a combination of algebraic simplification and inequality reasoning.\n\n---\n\n### Step 1: Use Symmetry to Reduce Variables\n\nLet’s define $ t = \\frac{a}{b} $, where $ t > 0 $. Then $ a = tb $, and substituting into the expression:\n\n$$\n\\frac{a^2 + b^2}{(a + b)^2} = \\frac{(tb)^2 + b^2}{(tb + b)^2} = \\frac{t^2b^2 + b^2}{b^2(t + 1)^2} = \\frac{t^2 + 1}{(t + 1)^2}\n$$\n\nSo the problem reduces to minimizing the function:\n$$\nf(t) = \\frac{t^2 + 1}{(t + 1)^2}, \\quad \\text{for } t > 0\n$$\n\n---\n\n### Step 2: Analyze the Function\n\nWe compute the derivative of $ f(t) $ to find critical points.\n\nLet:\n- $ g(t) = t^2 + 1 $\n- $ h(t) = (t + 1)^2 $\n\nThen:\n$$\nf'(t) = \\frac{g'(t)h(t) - g(t)h'(t)}{[h(t)]^2}\n$$\n\nCompute:\n- $ g'(t) = 2t $\n- $ h'(t) = 2(t + 1) $\n\nSo:\n$$\nf'(t) = \\frac{2t(t + 1)^2 - (t^2 + 1)(2)(t + 1)}{(t + 1)^4}\n= \\frac{2(t + 1)[t(t + 1) - (t^2 + 1)]}{(t + 1)^4}\n$$\n\nSimplify the numerator:\n$$\nt(t + 1) - (t^2 + 1) = t^2 + t - t^2 - 1 = t - 1\n$$\n\nThus:\n$$\nf'(t) = \\frac{2(t + 1)(t - 1)}{(t",
+        "gold_answer": "1/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, what is the smallest value of (a^3+b^3+c^3)/((a+b+c)(a^2+b^2+c^2))?",
+        "infer_answer": "",
+        "gold_answer": "1/3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What's the smallest value of (x^2+2)/sqrt(x^2+1) for real x?",
+        "infer_answer": "",
+        "gold_answer": "2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the minimum value of sin(x)^3/cos(x)+cos(x)^3/sin(x) for 0<x<π/2.",
+        "infer_answer": "",
+        "gold_answer": "1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let A=(1/2)*(3/4)*(5/6)*...*(99/100). Is A greater than 0.1?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If a, b, c are side lengths of a (possibly degenerate) triangle, then what is the largest value of a/(b+c)+b/(a+c)+c/(a+b)?",
+        "infer_answer": "",
+        "gold_answer": "2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive numbers x_1, ..., x_n, what is the smallest value of x_1^(n+1)+x_2^(n+1)+...+x_n^(n+1)-x_1*x_2*...*x_n*(x_1+x_2+...+x_n)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x(n)=2^2^2^...^2 with n 2's, and y(n)=3^3^3^...^3 with n 3's. Among integer values of n≥3, what is the relationship between x(n) and y(n-1): x(n)>y(n-1) for all n≥3, x(n)<y(n-1) for all n≥3, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n?",
+        "infer_answer": "",
+        "gold_answer": "x(n)<y(n-1) for all n≥3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For x, y, z>0, what is the smallest value of x^2/y^2+y^2/z^2+z^2/x^2-(y/x+z/y+x/z)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If a_i>0 for i=1, 2, ..., n and a_1*a_2*...*a_n=1, what is the smallest value of (1+a_1)(1+a_2)...(1+a_n) as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "2^n",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let (a_1, a_2, ..., a_n) be a permutation of (1, 2, ..., n). What is the smallest value of sum_(k=1)^n a_k/k^2 as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "sum_(k=1)^n 1/k",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For real numbers a, b, c satisfying a+b+c=9, what is the smallest value of a^2+b^2+c^2-(ab+bc+ac)-(a+b+c)?",
+        "infer_answer": "",
+        "gold_answer": "-9",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1=1 and x_(n+1)=1+n/x_n. For how many values of x_1, ..., x_100 do we have the inequality sqrt(i)≤x_i≤sqrt(i)+1?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the minimum value of a^4+b^4+c^4-a^2*bc-b^2*ac-c^2*ab for positive numbers a, b, c.",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the smallest value of a/(b+c)+b/(a+c)+c/(a+b) for positive numbers a, b, c?",
+        "infer_answer": "",
+        "gold_answer": "3/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1, x_2, ..., x_n>0 and x_1+x_2+...+x_n=1. Let s be the greatest of x_1/(1+x_1), x_2/(1+x_1+x_2), ..., x_n/(1+x_1+x_2+...+x_n). What is the smallest value of s as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "1-1/2^(1/n)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, what is the largest value of sqrt(ab+bc+ac)/(a+b+c)?",
+        "infer_answer": "",
+        "gold_answer": "sqrt(3)/3, or equivalently 1/sqrt(3)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, d, at most how many of the three inequalities a+b<c+d, (a+b)(c+d)<ab+cd, (a+b)cd<ab(c+d) can be true at the same time?",
+        "infer_answer": "",
+        "gold_answer": "2 inequalities",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For real values a, b, c, with a^2+b^2+c^2=1, what is the difference between the largest and smallest possible values of ab+bc+ac?",
+        "infer_answer": "",
+        "gold_answer": "3/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive real number a, b and positive integer n, what is the largest value of (a*b^n)^(1/(n+1))/(a+bn) as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "1/(n+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a, b, c be the lengths of the three sides of a (possibly degenerate) triangle. What is the largest value of (a^2+b^2+c^2)/(ab+bc+ac)?",
+        "infer_answer": "",
+        "gold_answer": "2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a, b, c>0. What is the minimum value of abc-(a+b-c)(a+c-b)(b+c-a)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a, b>0. What is the smallest value of (a+b)(a^4+b^4)-(a^2+b^2)(a^3+b^3)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many values of n in {1, 2, ..., 100}, do we have (1/2)*(3/4)*(5/6)*...*(2n-1)/(2n)≤1/sqrt(3n+1)?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For real number a, b, what is the largest value of |a+b|/(1+|a+b|)-|a|/(1+|a|)-|b|/(1+|b|)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the smallest value of a^3+b^3+c^3-a^2*b-b^2*c-c^2*a for positive a, b, c?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let A=(1/2)*(3/4)*(5/6)*...*(99/100). Is A greater than 1/15?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive real a, b and integer m, what is the smallest value of (1+a/b)^m+(1+b/a)^m as an expression of m?",
+        "infer_answer": "",
+        "gold_answer": "2^(m+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive numbers a_1, ..., a_n, let s=a_1+a_2+...+a_n. What is the smallest value of a_1/(s-a_1)+a_2/(s-a_2)+...+a_n/(s-a_n) as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "n/(n-1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_i>0, and s=x_1+x_2+···+x_n. What is the smallest value of s/(s-x_1)+s/(s-x_2)+...+s/(s-x_n) in terms of n?",
+        "infer_answer": "",
+        "gold_answer": "n^2/(n-1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x(n)=3^3^3^...^3 with n 3's, and y(n)=4^4^4^...^4 with n 4's. Among integer values of n≥2, what is the relationship between x(n) and y(n-1): x(n)>y(n-1) for all n≥2, x(n)<y(n-1) for all n≥2, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n?",
+        "infer_answer": "",
+        "gold_answer": "x(n)>y(n-1) for all n≥2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If a, b, c are sides of a non-degenerate 90-degree triangle with c being the hypotenuse, then for how many values of n in {1, 2, 3, ..., 100} do we have c^n>a^n+b^n?",
+        "infer_answer": "",
+        "gold_answer": "98 values",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x, y>0 and s be the smallest of x, 1/x+y, 1/y. What is the largest possible value of s?",
+        "infer_answer": "",
+        "gold_answer": "sqrt(2)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many values of n in {101, ..., 1000} is 1/(n+1)+1/(n+2)+...+1/(2n)<3/4?",
+        "infer_answer": "",
+        "gold_answer": "900 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For non-negative a, b, c, d, what is the smallest value of sqrt((a+c)(b+d))-sqrt(ab)-sqrt(cd)-1?",
+        "infer_answer": "",
+        "gold_answer": "-1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, what is the smallest value of sqrt(ab+bc+ac)/(abc)^(1/3)?",
+        "infer_answer": "",
+        "gold_answer": "sqrt(3)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For x, y, z>0, what is the smallest value of x^2/y^2+y^2/z^2+z^2/x^2-(x/y+y/z+z/x)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many values of n in {101, ..., 1000} is 1/(n+1)+1/(n+2)+...+1/(2n)>1/2?",
+        "infer_answer": "",
+        "gold_answer": "900 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, at most how many of the three inequalities a(1-b)>1/4, b(1-c)>1/4, c(1-a)>1/4 can be true at the same time?",
+        "infer_answer": "",
+        "gold_answer": "2 inequalities",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a_i≥1 for all i. What is the minimum value of (1+a_1)(1+a_2)...(1+a_n)/(1+a_1+a_2+...+a_n) as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "2^n/(n+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive a, b, c, find the largest value of (ab(a+b)+bc(b+c)+ac(a+c)-a^3-b^3-c^3)/abc.",
+        "infer_answer": "",
+        "gold_answer": "3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a, b, c>0. What is the largest value of ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2)?",
+        "infer_answer": "",
+        "gold_answer": "1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The product of three positive real numbers is 1, and their sum is greater than the sum of their reciprocals. How many of them can be greater than 1?",
+        "infer_answer": "",
+        "gold_answer": "Exactly one",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For a, b, c>0, are there possible values of them to make (a^3*b+b^3*c+c^3*a)/(a+b+c) less than abc?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For x_1, x_2, ..., x_n≥0, with x_1+x_2+...+x_n=1, what is the minimum value of x_1^2+x_2^2+...+x_n^2, as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "1/n",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive numbers a, b, c, what is the smallest value of (a+b)(b+c)(a+c)/(abc)?",
+        "infer_answer": "",
+        "gold_answer": "8",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many values of n in {1, 2, ..., 100} do we have (n+1)^n≥2^n*n!?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the smallest value of |x+y-z|+|x-y+z|+|-x+y+z|-|x|-|y|-|z|?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a, b, c>0. What is the minimum value of a^3+b^3+c^3-(a^2*b+b^2*c+c^2*a)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1985=z^2?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Do there exist positive integers x, y such that x+y, x+2y and 2x+y are both squares?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all three-digit automorphic numbers.",
+        "infer_answer": "",
+        "gold_answer": "376 and 625",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation x^3-y^3=xy+61.",
+        "infer_answer": "",
+        "gold_answer": "x=6, y=5",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all four-digit automorphic numbers.",
+        "infer_answer": "",
+        "gold_answer": "9376",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Use digit 1-9 exactly once to construct two numbers. What are the two numbers that achieve the maximal product?",
+        "infer_answer": "",
+        "gold_answer": "9642 and 87531",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation x(x+1)=y^z for x>0, y>0, z>1.",
+        "infer_answer": "",
+        "gold_answer": "No integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible solutions to the equation (n-1)n(n+1)=a^m for integer n, a>0 and m>1.",
+        "infer_answer": "",
+        "gold_answer": "No possible solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation x^2+y^2+z^2=2xyz.",
+        "infer_answer": "",
+        "gold_answer": "No positive integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let (x, y, z) be an integer-valued solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 5?",
+        "infer_answer": "",
+        "gold_answer": "At least 1 number",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Which is the smallest positive integer that becomes 57 times smaller when its first digit is removed?",
+        "infer_answer": "",
+        "gold_answer": "7125",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all two-digit automorphic numbers besides 25.",
+        "infer_answer": "",
+        "gold_answer": "76",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the smallest value of |36^m-5^n| for positive integers m and n?",
+        "infer_answer": "",
+        "gold_answer": "11",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is 4^545+545^4 a prime number?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Can there exist a polynomial f(x) of integer coefficients with f(7)=11 and f(11)=13?",
+        "infer_answer": "To determine whether there exists a polynomial $ f(x) $ with **integer coefficients** such that:\n\n$$\nf(7) = 11 \\quad \\text{and} \\quad f(11) = 13,\n$$\n\nwe proceed by analyzing the properties of polynomials with integer coefficients.\n\n---\n\n### Step 1: Use the Integer Coefficient Polynomial Property\n\nA key property of polynomials with **integer coefficients** is that for any integers $ a $ and $ b $, the difference $ f(a) - f(b) $ is divisible by $ a - b $. That is:\n\n$$\na - b \\mid f(a) - f(b)\n$$\n\nIn our case:\n- $ a = 7 $\n- $ b = 11 $\n- $ f(7) = 11 $\n- $ f(11) = 13 $\n\nSo:\n\n$$\nf(7) - f(11) = 11 - 13 = -2\n$$\n$$\na - b = 7 - 11 = -4\n$$\n\nWe now check if $ -4 \\mid -2 $. In other words, does $ -4 $ divide $ -2 $? For this to be true, there must exist an integer $ k $ such that:\n\n$$\n-2 = k \\cdot (-4) \\Rightarrow k = \\frac{-2}{-4} = \\frac{1}{2}\n$$\n\nBut $ \\frac{1}{2} $ is **not an integer**, so the condition fails. Therefore, **no such polynomial with integer coefficients** can satisfy both conditions.\n\n---\n\n### Step 2: Formal Verification via Factorization\n\nLet’s verify this more concretely. Suppose $ f(x) $ has integer coefficients and satisfies $ f(7) = 11 $. Then $ f(x) - 11 $ has a root at $ x = 7 $, so:\n\n$$\nf(x) = (x - 7)h(x) + 11\n$$\n\nwhere $ h(x) $ is also a polynomial with integer coefficients.\n\nNow evaluate at $ x = 11 $:\n\n$$\nf(11) = (11 - 7)h(11) + 11 = 4h(11) + 11\n$$\n\nGiven $ f(11) = 13 $, we have:\n\n$$\n4h(11) + 11 = 13 \\Rightarrow 4h(11) = 2 \\Rightarrow h(11) = \\frac{1}{2}\n$$\n\nHowever, since $ h(x) $ has **integer coefficients**, $ h(11) $ must be an **integer**. But $ \\frac{1}{2} $ is not an integer — a contradiction.\n\n---\n\n### Conclusion\n\nThis contradiction shows that **no such polynomial** $ f(x) $ with integer coefficients can exist that satisfies both $ f(7) = 11 $ and $ f(11) = 13 $.\n\n$$\n\\boxed{\\text{No}}\n$$",
+        "gold_answer": "No",
+        "standardized_infer_answer": "\\text{No}",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 1,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Can n+2 be a factor of 1^1987+2^1987+...+n^1987 for some n?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find a perfect square number that can be written as aabb (i.e., first two digits are the same, and last two digits are the same).",
+        "infer_answer": "",
+        "gold_answer": "7744",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation x^2-3y^2=17.",
+        "infer_answer": "To solve the equation \n\n$$\nx^2 - 3y^2 = 17\n$$\n\nfor **integer** solutions, we proceed by analyzing the structure of the equation and applying modular arithmetic to determine whether such solutions can exist.\n\n---\n\n### Step 1: Consider the Equation Modulo 3\n\nWe begin by reducing the entire equation modulo 3. This is a common technique in number theory to eliminate terms and simplify the problem.\n\n- The term $ 3y^2 $ is divisible by 3, so:\n  $$\n  x^2 - 3y^2 \\equiv x^2 \\pmod{3}\n  $$\n\n- The right-hand side of the equation is $ 17 $. Since $ 17 \\div 3 = 5 $ with remainder 2, we have:\n  $$\n  17 \\equiv 2 \\pmod{3}\n  $$\n\nSo the equation becomes:\n$$\nx^2 \\equiv 2 \\pmod{3}\n$$\n\n---\n\n### Step 2: Analyze Quadratic Residues Modulo 3\n\nLet’s compute all possible values of $ x^2 \\mod 3 $ for integers $ x $:\n\n- If $ x \\equiv 0 \\pmod{3} $, then $ x^2 \\equiv 0 \\pmod{3} $\n- If $ x \\equiv 1 \\pmod{3} $, then $ x^2 \\equiv 1 \\pmod{3} $\n- If $ x \\equiv 2 \\pmod{3} $, then $ x^2 \\equiv 4 \\equiv 1 \\pmod{3} $\n\nThus, the only possible quadratic residues modulo 3 are **0** and **1**. Therefore, **there is no integer $ x $** such that $ x^2 \\equiv 2 \\pmod{3} $.\n\nThis implies that the original equation has **no integer solutions**.\n\n---\n\n### Step 3: Confirm via Direct Testing (Optional)\n\nTo further confirm, we can test small integer values of $ y $ and check if $ x^2 = 17 + 3y^2 $ is a perfect square:\n\n| $ y $ | $ 3y^2 $ | $ x^2 = 17 + 3y^2 $ | Is it a perfect square? |\n|--------|-------------|-------------------------|--------------------------|\n| 0      | 0           | 17                      | No                       |\n| 1      | 3           | 20                      | No                       |\n| 2      | 12          | 29                      | No                       |\n| 3      | 27          | 44                      | No                       |\n| 4      | 48          | 65                      | No                       |\n| 5      | 75          | 92                      | No                       |\n\nAll these values yield non-perfect squares for $ x^2 $, which aligns with our earlier conclusion.\n\n---\n\n### Final Conclusion\n\nSince the equation $ x^2 - 3y^2 = 17 $ leads to a contradiction when analyzed modulo 3 (i.e., $ x^2 \\equiv 2 \\pmod{3} $ is impossible), there are **no integer solutions** to this equation.\n\n$$\n\\boxed{\\text{No solution}}\n$$",
+        "gold_answer": "No integer solutions",
+        "standardized_infer_answer": "\\text{No solution}",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of n^5-5*n^3+4n mod 120 for integer n.",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive integers a, b, c, d, e satisfying a^5+b^5+c^5+d^5+e^5 mod 25=0, what are possible values of abcde mod 5?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation 19x^3-84y^2=1984.",
+        "infer_answer": "",
+        "gold_answer": "No integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find 3^105+4^105 mod 7.",
+        "infer_answer": "To solve the problem of finding $ 3^{105} + 4^{105} \\mod 7 $, we can use **Fermat's Little Theorem** and properties of modular arithmetic.\n\n---\n\n### Step 1: Apply Fermat’s Little Theorem\n\nSince 7 is a prime number, for any integer $ a $ such that $ \\gcd(a, 7) = 1 $, we have:\n\n$$\na^6 \\equiv 1 \\pmod{7}\n$$\n\nThis implies that the powers of $ a $ modulo 7 repeat every 6 steps. So, to simplify large exponents like $ 105 $, we reduce the exponent modulo 6.\n\n$$\n105 \\div 6 = 17 \\text{ remainder } 3 \\Rightarrow 105 \\equiv 3 \\pmod{6}\n$$\n\nThus, for both $ 3 $ and $ 4 $ (which are coprime with 7), we have:\n\n$$\n3^{105} \\equiv 3^3 \\pmod{7}, \\quad 4^{105} \\equiv 4^3 \\pmod{7}\n$$\n\n---\n\n### Step 2: Compute $ 3^3 \\mod 7 $\n\n$$\n3^3 = 27 \\Rightarrow 27 \\mod 7 = 6\n$$\n\nSo,\n$$\n3^{105} \\equiv 6 \\pmod{7}\n$$\n\n---\n\n### Step 3: Compute $ 4^3 \\mod 7 $\n\n$$\n4^3 = 64 \\Rightarrow 64 \\mod 7 = 1\n$$\n\nSo,\n$$\n4^{",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation x^3+3=4y(y+1).",
+        "infer_answer": "",
+        "gold_answer": "No positive integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find 2^32+1 mod 641.",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive integer n, if 2^n and 5^n start with the same digit, what are possible values of this digit?",
+        "infer_answer": "",
+        "gold_answer": "3 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let (x, y, z) be an integer-valued solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 3?",
+        "infer_answer": "",
+        "gold_answer": "At least 1 number",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let n be 22...22, with a total of 1980 digits. What is n mod 1982?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How often does the factor 2 occur in the product P(n)=(n+1)(n+2)...(2n), as an expression of n?",
+        "infer_answer": "",
+        "gold_answer": "n times",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible positive integer values of x such that x, 2x+1 and 4x+1 are all prime numbers.",
+        "infer_answer": "",
+        "gold_answer": "3 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation 15x^2-7y^2=9.",
+        "infer_answer": "To solve the equation \n\n$$\n15x^2 - 7y^2 = 9\n$$\n\nfor **integer solutions** $ (x, y) $, we proceed by analyzing the equation using modular arithmetic and algebraic constraints.\n\n---\n\n### Step 1: Consider modulo 3\n\nWe begin by reducing the equation modulo 3. Note that:\n\n- $ 15 \\equiv 0 \\mod 3 $\n- $ 9 \\equiv 0 \\mod 3 $\n\nSo",
+        "gold_answer": "No integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation 2^x-1=3^y.",
+        "infer_answer": "",
+        "gold_answer": "x=2, y=1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find 3^105+4^105 mod 11.",
+        "infer_answer": "",
+        "gold_answer": "2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the smallest positive integer a, so that 1971 | 50^n+23^n*a for odd n.",
+        "infer_answer": "",
+        "gold_answer": "512",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1984=z^2?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence starts with 1, 9, 7, 7, 4, 7, 5, 3, 9, 4, 1... From the fifth number, every number is the sum of the preceding four numbers mod 10. Could the sequence contain 3, 2, 6, 9 as a subsequence somewhere?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of x^2 mod 30 for prime number x>30.",
+        "infer_answer": "",
+        "gold_answer": "1 and 19",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find 3^105+4^105 mod 13.",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For integers a, b, c, d, if a-c divides ab+cd, does it also divide ad+bc?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all non-negative integer solutions to the equation x^3+8x^2-6x+8=y^3.",
+        "infer_answer": "",
+        "gold_answer": "x=0, y=2 and x=9, y=11",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If n=x^2+y^2 for integers x and y, is 2n always a sum of two perfect squares?",
+        "infer_answer": "To determine whether $ 2n $ is always a sum of two perfect squares when $ n = x^2 + y^2 $ for integers $ x $ and $ y $, we begin by analyzing the structure of the expression.\n\n---\n\n### Step 1: Express $ 2n $ in terms of $ x $ and $ y $\n\nGiven:\n$$\nn = x^2 + y^2\n$$\nThen:\n$$\n2n = 2(x^2 + y^2) = 2x^2 + 2y^2\n$$\n\nWe want to check if this can be written as the sum of two perfect squares. That is, does there exist integers $ a $ and $ b $ such that:\n$$\na^2 + b^2 = 2x^2 + 2y^2\n$$\n\n---\n\n### Step 2: Use an algebraic identity",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of n such that n^2-19n+89 is a perfect square and n>11.",
+        "infer_answer": "",
+        "gold_answer": "No such values",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Fifty numbers a_1, a_2,..., a_50 are written along a circle. Each of the numbers is +1 or -1. You want to find the product of these numbers. You may find the product of three consecutive numbers in one question. How many questions do you need at least?",
+        "infer_answer": "",
+        "gold_answer": "50",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Starting from a number x_1, form a sequence x_2, x_3, x_4... by appending one digit from 0 to 8 (i.e., 9 is not allowed) to the previous number. Can there be finitely many composite numbers in this sequence?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation x^2+y^2=x^2*y^2.",
+        "infer_answer": "",
+        "gold_answer": "x=y=0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x be 1000...0001, with a total of 1961 zeros in the middle. Is x a prime number?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive integer n for which 2n+1 and 3n+1 are both perfect squares, what are possible values of n mod 40?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer values of m such that 1000^m-1 is a factor of 1978^m-1.",
+        "infer_answer": "",
+        "gold_answer": "No such values",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is (5^125-1)/(5^25-1) a prime number?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For three integer numbers a, b, c, if their sum a+b+c is divisible by 6, is their cubed sum a^3+b^3+c^3 always divisble by 6?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the five-digit number abcde such that 4*abcde=edcba.",
+        "infer_answer": "",
+        "gold_answer": "21978",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the smallest positive integer with the property that, if you move the first digit to the end, the new number is exactly 1.5 times as large as the old one.",
+        "infer_answer": "",
+        "gold_answer": "(20*10^15-2)/17, or equivalently 1176470588235294",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let Q(n) be the digit sum of n. If Q(n)=Q(2n), what are possible values of n mod 9?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of p^2 mod 24 for prime number p.",
+        "infer_answer": "",
+        "gold_answer": "1, 4 and 9",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many pairs of positive odd integer (a, b) both under 100 make a^2+b^2 be a perfect square?",
+        "infer_answer": "",
+        "gold_answer": "0 pairs",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let (x, y, z) be an integer solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 4?",
+        "infer_answer": "",
+        "gold_answer": "At least 1 number",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Positive integers a, b satisfy that (a+1)/b+(b+1)/a is also a positive integer. Let d=gcd(a, b). What are possible values of a+b mod d^2?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of 4^n+15n-1 mod 9 for interger n≥0.",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of 2(1^k+2^k+...+n^k) mod n(n+1) for odd k.",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many integer solutions does the equation x^2+y^2+z^2=x^3+y^3+z^3 have?",
+        "infer_answer": "",
+        "gold_answer": "Infinitely many solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible integer values of x such that x and 8x^2+1 are both prime numbers.",
+        "infer_answer": "",
+        "gold_answer": "3 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For positive integers a, b, c, d, n satisfying ab=cd, can a^n+b^n+c^n+d^n be a prime number?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all prime number values of n>2 such that 1+2+...+(n-2)+(n-1) is a factor of 1*2*...*(n-2)*(n-1).",
+        "infer_answer": "",
+        "gold_answer": "No such values",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is 385^1980+18^1980 a perfect square?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation m^2+(m+1)^2=n^4+(n+1)^4.",
+        "infer_answer": "",
+        "gold_answer": "No positive integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all prime number solutions to the equation p^2-2*q^2=1.",
+        "infer_answer": "",
+        "gold_answer": "p=3, q=2 and p=5, q=3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If n is a composite number, find all possible values of 1*2*...*(n-2)*(n-1) mod 1+2+...+(n-2)+(n-1).",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many integers n in {1, 2, ..., 99} is n^4+4^n a prime number?",
+        "infer_answer": "",
+        "gold_answer": "1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation (n-2)^2+(n-1)^2+n^2+(n+1)^2+(n+2)^2=m^2.",
+        "infer_answer": "",
+        "gold_answer": "No integer solutions",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For prime number p, how many positive integer solutions does the equation 1/x+1/y=1/p have?",
+        "infer_answer": "",
+        "gold_answer": "3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all positive integer solutions to the equation 2^x+1=3^y.",
+        "infer_answer": "",
+        "gold_answer": "x=1, y=1 and x=3, y=2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the smallest value of |12^m-5^n| for positive integers m and n?",
+        "infer_answer": "",
+        "gold_answer": "7",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If positive integers x and y are such that x^2+2y^2 is a prime number, what are all possible values of x^2+2y^2 mod 8?",
+        "infer_answer": "",
+        "gold_answer": "1 and 3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What are possible values of 20^n+16^n-3^n-1 mod 323 for even n?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible positive integer values of x such that x, x+10 and x+14 are all prime numbers.",
+        "infer_answer": "",
+        "gold_answer": "3 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1981=z^2?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the four-digit number abcd such that 4*abcd=dcba.",
+        "infer_answer": "",
+        "gold_answer": "2178",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If the integer m ends with digit 5, what are possible values of 12^m+9^m+8^m+6^m mod 1991?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of p^2-q^2 mod 24 for prime numbers p and q greater than 3.",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let integer p, q satisfy p/q=1-1/2+1/3-1/4+...-1/1318+1/1319 with gcd(p,q)=1. What is p mod 1979?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Can the digit sum of a perfect square be 1977?",
+        "infer_answer": "To determine whether the digit sum of a perfect square can be 1977, we begin by analyzing the properties of digit sums and perfect squares modulo 9.\n\n---\n\n### Step 1: Understanding Digit Sum Modulo 9\n\nA key property in number theory is that the **digit sum** of a number $ n $ is congruent to $ n \\mod 9 $. That is:\n\n$$\nS(n) \\equiv n \\pmod{9}\n$$\n\nThis means that for any integer $ n $, the sum of its digits $ S(n) $ satisfies:\n\n$$\nS(n) \\equiv n \\pmod{9}\n$$\n\nIn our case, we are considering a perfect square $ N^2 $, so:\n\n$$\nS(N^2) \\equiv N^2 \\pmod{9}\n$$\n\nWe are given that $ S(N^2) = 1977 $, so:\n\n$$\n1977 \\equiv N^2 \\pmod{9}\n$$\n\n---\n\n### Step 2: Compute $ 1977 \\mod 9 $\n\nTo find $ 1977 \\mod 9 $, we can use the rule that the digit sum of a number modulo 9 is equal to the number itself modulo 9. So:\n\n$$\n1 + 9 + 7 + 7 = 24 \\quad \\text{and} \\quad 2 + 4 = 6\n$$\n\nTherefore:\n\n$$\n1977 \\equiv 6 \\pmod{9}\n$$\n\nSo, if there exists a perfect square with digit sum 1977, then:\n\n$$\nN^2 \\equiv 6 \\pmod{9}\n$$\n\n---\n\n### Step 3: Check Quadratic Residues Modulo 9\n\nWe now check what values $ N^2 \\mod 9 $ can take. By computing $ n^2 \\mod 9 $ for $ n = 0 $ to $ 8 $, we get:\n\n| $ n \\mod 9 $ | $ n^2 \\mod 9 $ |\n|----------------|------------------|\n| 0               | 0                |\n| 1               | 1                |\n| 2               | 4                |\n| 3               | 0                |\n| 4               | 7                |\n| 5               | 7                |\n| 6               | 0                |\n| 7               | 4                |\n| 8               | 1                |\n\nFrom this table, the **quadratic residues modulo 9** are:\n\n$$\n\\{0, 1, 4, 7\\}\n$$\n\nThat is, **no perfect square** $ N^2 $ can be congruent to **6 modulo 9**.\n\n---\n\n### Step 4: Conclusion\n\nSince $ N^2 \\equiv 6 \\pmod{9} $ would imply that $ N^2 $ is not a perfect square (as 6 is not among the quadratic residues modulo 9), it follows that **there is no perfect square whose digit sum is 1977**.\n\n---\n\n### Final Answer\n\n$$\n\\boxed{No}\n$$",
+        "gold_answer": "No",
+        "standardized_infer_answer": "No",
+        "Metrics": {
+            "is_valid_answer": true,
+            "acc": 1,
+            "em": 1,
+            "f1": 1.0,
+            "math_equal": true
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the remainder of nx^(n+1)−(n+1)x^n+1 divided by (x−1)^2?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Solve the equation x^4+a^4-3a*x^3+3a^3*x=0 for a≠0 as an expression of a.",
+        "infer_answer": "",
+        "gold_answer": "a(1±sqrt(2)), a(1±sqrt(5))/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For a polynomial f(x) of degree n with integer coefficients, if both f(0) and f(1) are odd, at most how many integer-valued zeros can it have?",
+        "infer_answer": "",
+        "gold_answer": "At most 0 integer-valued zeros (i.e., no integer zeros)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let P(x)=x^(2n)-2x^(2n-1)+3x^(2n-2)-4x^(2n-3)+...-2nx+2n+1. For how many values of n∈{1, 2, ..., 100} does P(x) has at least one real-valued root?",
+        "infer_answer": "",
+        "gold_answer": "0 (none of the values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation x^3+x^2*y+x*y^2+y^3=8(x^2+xy+y^2+1).",
+        "infer_answer": "",
+        "gold_answer": "(x=8, y=2), (x=2, y=8)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equations x^5+y^5=33, x+y=3.",
+        "infer_answer": "",
+        "gold_answer": "(x=1, y=2) and (x=2, y=1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the remainder of x^100-2x^51+1 divided by x^2-1.",
+        "infer_answer": "",
+        "gold_answer": "-2x+2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many real-valued zeros does the polynomial 1+x+x^2/2!+x^3/3!+...+x^(2n)/(2n)! have?",
+        "infer_answer": "",
+        "gold_answer": "0 (i.e., no real-valued zeros)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the minimum value of the sum of squares of the zeros of x^2-(a-2)x-a-1 for real number a?",
+        "infer_answer": "",
+        "gold_answer": "5",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For an antisymmetric polynomial f(x, y) (i.e., f(x, y)=-f(y, x)) of total degree n (i.e., the maximum value of i+j in x^i*y^j is n), what are possible values of the remainder of f(x, y) divided by x-y?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If x_1, x_2 are the two roots of the polynomial x^2-6x+1, for how many integer n in {61, 62, ..., 120} does x_1^n+x_2^n divided by 5 give a remainder of 4?",
+        "infer_answer": "",
+        "gold_answer": "20",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many (real or complex) roots have multiplicity greater than 1 for the polynomial f(x)=1+x/(1!)+x^2/(2!)+x^3/(3!)+...++x^n/(n!)?",
+        "infer_answer": "",
+        "gold_answer": "0 roots",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the value of a, b such that (x-1)^2 | ax^4+bx^3+1.",
+        "infer_answer": "",
+        "gold_answer": "a=3, b=-4",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Factorize x^4+x^2+1 into terms of integer coefficients.",
+        "infer_answer": "To factorize the polynomial $ x^4 + x^2 + 1 $ into terms of **integer coefficients**, we proceed by considering its structure and applying standard algebraic techniques.\n\n---\n\n### Step 1: Recognize the Polynomial Structure\n\nThe expression $ x^4 + x^2 + 1 $ is a quartic (degree 4) polynomial with no $ x^3 $ or $ x $ terms. It resembles a **quadratic in terms of $ x^2 $**, but it's not a perfect square. However, it can be factored into two **quadratic polynomials** with integer coefficients.\n\nWe assume the factorization has the form:\n\n$$\nx^4 + x^2 + 1 = (x^2 + ax + b)(x^2 + cx + d)\n$$\n\nExpanding the right-hand side gives:\n\n$$\nx^4 + (a + c)x^3 + (ac + b + d)x^2 + (ad + bc)x + bd\n$$\n\nNow equate this to the original polynomial $ x^4 + 0x^3 + 1x^2 + 0x + 1 $. This leads to the following system of equations:\n\n1. $ a + c = 0 $ (coefficient of $ x^3 $)\n2. $ ac + b + d = 1 $ (coefficient of $ x^2 $)\n3. $ ad + bc = 0 $ (coefficient of $ x $)\n4. $ bd = 1 $ (constant term)\n\n---\n\n### Step 2: Solve the System\n\nFrom equation (4): $ bd = 1 $\n\nSince $ b $ and $ d $ are integers, the only possible pairs are:\n- $ (b, d) = (1, 1) $\n- $ (b, d) = (-1, -1) $\n\nLet’s try $ (b, d) = (1, 1) $ first.\n\nFrom equation (1): $ a + c = 0 \\Rightarrow c = -a $\n\nSubstitute into equation (3):  \n$$\nad + bc = a(1) + b(-a) = a - a = 0\n$$\nThis satisfies the condition for the $ x $-term",
+        "gold_answer": "(x^2+x+1)(x^2-x+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all possible values of f(x) at x≠0 such that xf(y)+yf(x)=(x+y)f(x)f(y) for all x, y.",
+        "infer_answer": "",
+        "gold_answer": "f(x)=0 or f(x)=1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The polynomial f(x) has integer coefficients and there exists an integer k such that f(k), f(k+1), f(k+2) are all divisible by 3. For integer m in {k+3, k+4, ..., 2k}, at least how many of them have f(m) divisible by 3, as an expression of k?",
+        "infer_answer": "",
+        "gold_answer": "k-2 (i.e., all of them)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x) be a polynomial of degree n and f(x)=x has no real number solutions. What is the maximum number of real number solutions does f(f(x))=x have?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Factorize x^8+x^4+1 into terms of integer coefficients.",
+        "infer_answer": "",
+        "gold_answer": "(x^2+x+1)(x^2-x+1)(x^4-x^2+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Factorize x^3+y^3+z^3-3xyz.",
+        "infer_answer": "To factorize the expression $ x^3 + y^3 + z^3 - 3xyz $, we begin by recalling a well-known algebraic identity that applies to this specific form.\n\n---\n\n### Step 1: Recognize the Identity\n\nThe expression $ x^3 + y^3 + z^3 - 3xyz $ is a standard identity that can be factored as:\n\n$$\nx^3 + y^3 + z^3 - 3xyz = (x + y + z)(x^2 + y^2 + z^2 - xy - yz - zx)\n$$\n\nThis identity holds for all real numbers $ x, y, z $.\n\n---\n\n### Step 2: Verify the Factorization\n\nTo ensure",
+        "gold_answer": "(x+y+z)(x^2+y^2+z^2-xy-yz-xz)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find a polynomial f(x) such that x*f(x−1)=(x+1)*f(x) for all x?",
+        "infer_answer": "",
+        "gold_answer": "f(x)=0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find a, b, c such that (x+5)/((x-1)(x-2)(x-3))=a/(x-1)+b/(x-2)+c/(x-3).",
+        "infer_answer": "To solve the problem of finding constants $ a $, $ b $, and $ c $ such that:\n\n$$\n\\frac{x + 5}{(x - 1)(x - 2)(x - 3)} = \\frac{a}{x - 1} + \\frac{b}{x - 2} + \\frac{c}{x - 3},\n$$\n\nwe use **partial fraction decomposition**. This method allows us to express a rational function with a factored denominator as a sum of simpler fractions.\n\n---\n\n### Step 1: Multiply both sides by the common denominator\n\nMultiply both sides of the equation by $ (x - 1)(x - 2)(x - 3) $ to eliminate denominators:\n\n$$\nx + 5 = a(x - 2)(x - 3) + b(x - 1)(x - 3) + c(x - 1)(x - 2)\n$$\n\nThis gives us a polynomial identity that must hold for all values of $ x $ (except the roots of the denominator).\n\n---\n\n### Step 2: Solve for $ a $, $ b $, and $ c $ using specific values of $ x $\n\nWe choose values of $ x $ that simplify each term on the right-hand side.\n\n#### Case 1: Let $ x = 1 $\n\n- Left-hand side: $ 1 + 5 = 6 $\n- Right-hand side: $ a(1 - 2)(1 - 3) = a(-1)(-2) = 2a $\n\nSo:\n$$\n6 = 2a \\Rightarrow a = 3\n$$\n\n#### Case 2: Let $ x = 2 $\n\n- Left-hand side: $ 2 + 5 = 7 $\n- Right-hand side: $ b(2 - 1)(2 - 3) = b(1)(-1) = -b $\n\nSo:\n$$\n7 = -b \\Rightarrow b = -7\n$$\n\n#### Case 3: Let $ x = 3 $\n\n- Left-hand side: $ 3 + 5 = 8 $\n- Right-hand side: $ c(3 - 1)(3 - 2) = c(2)(1) = 2c $\n\nSo:\n$$\n8 = 2c \\Rightarrow c = 4\n$$\n\n---\n\n### Step 3: Verify the solution\n\nLet’s verify that the values $ a = 3",
+        "gold_answer": "a=3, b=-7, c=4",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all real-valued solutions to the equation x^8+4x^6−10x^4+4x^2+1=0.",
+        "infer_answer": "",
+        "gold_answer": "x=±1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Finding the remainder when p(x^7) is divided by p(x), where p(x)=x^6+x^5+...+x+1?",
+        "infer_answer": "",
+        "gold_answer": "7",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the smallest value of the polynomial f(x)=x^3(x^3+1)(x^3+2)(x^3+3).",
+        "infer_answer": "",
+        "gold_answer": "-1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For how many values of n in {2, 3, 4, ..., 1993} can f(x)=x^n+5x^(n−1)+3 be written as g(x)h(x) where g(x) and h(x) are both polynomials of integer coefficients with degree at least 1?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For what value(s) of k is x^3+y^3+z^3+kxyz divisible by x+y+z?",
+        "infer_answer": "",
+        "gold_answer": "-3 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x) be a polynomial with integer coefficients, with f(x)=5 at four distinct integers x=a, b, c, d. If f(x) has degree n, then at most how many integer values k are there with f(k)=8?",
+        "infer_answer": "",
+        "gold_answer": "At most 0 values (i.e., no such values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let P(x) be a polynomial of degree n such that P(k)=k/(k+1) for k=0, 1, ..., n. Find P(n+1).",
+        "infer_answer": "",
+        "gold_answer": "((-1)^(n+1)+n+1)/(n+2) (i.e., 1 if for odd n, and n/(n+2) for even n)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Factorize x^9+x^4-x-1 into terms of integer coefficients.",
+        "infer_answer": "",
+        "gold_answer": "(x+1)(x-1)(x^2+1)(x^3−x^2+1)(x^2+x+1)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What are possible values of n mod k if x^n-y^n is divisible by x^k-y^k for integer n, k?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Suppose that for x, y we have x+y=a and x^3+y^3=b. Find x^2+y^2, as an expression of a and b.",
+        "infer_answer": "To find $ x^2 + y^2 $ in terms of $ a = x + y $ and $ b = x^3 + y^3 $, we proceed using algebraic identities.\n\n---\n\n### Step 1: Use the identity for $ (x + y)^3 $\n\nWe start with the identity:\n\n$$\n(x + y)^3 = x^3 + y^3 + 3xy(x + y)\n$$\n\nSubstitute $ a = x + y $ and $ b = x^3 + y^3 $ into this equation:\n\n$$\na^3 = b + 3xy \\cdot a\n$$\n\nSolving for $ xy $:\n\n$$\n3xy \\cdot a = a^3 - b \\quad \\Rightarrow \\quad xy = \\frac{a^3 - b}{3a",
+        "gold_answer": "(a^3+2b)/(3a)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x)=x^4+x^3+x^2+x+1. Find the remainder of f(x^5) divided by f(x).",
+        "infer_answer": "",
+        "gold_answer": "5",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The polynomial p(x)=ax^4+bx^3+cx^2+dx+e with integer coefficients is divisible by 7 for every integer x. What are possible values of (a mod 7) + (b mod 7) + (c mod 7) + (d mod 7) + (e mod 7)?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x)=(1-x+x^2-x^3+...-x^99+x^100)(1+x+x^2+x^3+...+x^99+x^100). What is the sum of coefficients of the terms x^1, x^3, ..., x^97, x^99 in the expansion form of f(x)?",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x)=(x^1958+x^1957+2)^1959=a_0+a_1*x+···+a_n*x^n. Find a_0−a_1/2−a_2/2+a_3−a_4/2−a_5/2+a_6-a_7/2-a_8/2+....",
+        "infer_answer": "",
+        "gold_answer": "1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For the polynomial x^3+4x^2+2x+a, what value of a results in one root being equal to the sum of the other two roots?",
+        "infer_answer": "",
+        "gold_answer": "-4",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all integer solutions to the equation x^(1/4)+(97-x)^(1/4)=5.",
+        "infer_answer": "",
+        "gold_answer": "x=16 and x=81",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find all real-valued solutions to the equation 4x^11+4x^10−21x^9-21x^8+17x^7+17x^6+17x^5+17x^4−21x^3-21x^2+4x+4=0.",
+        "infer_answer": "",
+        "gold_answer": "x=±1, ±2, ±1/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the remainder of x^1959−1 divided by (x^2+1)(x^2+x+1).",
+        "infer_answer": "",
+        "gold_answer": "x^3-1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the smallest value of a^2+ab+b^2-3a-3b for real numbers a, b.",
+        "infer_answer": "",
+        "gold_answer": "-3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What is the largest integer n for which n^3+100 is divisible by n+10?",
+        "infer_answer": "",
+        "gold_answer": "890",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let f(x) be a polynomial of degree n with integer coefficients. If there are three different integers a, b, c, such that f(a)=f(b)=f(c)=-1, then at most how many integer-valued roots can this polynomial have?",
+        "infer_answer": "",
+        "gold_answer": "At most 0 integer-valued roots (i.e., no integer roots)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If polynomial f(x, y) is symmetric (i.e., f(x, y)=f(y, x)) and x-y | f(x, y), can we always find h(x, y) with f(x, y)=(x-y)^2*h(x, y) such that h(x, y) is a polynomial function?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "If f(x)=x^5-x+a is divisible by x-b for some integer b, what are possible values of a mod 5?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The polynomial ax^3+bx^2+cx+d has integer coefficients a, b, c, d with ad odd and bc even. Can some values of a, b, c, d result in all three roots of the polynomial being integers?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find a monic polynomial (i.e. a polynomial with the leading coefficient being 1) p(x) of degree greater than 1 that satisfies x*p(x-1)=(x-2023)*p(x).",
+        "infer_answer": "",
+        "gold_answer": "x(x-1)(x-2)...(x-2022)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The polynomial 1-x+x^2-x^3+...+x^8-x^9 may be written in the form a_0+a_1*y+a_2*y^2+...+a_9*y^9, where y=x+1 and each a_i is a constant. Find the value of a_2.",
+        "infer_answer": "",
+        "gold_answer": "120",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1, x_2, x_3 be the roots of x^3+3x^2-7x+1. Find x_1^2+x_2^2+x_3^2.",
+        "infer_answer": "To solve the problem, we are given a cubic polynomial:\n\n$$\nx^3 + 3x^2 - 7x + 1\n$$\n\nLet $ x_1, x_2, x_3 $ be its roots. We are asked to find:\n\n$$\nx_1^2 + x_2^2 + x_3^2\n$$\n\n---\n\n### Step 1: Use Vieta's Formulas\n\nFor a cubic polynomial of the form:\n\n$$\nx^3 + a x^2 + b x + c = 0\n$$\n\nthe sum and products of the roots (denoted $ x_1, x_2, x_3 $) are related as follows",
+        "gold_answer": "23",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is it possible that each of the polynomials P(x)=ax^2+bx+c, Q(x)=cx^2+ax+b and R(x)=bx^2+cx+a has two different real roots with positive values of a, b, c?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the value of a such that the polynomial x^5−ax^2−ax+1 has a root with multiplicity more than 1 at x=-1.",
+        "infer_answer": "",
+        "gold_answer": "-5",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let binary string w_1=0, and w_(n+1) is generated by replacing each 0 in w_n by 001, and each 1 in w_n by 0. Thus, we have w_2=001, w_3=0010010, etc. Does this operation result in a periodic binary string in the infinite limit, and if so, what is its period?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let {x_n}, {y_n}, {z_n} be three sequences with positive initial terms x_1, y_1, z_1, defined as x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n. Let w_n be the maximum value of x_n, y_n, z_n. For different values of x_1, y_1, z_1, do we have w_200 always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20?",
+        "infer_answer": "",
+        "gold_answer": "Always greater than 20",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1=2, and define x_(n+1)=2x_n/(x_n^2-1). Could this sequence be extended indefinitely (i.e., not encountering division-by-zero issue)?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1, x_2<100 be two positive integers. For k≥3, let x_k be the smallest of the absolute values of the pairwise differences of the preceding terms. What are possible values of x_12?",
+        "infer_answer": "",
+        "gold_answer": "0 is the only possible value",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Are there prime numbers in the sequence {a_n} with a_1=10001, a_2=100010001, a_3=1000100010001, ... (there are three 0s in between each pair of 1s). If so, what is the smallest one?",
+        "infer_answer": "",
+        "gold_answer": "There are no prime numbers in the sequence",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let {x_n}, {y_n}, {z_n} be three sequences with positive initial terms x_1, y_1, z_1, defined as x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n. At most how many of the three sequences can be bounded?",
+        "infer_answer": "",
+        "gold_answer": "0 (i.e., no sequence is bounded)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does the limit exist for the sequence defined by a_0=0, a_(n+1)=sqrt(6+a_n), and if so, find it.",
+        "infer_answer": "To determine whether the limit exists for the sequence defined by:\n\n$$\na_0 = 0, \\quad a_{n+1} = \\sqrt{6 + a_n},\n$$\n\nwe proceed step by step.\n\n---\n\n### **Step 1: Assume the Limit Exists**\n\nLet’s suppose that the sequence converges to some limit $ L $. Then, taking the limit on both sides of the recurrence relation:\n\n$$\n\\lim_{n \\to \\infty} a_{n+1} = \\lim_{n \\to \\infty} \\sqrt{6 + a_n}\n$$\n\nSince $ a_n \\to L $, we get:\n\n$$\nL = \\sqrt{6 + L}\n$$\n\nSquaring both sides:\n\n$$\nL^2 = 6 + L \\quad \\Rightarrow \\quad L^2 - L - 6 = 0\n$$\n\nThis is a quadratic equation. Solving it:\n\n$$\nL = \\frac{1 \\pm \\sqrt{1 + 24}}{2} = \\frac{1 \\pm 5}{2}\n$$\n\nSo the two possible solutions are:\n\n$$\nL = 3 \\quad \\text{or} \\quad L = -2\n$$\n\nHowever, since all terms in the sequence are square roots (and thus non-negative), the only valid solution is:\n\n$$\nL = 3\n$$\n\n---\n\n### **Step 2: Verify Convergence via Monotonicity and Boundedness**\n\nWe now verify that the sequence actually converges to this value.\n\n#### **(a) Monotonicity**\n\nWe check if the sequence is increasing.\n\n- $ a_0 = 0 $\n- $ a_1 = \\sqrt{6 + a_0} = \\sqrt{6} \\approx 2.449 > a_0 $\n- $ a_2 = \\sqrt{6 + a_1} \\approx \\sqrt{8.449} \\approx 2.907 > a_1 $\n- $ a_3 \\approx \\sqrt{8.907} \\approx 2.984 > a_2 $\n- $ a_4 \\approx \\sqrt{8.984} \\approx 2.997 > a_3 $\n\nThis suggests the sequence is **increasing**.\n\n**Proof by induction**:\n\n- **Base case**: $ a_1 > a_0 $, true.\n- **Inductive step**: Suppose $ a_{k+1} > a_k $. Then:\n  $$\n  a_{k+2} = \\sqrt{6 + a_{k+1}} > \\sqrt{6 + a_k} = a_{k+1}\n  $$\n  So $ a_{k+2} > a_{k+1} $, hence the sequence is strictly increasing.\n\n✅ The sequence is **strict",
+        "gold_answer": "The limit exists and is equal to 3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Find the limit of the expression 1/(1*2*3*4)+1/(2*3*4*5)+...+1/(n(n+1)(n+2)(n+3)) as n→∞.",
+        "infer_answer": "To evaluate the limit of the expression\n\n$$\n\\sum_{k=1}^{n} \\frac{1}{k(k+1)(k+2)(k+3)}\n$$\n\nas $ n \\to \\infty $, we begin by analyzing the general term:\n\n$$\na_k = \\frac{1}{k(k+1)(k+2)(k+3)}\n$$\n\n---\n\n### Step 1: Partial Fraction Decomposition\n\nWe aim to express $ a_k $ in a telescoping form. A known technique for such products is to use the identity:\n\n$$\n\\frac{1}{k(k+1)(k+2)(k+3)} = \\frac{1}{3} \\left( \\frac{1}{k(k+1)(k+2)} - \\frac{1",
+        "gold_answer": "1/18",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let n>1 be an integer. There are n lamps L_0, ..., L_(n−1) arranged in a circle. Each lamp is either ON or OFF. A sequence of steps S_0, ..., S_i, ... is carried out. Step S_j affects the state of L_j only (leaving the states of all other lamps unaltered) as follows: if L_(j−1) is ON, S_j changes the state of L_j from ON to OFF or from OFF to ON; if L_(j−1) is OFF, S_j leaves the state L_j unchanged. The lamps are labeled modulo n, that is, L_(−1)=L_(n−1), L_0=L_n, L_1=L_(n+1). Initially all lamps are ON. For n in {2, 3, ..., 100}, how many of them result in a the sequence of switching not being able to return all lamps to the ON state ever again?",
+        "infer_answer": "",
+        "gold_answer": "0 (i.e., no such values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a sequence be the defined as a_0=a_1=1, and a_(n+1)=a_(n-1)*a_n+1. What is a_1964 mod 4?",
+        "infer_answer": "",
+        "gold_answer": "3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Define a sequence with x_1=1/2, x_(k+1)=x_k^2+x_k. What is the integer part of the sum 1/(x_1+1)+1/(x_2+1)+1/(x_3+1)+...+1/(x_100+1)?",
+        "infer_answer": "",
+        "gold_answer": "1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence {a_n} is defined by a_1=1, a_(n+1)=a_n+1/a_n^2. Does a finite limit of a_n exist, and if so, find it.",
+        "infer_answer": "",
+        "gold_answer": "The limit does not exist",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence of positive integers a_0, a_1, ..., a_100 is defined as a_1>a_0, a_n=3a_(n-1)-2a_(n-2). Is it possible to have a_100<2^99 for certain such sequences, and if so, find the sequence with the largest sum a_0+a_1+...+a_100.",
+        "infer_answer": "",
+        "gold_answer": "Such a sequence is not possible",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let the sequence be defined as a_n=1/C(n, 0)+1/C(n, 1)+...+1/C(n, n). Does the limit of the sequence exist, and if so, what is it?",
+        "infer_answer": "",
+        "gold_answer": "The limit exists and is equal to 2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does there exist a positive sequence {a_n}, such that both sum a_n and sum 1/(n^2*a_n) converge to finite values?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What are possible values of the limit of the sequence x_(n+1)=(x_n+a/x_n)/2, for different values of x_0>0, a>0, possibly as an expression of x_0, a?",
+        "infer_answer": "",
+        "gold_answer": "The only possible value for the limit is sqrt(a)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let the sequence a_1, a_2, ... be defined as a_(4n+1)=1, a_(4n+3)=0, a_(2n)=a_n. Is this sequence periodic, and if so, find its period.",
+        "infer_answer": "",
+        "gold_answer": "The sequence is not periodic",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does the limit exist for the sequence defined by a_0=0, a_(n+1)=sqrt(4+3a_n), and if so, find it.",
+        "infer_answer": "To determine whether the limit of the sequence defined by:\n\n$$\na_0 = 0, \\quad a_{n+1} = \\sqrt{4 + 3a_n}\n$$\n\nexists and to find it (if it does), we proceed with a structured analysis.\n\n---\n\n### **Step 1: Assume the Limit Exists**\n\nLet us suppose that the sequence converges to some limit $ L $. Then, taking the limit on both sides of the recursive definition:\n\n$$\n\\lim_{n \\to \\infty} a_{n+1} = \\lim_{n \\to \\infty} \\sqrt{4 + 3a_n}\n$$\n\nSince the sequence is defined recursively and the function is continuous, we can write:\n\n$$\nL = \\sqrt{4 + 3L}\n$$\n\nSquaring both sides:\n\n$$\nL^2 = 4 + 3L \\quad \\Rightarrow \\quad L^2 - 3L - 4 = 0\n$$\n\nThis is a quadratic equation. Solving using the quadratic formula:\n\n$$\nL = \\frac{3 \\pm \\sqrt{(-3)^2 + 4(",
+        "gold_answer": "The limit exists and is equal to 4",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Define a sequence with a_1=a_2=1, a_3=−1, a_n=a_(n−1)*a_(n−3). Find a_1964.",
+        "infer_answer": "",
+        "gold_answer": "-1",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a_n be the number of all permutations p of {1, ..., n} with |p(i)−i|≤1 for all i. Find a_10.",
+        "infer_answer": "",
+        "gold_answer": "89",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The sequence a_0, a_1, a_2, ... is such that, for all nonnegative m≥n, we have a_(m+n)+a_(m−n)=(a_(2m)+a_(2n))/2. If a_1=1, find a_50.",
+        "infer_answer": "",
+        "gold_answer": "2500",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence {x_n} is defined by x_1=2, x_(n+1)=(x_n^4+9)/(10x_n). For how many values of x_1, x_2, ..., x_1000 do we have x_n≤5/4?",
+        "infer_answer": "",
+        "gold_answer": "999 (i.e., all except for one value)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence is defined as a_1=0, |a_n|=|a_(n-1)+1|. What is the smallest value of (a_1+a_2+...+a_n)/n for even n?",
+        "infer_answer": "",
+        "gold_answer": "-1/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does there exist a strictly increasing sequence of non-negative numbers a_1, a_2, ... such that a_(mn)=a_m+a_n for all integers m, n? If so, find the smallest possible value of a_1.",
+        "infer_answer": "",
+        "gold_answer": "The sequence does not exist",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is it possible to select an infinite geometric sequence from the sequence 1, 1/2, 1/4, 1/8, 1/16, ... such that the sum is 1/5, and if so, what is the sequence?",
+        "infer_answer": "",
+        "gold_answer": "It is not possible",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence is defined by a_1=sqrt(2), a_(n+1)=sqrt(2)^a_n. Does the limit for the sequence exist, and if so, find it.",
+        "infer_answer": "",
+        "gold_answer": "The limit exists and is equal to 2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For the first 100 numbers in the sequence a_1=a_2=a_3=1, a_(n+1)=(1+a_(n−1)*a_n)/a_(n−2), how many of them are integers?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all numbers)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let u<v and define two sequences {u_n} and {v_n}, as u_0=u, u_n=(u_(n-1)+v_(n-1))/2 and v_0=v, v_n=(u_(n-1)+2v_(n-1))/3. Let the two limits be L_u and L_v respectively. Find L_u-L_v.",
+        "infer_answer": "",
+        "gold_answer": "0",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Does the limit exist for the sequence defined as a_n=((2^3-1)/(2^3+1))*((3^3-1)/(3^3+1))*((4^3-1)/(4^3+1))*...*((n^3-1)/(n^3+1)), and if so, find it.",
+        "infer_answer": "",
+        "gold_answer": "The limit exists and is equal to 2/3",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For a≤b, define the sequence as a_1=a, a_2=b, a_(n+2)=(a_(n+1)+a_n)/2. Does the limit exist for this sequence, and if so, find it as an expression in terms of a and b.",
+        "infer_answer": "",
+        "gold_answer": "The limit exists and is equal to (a+3b)/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "What are possible values of the limit of the sequence a_n=sqrt(a_(n-1))+sqrt(a_(n-2)), for different initial values of 0<a_0, a_1<1, possibly as an expression of a_0, a_1?",
+        "infer_answer": "",
+        "gold_answer": "The only possible value for the limit is 4",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Given a set of n positive numbers a_1≤a_2≤...≤a_n, with the sum of the n(n-1)/2 pairwise products being equal to 1. Is it possible that a_1+a_2+...+a_(n-1) is greater than or equal to sqrt(2)?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let 0<a<b. Define two sequences {a_n} and {b_n} as a_0=a, b_0=b, a_(n+1)=sqrt(a_n*b_n), b_(n+1)=(a_n+b_n)/2. What is the value of (b_(n+1)-a_(n+1))*b_(n+2)/(b_n-a_n)^2?",
+        "infer_answer": "",
+        "gold_answer": "8",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The positive real numbers x_0, x_1, ..., x_1995 satisfy x_0=x_1995 and x_i+2/x_i=2x_(i+1)+1/x_(i+1) for i=0, ..., 1994. Find the maximum value that x_0 can have.",
+        "infer_answer": "",
+        "gold_answer": "2^997",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence {x_n} is defined by x_1=2, x_(n+1)=(x_n^4+9)/(10x_n). For how many values of x_1, x_2, ..., x_1000 do we have x_n>4/5?",
+        "infer_answer": "",
+        "gold_answer": "1000 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let 0<a<b. Define two sequences {a_n} and {b_n} as a_0=a, b_0=b, a_(n+1)=sqrt(a_n*b_n), b_(n+1)=(a_n+b_n)/2. Is the sequence a_n/b_n monotonically increasing, monotonically decreasing, or neither?",
+        "infer_answer": "",
+        "gold_answer": "Monotonically increasing",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The sequence {x_n} is defined by x_1=2, x_(n+1)=(2+x_n)/(1−2x_n). Must x_n≠0 for all n in the sequence?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The terms of the sequence a_1, a_2, a_3, ... are all positive, and a_(n+1)=sqrt(1+a_n) for all n. Does there exist such a sequence with all a_n being rational numbers, and if so, find the smallest possible value of a_1 such that the sequence satisfies the condition.",
+        "infer_answer": "",
+        "gold_answer": "The sequence does not exist",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For the first 100 numbers in the sequence a_1=a_2=1, a_3=2, a_(n+3)=(a_(n+1)*a_(n+2)+5)/a_n, how many of them are integers?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all numbers)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a_n be the number of all permutations p of {1, ..., n} with min(n-|p(i)−i|, |p(i)−i|)≤1 for all i. Find a_10.",
+        "infer_answer": "",
+        "gold_answer": "125",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "For a>0, does the limit of the sequence defined by a_0=sqrt(a), a_(n+1)=sqrt(a+a_n) exist, and if so, find it as an expression of a.",
+        "infer_answer": "",
+        "gold_answer": "The limit exists and is equal to (1+sqrt(4a+1))/2",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "1324 persons are arranged in a circle and numbered from 1 to 1324. Then every 2nd person is removed (i.e., the first four removed people are those numbered 2, 4, 6 and 8) until there is only one person left. What is the number of the last person left?",
+        "infer_answer": "",
+        "gold_answer": "601",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Is it possible to select an infinite geometric sequence from the sequence 1, 1/2, 1/4, 1/8, 1/16, ... such that the sum is 1/7, and if so, what is the sequence?",
+        "infer_answer": "",
+        "gold_answer": "Yes, and the sequence is 1/2^3, 1/2^6, 1/2^9, ...",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "How many sequences of positive numbers a_0, a_1, a_2, ... satisfy the conditions of a_0=1, a_(n+2)=a_n-a_(n+1) for all n≥0?",
+        "infer_answer": "",
+        "gold_answer": "Exactly one sequence",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A sequence {a_n} is defined by a_1=1, a_(n+1)=a_n+1/a_n^2. Do we have a_9000>30?",
+        "infer_answer": "",
+        "gold_answer": "Yes",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "In how many ways can 12 geometric progressions be selected from the numbers 1, 2, ..., 100 such that every number is in exactly one progression?",
+        "infer_answer": "",
+        "gold_answer": "0 (no such selection is possible)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let x_1=2, y_1=4, z_1=6/7, and define x_(n+1)=2x_n/(x_n^2-1), y_(n+1)=2y_n/(y_n^2-1), z_(n+1)=2z_n/(z_n^2-1). Is it possible for x_n+y_n+z_n=0 for some n?",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "A function f(x) satisfies f(x+1)+f(x-1)=sqrt(2)*f(x). Determine whether the function is periodic, and if so, find its period.",
+        "infer_answer": "",
+        "gold_answer": "The function is periodic, with a period of 8",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "The sequence {x_n} is defined by x_1=2, x_(n+1)=(2+x_n)/(1−2x_n), and it is known that there are no x_n=0. Could x_p=x_q for any p≠q, and if so, find the smallest possible value of p+q.",
+        "infer_answer": "",
+        "gold_answer": "No",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    },
+    {
+        "question": "Let a sequence be the defined as a_1=a_2=1, and a_n=(a_(n-1)^2+2)/a_(n-2). How many values in a_1, a_2, ..., a_100 are integers?",
+        "infer_answer": "",
+        "gold_answer": "100 (i.e., all values)",
+        "standardized_infer_answer": "",
+        "Metrics": {
+            "is_valid_answer": false,
+            "acc": 0,
+            "em": 0,
+            "f1": 0,
+            "math_equal": false
+        },
+        "is_correct": "false"
+    }
+]

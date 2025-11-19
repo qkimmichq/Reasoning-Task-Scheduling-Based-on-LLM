@@ -1,0 +1,14 @@
+{
+  "results": {
+    "0": {
+      "question": "Convert the point $(0,3)$ in rectangular coordinates to polar coordinates.  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+      "infer_answer": "To convert the rectangular coordinate \\((0,\\ 3)\\) to polar coordinates \\((r,\\ \\theta)\\), follow these steps:\n\n1. **Calculate \\( r \\):**\n   \n   The formula for \\( r \\) is:\n   \\[\n   r = \\sqrt{x^2 + y^2}\n   \\]\n   \n   Plugging in the values:\n   \\[\n   r = \\sqrt{0^2 + 3^2} = \\sqrt{9} = 3\n   \\]\n\n2. **Determine \\( \\theta \\):**\n   \n   Since \\( x = 0 \\) and \\( y > 0 \\), the point lies on the positive \\( y \\)-axis.\n   \n   The angle \\( \\theta \\) is:\n   \\[\n   \\theta = \\frac{\\pi}{2}\n   \\]\n\n3. **Combine Results:**\n   \n   The polar coordinates are:\n   \\[\n   (r,\\ \\theta) = \\left(3,\\ \\frac{\\pi}{2}\\right)\n   \\]\n\n\\boxed{(3,\\ \\dfrac{\\pi}{2})}",
+      "gold_answer": "\\left( 3, \\frac{\\pi}{2} \\right)"
+    },
+    "1": {
+      "question": "Define\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{and} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]Find a way to write\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]in terms of $p$ and $q.$",
+      "infer_answer": "",
+      "gold_answer": "p - q"
+    }
+  }
+}

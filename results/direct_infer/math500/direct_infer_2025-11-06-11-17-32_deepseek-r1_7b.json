@@ -1,0 +1,14 @@
+{
+  "results": {
+    "0": {
+      "question": "Convert the point $(0,3)$ in rectangular coordinates to polar coordinates.  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+      "infer_answer": "To convert the rectangular coordinate \\((0,\\,3)\\) to polar coordinates \\((r,\\theta)\\), follow these steps:\n\n1. **Calculate the radius \\( r \\):**\n   \n   The formula for \\( r \\) is:\n   \\[\n   r = \\sqrt{x^2 + y^2}\n   \\]\n   \n   Substituting \\( x = 0 \\) and \\( y = 3 \\):\n   \\[\n   r = \\sqrt{0^2 + 3^2} = \\sqrt{9} = 3\n   \\]\n\n2. **Determine the angle \\( \\theta \\):**\n   \n   The point \\((0,\\,3)\\) lies on the positive y-axis. Therefore, the angle from the positive x-axis is:\n   \\[\n   \\theta = \\frac{\\pi}{2}\n   \\]\n   \n   This satisfies the condition \\( 0 \\leq \\theta < 2\\pi \\).\n\n**Final Answer:**\n\\[\n\\boxed{(3,\\ \\dfrac{\\pi}{2})}\n\\]",
+      "gold_answer": "\\left( 3, \\frac{\\pi}{2} \\right)"
+    },
+    "1": {
+      "question": "Define\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{and} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]Find a way to write\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]in terms of $p$ and $q.$",
+      "infer_answer": "We need to express the double sum\n\\[\n\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\n\\]\nin terms of \\( p \\) and \\( q \\), where \\( p = \\sum_{k=1}^\\infty \\frac{1}{k^2} \\) and \\( q = \\sum_{k=1}^\\infty \\frac{1}{k^3} \\).\n\nFirst, we change variables by setting \\( n = j + k \\). For each fixed \\( n \\), the number of pairs \\((j, k)\\) such that \\( j + k = n \\) is \\( n - 1 \\). Therefore, the double sum can be rewritten as:\n\\[\n\\sum_{n=2}^\\infty (n - 1) \\cdot \\frac{1}{n^3}\n\\]\n\nThis simplifies to:\n\\[\n\\sum_{n=2}^\\infty \\left( \\frac{n - 1}{n^3} \\right)\n\\]\n\nWe can split the fraction inside the sum:\n\\[\n\\frac{n - 1}{n^3} = \\frac{1}{n^2} - \\frac{1}{n^3}\n\\]\n\nThus, the sum becomes:\n\\[\n\\sum_{n=2}^\\infty \\left( \\frac{1}{n^2} - \\frac{1}{n^3} \\right)\n\\]\n\nThis can be separated into two sums:\n\\[\n\\sum_{n=2}^\\infty \\frac{1}{n^2} - \\sum_{n=2}^\\infty \\frac{1}{n^3}\n\\]\n\nWe know that \\( p = \\sum_{k=1}^\\infty \\frac{1}{k^2} \\) and subtracting the first term (when \\( n = 1 \\)) gives:\n\\[\n\\sum_{n=2}^\\infty \\frac{1}{n^2} = p - 1\n\\]\n\nSimilarly, for \\( q = \\sum_{k=1}^\\infty \\frac{1}{k^3} \\), subtracting the first term (when \\( n = 1",
+      "gold_answer": "p - q"
+    }
+  }
+}

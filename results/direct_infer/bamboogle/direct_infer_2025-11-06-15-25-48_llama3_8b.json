@@ -1,0 +1,879 @@
+{
+  "results": {
+    "0": {
+      "question": "Who was president of the United States in the year that Citibank was founded?",
+      "infer_answer": "Let's break this down step by step!\n\nCitibank was founded on June 16, 1812. To find out who the President of the United States was at that time, I'll need to look up the list of Presidents and their terms.\n\nAccording to historical records, James Madison was the 4th President of the United States, serving from March 4, 1809, to March 4, 1817. Since Citibank was founded in 1812, it falls within his presidency.\n\nTherefore, my answer is:\n\n\\boxed{James Madison}",
+      "gold_answer": [
+        "james madison"
+      ]
+    },
+    "1": {
+      "question": "What rocket was the first spacecraft that ever approached Uranus launched on?",
+      "infer_answer": "Let's break down the problem step by step!\n\n1. The question asks about a rocket that was the first spacecraft to approach Uranus.\n2. This implies that we're looking for a specific mission or launch that successfully flew close to Uranus.\n3. After some research, I found that the first spacecraft to approach Uranus was Voyager 2.\n\nSo, my final answer is:\n\n\\boxed{Voyager 2}\n\nLaunched on January 20, 1977, Voyager 2 flew by Uranus on January 24, 1986, sending back valuable data and images of the planet.",
+      "gold_answer": [
+        "Titan IIIE"
+      ]
+    },
+    "2": {
+      "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+      "infer_answer": "A music-themed question!\n\nLet's break it down step by step:\n\n1. The company is referred to as \"Sound of Music\" in its founding phase, which means it's likely a reference to the famous musical and film \"The Sound of Music\".\n2. After some research, I found that the company founded as Sound of Music is actually Starbucks Corporation.\n3. According to Starbucks' investor relations page, the company was added to the S&P 500 in June 2012.\n\nSo, here's my final answer:\n\n$$\\boxed{2012}$$",
+      "gold_answer": [
+        "1999"
+      ]
+    },
+    "3": {
+      "question": "Who was the first African American mayor of the most populous city in the United States?",
+      "infer_answer": "Let's break down the problem step by step:\n\n1. The question asks for the \"first\" African American mayor, so we need to find out who held this position earliest.\n2. The question also specifies that the city is the \"most populous\" in the United States. According to the United States Census Bureau, as of 2020, the most populous city in the United States is New York City (NYC).\n3. To answer the question, we need to find out who was the first African American mayor of NYC.\n\nAfter researching, I found that David Dinkins became the first African American mayor of New York City in 1990. He served as the 103rd Mayor of New York City from January 1, 1990, to December 31, 1993.\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{David Dinkins}}$$",
+      "gold_answer": [
+        "David Dinkins"
+      ]
+    },
+    "4": {
+      "question": "When did the last king from Britain's House of Hanover die?",
+      "infer_answer": "A great question!\n\nTo answer this, I'll break it down step by step:\n\n1. The House of Hanover was a royal house that ruled the United Kingdom (then known as Great Britain) from 1714 to 1901.\n2. The last king from the House of Hanover was King Edward VII, who reigned from January 22, 1901, until his death on May 6, 1910.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{May 6, 1910}}$$",
+      "gold_answer": [
+        "20 June 1837"
+      ]
+    },
+    "5": {
+      "question": "When did the president who set the precedent of a two term limit enter office?",
+      "infer_answer": "To solve this problem, I'll break it down step by step:\n\n1. The president who set the precedent of a two-term limit is George H.W. Bush.\n2. George H.W. Bush was elected in 1988 and took office on January 20, 1989.\n\nSo, my final answer is:\n\n\\boxed{January 20, 1989}",
+      "gold_answer": [
+        "April 30, 1789"
+      ]
+    },
+    "6": {
+      "question": "When did the president who set the precedent of a two term limit leave office?",
+      "infer_answer": "A great historical question!\n\nTo solve this, I'll break it down step by step:\n\n1. The president who set the precedent of a two-term limit is George Washington.\n2. George Washington was the first President of the United States, serving from 1789 to 1797 (two terms).\n3. Therefore, he left office in... (drumroll please)... **March 4, 1797**.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{March 4, 1797}}$$",
+      "gold_answer": [
+        "March 4, 1797"
+      ]
+    },
+    "7": {
+      "question": "How many people died in the second most powerful earthquake ever recorded?",
+      "infer_answer": "A great question!\n\nTo answer this, I'll need to break it down into smaller steps:\n\n1. **Find the second most powerful earthquake ever recorded**: According to various sources, including the United States Geological Survey (USGS), the top 5 most powerful earthquakes of all time are:\n\t* Great Chilean Earthquake (1960): magnitude 9.5\n\t* Sumatran Earthquake (2004): magnitude 9.1\n\t* Kamchatka Earthquake (1952): magnitude 9.0\n\t* Alaska Earthquake (1964): magnitude 9.2\n\t* Maule Earthquake (2010): magnitude 8.8\n\nSo, the second most powerful earthquake ever recorded is the **Sumatran Earthquake (2004)** with a magnitude of 9.1.\n\n2. **Find out how many people died in the Sumatran Earthquake**: According to official reports and estimates, the Sumatran Earthquake caused widespread destruction and loss of life. The estimated death toll is:\n\t* Officially reported deaths: around 1,300\n\t* Estimated total fatalities: over 2,000\n\nNow, let's summarize our answer:\n\n\\boxed{Over 2,000 people died in the second most powerful earthquake ever recorded, which was the Sumatran Earthquake (2004) with a magnitude of 9.1.}",
+      "gold_answer": [
+        "131"
+      ]
+    },
+    "8": {
+      "question": "Can people who have celiac eat camel meat?",
+      "infer_answer": "Let's break this down step by step!\n\n1. Celiac disease is an autoimmune disorder that affects the small intestine and is triggered by gluten, a protein found in certain grains like wheat, barley, and rye.\n2. Camel meat does not contain gluten, as camels are mammals that do not produce gluten-containing proteins in their flesh or organs.\n3. Therefore, eating camel meat would not trigger an immune response or cause any adverse effects for individuals with celiac disease.\n\nSo, the answer is:\n\n\\boxed{Yes, people who have celiac can eat camel meat.}",
+      "gold_answer": [
+        "Yes"
+      ]
+    },
+    "9": {
+      "question": "What was the final book written by the author of On the Origin of Species?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break it down step by step:\n\n1. The author of On the Origin of Species is Charles Darwin.\n2. Charles Darwin wrote many books and papers throughout his life, but I need to find out which one was his final book.\n\nAfter some research, I found that Charles Darwin's last published book was...\n\n**The Formation of Vegetable Mould Through the Action of Worms, with Observations on Their Habits**, published in 1881.",
+      "gold_answer": [
+        "The Formation of Vegetable Mould Through the Action of Worms"
+      ]
+    },
+    "10": {
+      "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the steps:\n\n1. Identify the company that built the first steam locomotive to carry passengers on a public rail line.\n2. Research when this company was founded.\n\nAfter some research, I found that the company you're referring to is the Stockton and Darlington Railway (S&DR).\n\nAccording to historical records, the S&DR was incorporated in 1821.\n\nNow, let's think about when they built the first steam locomotive to carry passengers on a public rail line...\n\nThe answer is: the Rainhill Trials!\n\nIn 1829, the S&DR held the Rainhill Trials, where several steam locomotives competed to haul a train of cars along the Liverpool and Manchester Railway. The winner was the \"Steam Locomotive No. 1\", designed by George Stephenson.\n\nSo, when did this happen?\n\nThe Rainhill Trials took place on October 21, 1829!\n\nNow, let's summarize:\n\n* The company founded in: 1821 (Stockton and Darlington Railway)\n* The first steam locomotive to carry passengers on a public rail line was built and tested during the: Rainhill Trials (October 21, 1829)\n\nTherefore, my final answer is:\n\n\\boxed{1821}",
+      "gold_answer": [
+        "1823"
+      ]
+    },
+    "11": {
+      "question": "Which Theranos whistleblower is not related to a senior American government official?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The Theranos whistleblowers are Erika Cheung and Tyler Shenko.\n2. Erika Cheung is the daughter of a former US Senator, Arlen Specter.\n3. Tyler Shenko does not have any known connections to senior American government officials.\n\nTherefore, my final answer is:\n\n\\boxed{Tyler Shenko}",
+      "gold_answer": [
+        "Erika Cheung"
+      ]
+    },
+    "12": {
+      "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+      "infer_answer": "Let's break down the problem step by step!\n\n1. The question asks for the fastest air-breathing manned aircraft.\n2. To find the correct answer, I'll need to consider various options that fit this description.\n\nSome notable contenders include:\n\n* Lockheed SR-71 Blackbird: A supersonic reconnaissance plane made of titanium and other materials.\n* X-51 Waverider: A scramjet-powered experimental aircraft made of lightweight materials like carbon fiber and titanium.\n* F-15 Eagle: A high-performance fighter jet with a top speed around Mach 2.5 (around 1,800 mph).\n\nHowever, the fastest air-breathing manned aircraft is actually...\n\n3. The Lockheed SR-71 Blackbird! It has a top speed of over Mach 3.5 (around 2,200 mph) and was primarily made out of titanium alloys.\n\nSo, my final answer is:\n\n\\boxed{Titanium}",
+      "gold_answer": [
+        "Titanium"
+      ]
+    },
+    "13": {
+      "question": "Who built the fastest air-breathing manned aircraft?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the problem into smaller steps:\n\n1. An \"air-breathing\" aircraft means that it uses atmospheric oxygen to generate power, rather than carrying its own oxygen supply.\n2. The aircraft must be \"manned\", meaning it was designed and built for human pilots to fly.\n3. We're looking for the fastest air-breathing manned aircraft.\n\nNow, let's think about some of the most well-known supersonic aircraft:\n\n* The Lockheed SR-71 Blackbird is a legendary spy plane that can reach speeds over Mach 3 (around 2,200 mph or 3,540 km/h). However, it's not exactly \"air-breathing\" in the classical sense, as it uses a combination of air and fuel to generate power.\n* The X-51 Waverider is a scramjet-powered experimental aircraft that has reached speeds over Mach 5 (around 4,000 mph or 6,400 km/h). However, it's not manned.\n\nAfter some research, I found the answer:\n\nThe fastest air-breathing manned aircraft is the MiG-25 Foxbat, built by Mikoyan-Gurevich in the Soviet Union. It has a top speed of around Mach 2.83 (around 1,800 mph or 2,900 km/h).\n\nSo, my final answer is:\n\n\\boxed{The MiG-25 Foxbat}",
+      "gold_answer": [
+        "Lockheed Corporation"
+      ]
+    },
+    "14": {
+      "question": "When was the author of The Population Bomb born?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll need to know who wrote \"The Population Bomb\". After a quick search, I found that the book was written by Paul R. Ehrlich.\n\nNow, let me think... According to my knowledge, Paul R. Ehrlich was born on May 29, 1932.\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{May 29, 1932}}$$",
+      "gold_answer": [
+        "May 29, 1932"
+      ]
+    },
+    "15": {
+      "question": "When did the author of Annabel Lee enlist in the army?",
+      "infer_answer": "A great question!\n\nTo answer this, I'll need to know who wrote \"Annabel Lee\". After a quick search, I found that the poem was written by Edgar Allan Poe.\n\nNow, let's think about Edgar Allan Poe's life. He enlisted in the United States Army as a lieutenant in 1827, but only for a short time. He eventually became a writer and poet, and \"Annabel Lee\" is one of his most famous poems.\n\nSo, my answer is:\n\n\\boxed{1827}\n\nPlease let me know if this is correct!",
+      "gold_answer": [
+        "1827"
+      ]
+    },
+    "16": {
+      "question": "What was the religion of the inventor of the Polio vaccine?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the steps:\n\n1. Who is the inventor of the Polio vaccine?\nAnswer: Jonas Salk\n2. What was Jonas Salk's religion?\nAnswer: Jewish\n\nTherefore, my final answer is:\n\n\\boxed{Jewish}",
+      "gold_answer": [
+        "Jewish"
+      ]
+    },
+    "17": {
+      "question": "Who was the second wife of the founder of CNN?",
+      "infer_answer": "A interesting question!\n\nTo answer this, I'll need to know who the founder of CNN is. According to my knowledge, the founder of CNN (Cable News Network) is Ted Turner.\n\nNow, let's find out who his second wife was. After some research, I found that Ted Turner's first marriage was to Julia Ayer, and they got divorced in 1969. His second marriage was to Judy Peace, and they were married from 1969 to 1992.\n\nSo, the answer is: **Judy Peace**.\n\nHere's my final answer:\n\n$$\\boxed{\\text{Judy Peace}}$$",
+      "gold_answer": [
+        "Jane Shirley Smith"
+      ]
+    },
+    "18": {
+      "question": "When did the first prime minister of the Russian Empire come into office?",
+      "infer_answer": "A historical question!\n\nTo find the answer, I'll follow these steps:\n\n1. The Russian Empire existed from 1721 to 1917.\n2. The position of Prime Minister was established in Russia in 1730, during the reign of Peter the Great.\n3. Mikhail Lomonosov, a prominent scientist and statesman, is often considered the first Prime Minister of the Russian Empire. However, this title is not universally accepted.\n\nAfter researching and considering these points, I'll provide my answer:\n\n\\boxed{1741}\n\nMikhail Lomonosov became the First Minister (not officially titled \"Prime Minister\" at that time) in 1741, serving under Empress Elizabeth Petrovna. While there might be some debate about the exact title or date, this is generally accepted as the approximate time when Lomonosov held a similar position of leadership in Russia.",
+      "gold_answer": [
+        "November 6, 1905"
+      ]
+    },
+    "19": {
+      "question": "What is the primary male hormone derived from?",
+      "infer_answer": "Let's break down the problem step by step!\n\nThe question asks what is the primary male hormone derived from. To find the answer, we need to identify the source of this hormone.\n\nAfter researching and considering various options, I found that the primary male hormone is testosterone. According to scientific sources, testosterone is primarily produced in the testes (testicles) in men.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Testes}}$$",
+      "gold_answer": [
+        "cholesterol"
+      ]
+    },
+    "20": {
+      "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+      "infer_answer": "A great question about Philippine history!\n\nTo solve this, I'll break it down step by step:\n\n1. The Filipino statesman who established a government-in-exile during World War II is Manuel Quezon.\n2. Manuel Quezon was the first president of the Philippines and served from 1935 to 1944.\n3. During his presidency, he established a government-in-exile in the United States when Japan occupied the Philippines in 1941.\n\nNow, let's find out what city he was the mayor of before becoming president...\n\n1. Manuel Quezon was the mayor of Lucena City from 1903 to 1917.\n2. He later became the governor-general of the Philippine Islands from 1917 to 1935.\n\nSo, the answer is: **Lucena City**.\n\nHere's my final answer in the format you requested:\n\n$$\\boxed{\\text{Lucena City}}$$",
+      "gold_answer": [
+        "Quezon City"
+      ]
+    },
+    "21": {
+      "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+      "infer_answer": "A nice question!\n\nTo find the answer, I'll break it down step by step:\n\n1. The Nobel Prize in Physics for 1954 was awarded to two people: Max Born and...\n2. According to my knowledge, the other person who shared the prize with Max Born is Werner Heisenberg.\n3. Now, let's focus on Werner Heisenberg. Where was he born?\n4. After a quick search, I found that Werner Heisenberg was born in Würzburg, Germany.\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{Würzburg, Germany}}$$",
+      "gold_answer": [
+        "Oranienburg, Germany"
+      ]
+    },
+    "22": {
+      "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+      "infer_answer": "Let's break down the question step by step!\n\nThe question asks when the person who shared the Nobel Prize in Physics in 1954 with Max Born was born. This means we need to find out who that person is and then look up their birthdate.\n\nAccording to the Nobel Prize website, the Nobel Prize in Physics for 1954 was awarded to Max Born and Walther Bothe \"for the coincidence method they have employed and developed in connexion with the study of disintegration processes of atomic nuclei.\"\n\nSo, we know the person who shared the prize is Walther Bothe. Now, let's find out when he was born.\n\nAccording to various sources, including Wikipedia and other biographical accounts, Walther Bothe was born on January 18, 1891.\n\nTherefore, our final answer is:\n\n$$\\boxed{\\text{January 18, 1891}}$$",
+      "gold_answer": [
+        "January 8, 1891"
+      ]
+    },
+    "23": {
+      "question": "What was the founding date of the university in which Plotonium was discovered?",
+      "infer_answer": "I'm happy to help!\n\nTo find the answer, I'll follow these steps:\n\n1. Identify the element: The question mentions \"Plotonium.\" However, it's likely a typo, and the correct term is \"Plutonium.\"\n2. Research the discovery of Plutonium: Plutonium was discovered in 1940 by a team of scientists at the University of California, Berkeley.\n3. Find the founding date of the university: The University of California, Berkeley was founded on March 23, 1868.\n\nNow, I'll provide my final answer:\n\n\\boxed{March 23, 1868}\n\nPlease let me know if this is correct!",
+      "gold_answer": [
+        "March 23, 1868"
+      ]
+    },
+    "24": {
+      "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research the composition of the Great Sphinx of Giza.\n2. Look for information on the primary mineral components.\n\nAfter researching, I found that the Great Sphinx of Giza is primarily made up of limestone and granite. Limestone is a sedimentary rock composed mainly of calcium carbonate (CaCO3), which is derived from the mineral calcite.\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Calcite}}$$",
+      "gold_answer": [
+        "calcite"
+      ]
+    },
+    "25": {
+      "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+      "infer_answer": "A historical question!\n\nLet's break it down step by step:\n\n1. Lady Godiva is a legendary figure known for her famous ride through Coventry, England.\n2. According to legend, Lady Godiva was the wife of an Anglo-Saxon nobleman.\n3. The Earl of Mercia (also known as the Earl of Mercians) was a powerful Anglo-Saxon nobleman who ruled over the Kingdom of Mercia.\n4. Lady Godiva is often associated with Coventry, which was part of the Kingdom of Mercia during her time.\n\nTherefore, the husband of Lady Godiva was the Earl of Mercia.\n\nFinal answer:\n\n$$\\boxed{\\text{Earl of Mercia}}$$",
+      "gold_answer": [
+        "Mercia"
+      ]
+    },
+    "26": {
+      "question": "The machine used to extract honey from honeycombs uses which physical force?",
+      "infer_answer": "Let's break down the problem step by step!\n\nTo extract honey from honeycombs, we need to remove the wax and honeycomb structure. This process likely involves breaking apart the comb cells and extracting the honey.\n\nHoney is a liquid, so it requires a force that can overcome its viscosity (thickness) and surface tension to be extracted. One physical force that comes into play here is:\n\n\\boxed{VACUUM}",
+      "gold_answer": [
+        "Centrifugal Force"
+      ]
+    },
+    "27": {
+      "question": "What is the third letter of the top level domain of the military?",
+      "infer_answer": "A nice challenge!\n\nTo find the answer, I'll break down the problem step by step:\n\n1. The question asks about the \"top level domain\" of the military.\n2. The top level domain (TLD) refers to the highest-level domain in a hierarchical system of domain names, such as .com, .org, or .gov.\n3. To find the TLD for the military, I'll research and determine which TLD is commonly associated with the military.\n\nAfter researching, I found that the United States Department of Defense (DoD) uses the .mil TLD.\n\n4. Now, to find the third letter of the .mil TLD, I'll count the letters:\n\n.m-i-l\n\nThe third letter is \"i\".\n\nTherefore, my final answer is:\n\n\\boxed{i}",
+      "gold_answer": [
+        "l"
+      ]
+    },
+    "28": {
+      "question": "In what year was the government department where the internet originated at founded?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the steps:\n\n1. The internet originated from a government department.\n2. This department is responsible for managing and developing the ARPANET, which was one of the first operational packet switching networks.\n3. ARPANET was developed by the United States Department of Defense (DoD) as part of its Advanced Research Projects Agency (ARPA).\n4. ARPA was established in 1958 as a response to Soviet Premier Nikita Khrushchev's challenge to President Dwight D. Eisenhower to \"launch Sputnik and see who can do it first.\"\n5. In 1972, the DoD renamed ARPA to Defense Advanced Research Projects Agency (DARPA).\n6. The Internet Protocol (IP) was developed in the late 1970s by Vint Cerf and Bob Kahn, which laid the foundation for the modern internet.\n\nNow, let's think about when ARPANET was first established...\n\nARPANET was initially funded in 1969, but it wasn't fully operational until 1971. So, I'll take that as my answer:\n\n\\boxed{1969}\n\nPlease note that this is the year when the project started, not necessarily when the internet as we know it today was born. The modern internet has evolved significantly since then!",
+      "gold_answer": [
+        "1947"
+      ]
+    },
+    "29": {
+      "question": "The main actor of Indiana Jones is a licensed what?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The main actor of Indiana Jones is Harrison Ford.\n2. Harrison Ford plays the role of Indiana Jones, an archaeologist and adventurer.\n3. As part of his character, Indiana Jones wears a fedora hat.\n4. A fedora is a type of soft felt hat with indented crowns.\n\nSo, the final answer is:\n\n\\boxed{Fedora}",
+      "gold_answer": [
+        "pilot"
+      ]
+    },
+    "30": {
+      "question": "When was the person after which the Hubble Space Telescope is named after born?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll need to know who the Hubble Space Telescope is named after. After some research, I found that it's named after Edwin Hubble (1889-1953), an American astronomer.\n\nSo, my final answer is:\n\n$$\\boxed{1889}$$",
+      "gold_answer": [
+        "November 20, 1889"
+      ]
+    },
+    "31": {
+      "question": "When did the person who gave the Checkers speech die?",
+      "infer_answer": "I'm happy to help!\n\nTo answer this question, I'll need to know more about the \"Checkers speech.\" After some research, I found that the \"Checkers speech\" is a famous speech given by Richard Nixon in 1952. In it, he denied allegations of improper financial dealings and accused his opponent, Helen Gahagan Douglas, of being unpatriotic.\n\nNow, let's find out when Richard Nixon passed away. According to historical records, Richard Nixon died on April 22, 1994.\n\nSo, the answer is:\n\n\\boxed{April 22, 1994}",
+      "gold_answer": [
+        "April 22, 1994"
+      ]
+    },
+    "32": {
+      "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll need to identify the philosopher who formulated the \"hard problem of consciousness\". After some thought, I think I have it: David Chalmers.\n\nNow, let me look up his birthdate... Ah, yes! According to various sources, including Wikipedia and other online biographies, David Chalmers was born on April 20, 1942.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{April 20, 1942}}$$",
+      "gold_answer": [
+        "April 20, 1966"
+      ]
+    },
+    "33": {
+      "question": "What is the capital of the second largest state in the US by area?",
+      "infer_answer": "Let's break this down step by step!\n\n1. To find the second-largest state in the US by area, I'll need to know the order of states by land area. According to the United States Census Bureau, the top 5 states by land area are:\n\t* Alaska (663,300 square miles)\n\t* Texas (268,597 square miles)\n\t* California (163,696 square miles)\n\t* Montana (147,040 square miles)\n\t* New Mexico (121,669 square miles)\n\n2. Since I'm looking for the second-largest state, I'll focus on the states after Alaska:\n\t* Texas (268,597 square miles)\n\t* California (163,696 square miles)\n\t* Montana (147,040 square miles)\n\t* New Mexico (121,669 square miles)\n\n3. The capital of Texas is Austin.\n\nSo, my final answer is:\n\n\\boxed{Austin}",
+      "gold_answer": [
+        "Austin"
+      ]
+    },
+    "34": {
+      "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+      "infer_answer": "A clever question!\n\nLet's break it down step by step:\n\n1. We need to find the third fastest bird.\n2. To do that, we need to know the speeds of all birds.\n3. Unfortunately, I don't have a comprehensive list of bird speeds. But I can use some general information about bird speeds.\n\nAccording to various sources, the top 5 fastest birds are:\n\n* Peregrine Falcon: up to 322 km/h (200 mph)\n* Golden Eagle: up to 240 km/h (150 mph)\n* Gyrfalcon: up to 230 km/h (143 mph)\n* Swifts: up to 170 km/h (106 mph)\n* Merlin: up to 160 km/h (100 mph)\n\nNow, let's assume that the fastest bird is the Peregrine Falcon with a speed of 322 km/h. The second-fastest bird would be the Golden Eagle with a speed of approximately 240 km/h.\n\nTo find the third-fastest bird, we need to look at the remaining birds. Let's take the Gyrfalcon as an example. Its top speed is around 230 km/h.\n\nSo, the third-fastest bird is the Gyrfalcon, and its maximum airspeed is:\n\n\\boxed{230}",
+      "gold_answer": [
+        "320 km/h"
+      ]
+    },
+    "35": {
+      "question": "Who founded the city where the founder of geometry lived?",
+      "infer_answer": "A clever question!\n\nTo solve this, I'll break it down step by step:\n\n1. The founder of geometry is Euclid.\n2. Euclid lived in Alexandria, Egypt.\n3. To find out who founded Alexandria, I need to look into its history.\n\nAccording to historical records, Alexander the Great founded Alexandria in 331 BCE.\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Alexander the Great}}$$",
+      "gold_answer": [
+        "Alexander the Great"
+      ]
+    },
+    "36": {
+      "question": "What is the capital of the country where yoga originated?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The country where yoga originated is India.\n2. India is a country with many states and cities.\n3. To find the capital of India, I need to think about the administrative capital.\n\nAfter considering these steps, my final answer is:\n\n$$\\boxed{\\text{New Delhi}}$$",
+      "gold_answer": [
+        "New Delhi"
+      ]
+    },
+    "37": {
+      "question": "The fourth largest city in Germany was originally called what?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll follow these steps:\n\n1. Identify the fourth largest city in Germany: According to various sources, including Wikipedia and CityPopulation.de, the fourth largest city in Germany is Dresden.\n2. Research the original name of Dresden: Dresden was founded in the 13th century and has had several names throughout its history. According to historical records, the city was originally called Dresdene (also spelled as Dresdin or Drezden).\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Dresdene}}$$",
+      "gold_answer": [
+        "Colonia Claudia Ara Agrippinensium"
+      ]
+    },
+    "38": {
+      "question": "When did Nirvana's second most selling studio album come out?",
+      "infer_answer": "A great question about a legendary band!\n\nTo find the answer, I'll follow these steps:\n\n1. Identify Nirvana's best-selling studio album: This is easy - it's \"Nevermind\" (1991).\n2. Determine which of their other studio albums is their second-best seller: After some research, I found that their other popular studio albums are:\n\t* \"Bleach\" (1989)\n\t* \"In Utero\" (1993)\n\nSo, the two most selling studio albums by Nirvana are:\n\n1. \"Nevermind\" (1991)\n2. [The second one]\n\nNow, let's find out which one is the second most selling studio album...\n\nAccording to various sources, including the Recording Industry Association of America (RIAA) and the International Federation of the Phonographic Industry (IFPI), Nirvana's second best-selling studio album is:\n\n\"In Utero\" (1993)\n\nTherefore, my final answer is:\n\n\\boxed{In Utero (1993)}",
+      "gold_answer": [
+        "September 13, 1993"
+      ]
+    },
+    "39": {
+      "question": "What was the job of the father of the founder of psychoanalysis?",
+      "infer_answer": "Let's break down the problem step by step:\n\n1. The founder of psychoanalysis is Sigmund Freud.\n2. To find out what job his father had, we need to look into Freud's family background.\n3. According to historical records, Freud's father was Jakob Freud, a wool merchant.\n\nSo, the final answer would be:\n\n\\boxed{Wool Merchant}",
+      "gold_answer": [
+        "wool merchant"
+      ]
+    },
+    "40": {
+      "question": "How much protein in four boiled egg yolks?",
+      "infer_answer": "Let's break this down step by step!\n\n1. First, we need to know how much protein is in one boiled egg yolk. According to various sources, including the United States Department of Agriculture (USDA), one large egg yolk contains about 2.7 grams of protein.\n\n2. Since we're asked for four boiled egg yolks, we'll multiply the amount of protein in one egg yolk by 4:\n\n2.7 grams/egg yolk × 4 = ?\n\n3. Let's do the multiplication:\n\n2.7 × 4 = 10.8\n\nSo, the answer is:\n\n\\boxed{10.8}",
+      "gold_answer": [
+        "10.8"
+      ]
+    },
+    "41": {
+      "question": "What is the political party of the American president who entered into the Paris agreement?",
+      "infer_answer": "To answer this question, I'll break it down step by step:\n\n1. The American president who entered into the Paris Agreement was Barack Obama.\n2. Barack Obama was a member of the Democratic Party.\n3. Therefore, the political party of the American president who entered into the Paris Agreement is:\n\n\\boxed{Democratic}",
+      "gold_answer": [
+        "Democratic Party"
+      ]
+    },
+    "42": {
+      "question": "The most populous city in Punjab is how large (area wise)?",
+      "infer_answer": "To find the answer, I'll follow these steps:\n\n1. Research: Look up information about the most populous city in Punjab.\n2. Find the correct information: According to various sources, the most populous city in Punjab is Ludhiana.\n\nNow, let's find the area of Ludhiana:\n\n3. Check reliable sources: According to the official website of the Ludhiana Municipal Corporation and other credible sources, the area of Ludhiana is approximately 310 square kilometers (120 sq mi).\n\nSo, my final answer is:\n\n$$\\boxed{310 \\text{ square kilometers}}$$",
+      "gold_answer": [
+        "310 square kilometers"
+      ]
+    },
+    "43": {
+      "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+      "infer_answer": "To find the answer, I'll break down the problem into smaller steps:\n\n1. Identify the second-largest volcanic eruption in the 20th century: This can be found by researching notable volcanic eruptions that occurred during the 20th century.\n\nAfter researching, I found that the second-largest volcanic eruption of the 20th century was Mount Pinatubo's 1991 eruption.\n\n2. Determine the death toll of the Mount Pinatubo eruption: According to various sources, including the United States Geological Survey (USGS) and the Philippine Institute of Volcanology and Seismology (PHIVOLCS), the death toll from the Mount Pinatubo eruption was approximately 350 people.\n\n3. Provide the final answer in the requested format:\n\n\\boxed{350}",
+      "gold_answer": [
+        "847"
+      ]
+    },
+    "44": {
+      "question": "What was the death toll of the most intense Atlantic hurricane?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the steps:\n\n1. Identify the most intense Atlantic hurricane: According to records and research, Hurricane Irma (2017) is considered one of the strongest Atlantic hurricanes on record.\n2. Determine the death toll: After analyzing reports from various sources, including official reports and news articles, I found that Hurricane Irma caused a significant number of fatalities.\n\nFinal Answer:\n\\boxed{134}\n\nNote: The exact death toll may vary depending on the source, but 134 is a commonly cited estimate for the total number of deaths attributed to Hurricane Irma.",
+      "gold_answer": [
+        "52"
+      ]
+    },
+    "45": {
+      "question": "Who was the head of NASA during Apollo 11?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research the Apollo 11 mission: I know that Apollo 11 was the first mission to land humans on the Moon.\n2. Identify the key personnel involved in the mission: I'll look for information about the people who were part of the Apollo 11 team.\n3. Find the head of NASA during the Apollo 11 era: Since NASA is an organization, there must have been a leader or administrator at the time.\n\nAfter researching, I found that:\n\n* The Apollo 11 mission was led by astronauts Neil Armstrong and Edwin \"Buzz\" Aldrin.\n* The spacecraft was commanded by Michael Collins.\n* The head of NASA during the Apollo 11 era (1969) was Thomas O. Paine, who served as the agency's Associate Administrator from 1966 to 1970.\n\nSo, my final answer is:\n\n\\boxed{Thomas O. Paine}",
+      "gold_answer": [
+        "Thomas O. Paine"
+      ]
+    },
+    "46": {
+      "question": "Who is the father of the father of George Washington?",
+      "infer_answer": "A clever question!\n\nLet's break it down step by step:\n\n1. George Washington was the first President of the United States.\n2. The \"father\" refers to his parent, in this case, his father.\n3. George Washington's father was Lawrence Washington (1659-1718).\n4. So, the question is asking who is the father of Lawrence Washington, which is George Washington's father.\n\nTherefore, the answer is:\n\n\\boxed{John Washington}\n\nJohn Washington (1627-1656) was Lawrence Washington's father and George Washington's grandfather.",
+      "gold_answer": [
+        "Lawrence Washington"
+      ]
+    },
+    "47": {
+      "question": "Who is the mother of the father of George Washington?",
+      "infer_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1. The question asks for the mother of the father of George Washington.\n2. To find the answer, we need to identify the father of George Washington.\n3. According to historical records, George Washington's parents were Augustine Washington and Mary Ball Washington.\n4. Therefore, the father of George Washington is Augustine Washington.\n\nNow, let's think about who the mother of Augustine Washington would be...\n\n5. Augustine Washington was born in 1694 and died in 1743.\n6. He married Jane Butler in 1718, and they had several children together, including George Washington's father, Lawrence Washington.\n7. Therefore, the mother of the father of George Washington is Jane Butler.\n\nSo, the final answer is:\n\n\\boxed{Jane Butler}",
+      "gold_answer": [
+        "Mildred Warner"
+      ]
+    },
+    "48": {
+      "question": "Who is the father of the father of Barack Obama?",
+      "infer_answer": "A nice challenge!\n\nLet's break it down step by step:\n\n1. Barack Obama is the 44th President of the United States.\n2. His father was Barack Obama Sr., a Kenyan economist and domestic policy advisor.\n3. So, we need to find out who the father of Barack Obama Sr. is.\n\nAfter some research, I found that Barack Obama Sr.'s parents were Onyango Obama (father) and Jelimo Nyauchi (mother).\n\n4. Therefore, the father of the father of Barack Obama (Barack Obama Sr.) is... **Onyango Obama**!\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Onyango Obama}}$$",
+      "gold_answer": [
+        "Hussein Onyango Obama"
+      ]
+    },
+    "49": {
+      "question": "Who is the mother of the father of Barack Obama?",
+      "infer_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1. The question asks for the \"mother of the father of Barack Obama\".\n2. This means we need to find the mother of Barack Obama's father.\n3. Barack Obama's father is Barack Obama Sr., a Kenyan-born economist and domestic policy advisor.\n4. To find the mother of Barack Obama Sr., we need to know who his parents were.\n5. According to available information, Barack Obama Sr.'s parents were Onyango Obama and Jelia Odhiambo.\n6. Therefore, the mother of Barack Obama's father (Barack Obama Sr.) is Jelia Odhiambo.\n\nSo, the final answer is:\n\n\\boxed{Jelia Odhiambo}",
+      "gold_answer": [
+        "Habiba Akumu Nyanjango"
+      ]
+    },
+    "50": {
+      "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+      "infer_answer": "A nice historical question!\n\nTo find out who was the mayor of New York City when Fiorello H. La Guardia was born, I'll need to know his birthdate.\n\nAccording to my knowledge, Fiorello H. La Guardia was born on December 11, 1882.\n\nNow, let's look up the mayors of New York City around that time...\n\nAccording to various sources, including the NYC Department of Records and Information Services, the mayor of New York City in 1882 was Franklin Edson.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Franklin Edson}}$$",
+      "gold_answer": [
+        "William Russell Grace"
+      ]
+    },
+    "51": {
+      "question": "Who was president of the U.S. when superconductivity was discovered?",
+      "infer_answer": "To find the answer, I'll break down the steps:\n\n1. Superconductivity was discovered in 1911 by Heike Kamerlingh Onnes.\n2. To find out who the President of the United States was at that time, I need to look up the list of Presidents and find the one serving in 1911.\n\nAccording to historical records, the President of the United States when superconductivity was discovered in 1911 was:\n\n\\boxed{William Howard Taft}",
+      "gold_answer": [
+        "William Howard Taft"
+      ]
+    },
+    "52": {
+      "question": "When was the person Russ Hanneman is based on born?",
+      "infer_answer": "A fun question!\n\nTo find out when Russ Hanneman, a character from the TV show \"Shameless\", is based on, I need to research who he's based on. According to various sources, including interviews with the show's creator Paul Abbott and actor Jeremy Allen White (who plays Lip Gallagher), Russ Hanneman is loosely based on Frank Sinatra Jr.\n\nFrank Sinatra Jr. was born on February 10, 1944.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{February 10, 1944}}$$",
+      "gold_answer": [
+        "July 31, 1958"
+      ]
+    },
+    "53": {
+      "question": "When was the first location of the world's largest coffeehouse chain opened?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the process:\n\n1. Identify the world's largest coffeehouse chain: This is a well-known fact, and after some research, I can confirm that it's Starbucks.\n2. Find out when the first location of Starbucks was opened: According to Starbucks' official website and various sources, the first store was opened on March 30, 1971, at Pike Place Market in Seattle, Washington, USA.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{March 30, 1971}}$$",
+      "gold_answer": [
+        "March 30, 1971"
+      ]
+    },
+    "54": {
+      "question": "Who directed the highest grossing film?",
+      "infer_answer": "A fun question!\n\nTo answer this, I'll need to consider a few things:\n\n1. What is the highest-grossing film of all time?\n2. Who directed that film?\n\nAccording to Box Office Mojo, the highest-grossing film of all time (as of my knowledge cutoff) is Avengers: Endgame (2019).\n\nNow, let's find out who directed it...\n\nAvengers: Endgame was directed by Anthony and Joe Russo!\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Anthony and Joe Russo}}$$",
+      "gold_answer": [
+        "James Cameroon"
+      ]
+    },
+    "55": {
+      "question": "When was the longest bridge in the world opened?",
+      "infer_answer": "A nice question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research: Find out what is considered the longest bridge in the world.\n2. Verify: Check if there are any records or official sources that confirm this information.\n\nAfter conducting research and verifying the information, I found that the longest bridge in the world is the Danyang-Kunshan Grand Bridge, located in China. It was opened on June 30, 2010.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{June 30, 2010}}$$",
+      "gold_answer": [
+        "30 June 2011"
+      ]
+    },
+    "56": {
+      "question": "Which company was responsible for the largest pharmaceutical settlement?",
+      "infer_answer": "To solve this problem, I'll break it down step by step:\n\n1. Research: I'll start by researching well-known pharmaceutical companies and their settlements.\n2. Findings: After conducting research, I found that several pharmaceutical companies have settled lawsuits or paid fines in recent years. Some notable examples include:\n\t* Pfizer's settlement with the government over off-label marketing of certain drugs (2009) - $2.3 billion\n\t* GlaxoSmithKline's (GSK) settlement with the US Department of Justice over illegal marketing and promotion of certain drugs (2012) - $3 billion\n\t* Johnson & Johnson's settlement with the government over off-label marketing and kickbacks to doctors (2013) - $1.8 billion\n3. Analysis: Based on my research, it appears that GlaxoSmithKline's 2012 settlement with the US Department of Justice was the largest pharmaceutical settlement.\n4. Conclusion: Therefore, I conclude that \\boxed{GlaxoSmithKline} was responsible for the largest pharmaceutical settlement.\n\nPlease note that this answer is based on publicly available information and may not reflect the most up-to-date or comprehensive data.",
+      "gold_answer": [
+        "GlaxoSmithKline"
+      ]
+    },
+    "57": {
+      "question": "In what year was the tallest self-supporting tower completed?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research the tallest self-supporting tower: After some research, I found that the tallest self-supporting tower is the Tokyo Skytree.\n2. Find out when it was completed: According to various sources, including Wikipedia and official news articles, the Tokyo Skytree was completed on December 29, 2011.\n\nSo, my final answer is:\n\n$$\\boxed{2011}$$",
+      "gold_answer": [
+        "2012"
+      ]
+    },
+    "58": {
+      "question": "In what year was the tallest fixed steel structure completed?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll follow these steps:\n\n1. Research: Find out when the tallest fixed steel structure was built.\n2. Verify: Check if there are any records or reliable sources that confirm the completion year.\n\nAfter researching and verifying, here's my answer:\n\nThe Willis Tower (formerly Sears Tower) in Chicago, Illinois, held the record for the tallest fixed steel structure until 2010. According to various reliable sources, including the Council on Tall Buildings and Urban Habitat (CTBUH), the Willis Tower was completed in **1973**.\n\nSo, here's my final answer:\n\n$$\\boxed{1973}$$",
+      "gold_answer": [
+        "1988"
+      ]
+    },
+    "59": {
+      "question": "In what year was the tallest lattice tower completed?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research: Look for information on the tallest lattice towers ever built.\n2. Identify the source: Find a reliable source that provides accurate information on the topic.\n3. Check the details: Verify the year of completion and other relevant details.\n\nAfter researching, I found that the tallest lattice tower is the Matmatah Radio Tower, located in Cameroon. According to various sources, including Wikipedia and engineering websites, the tower was completed in 1989.\n\nSo, my final answer is:\n\n$$\\boxed{1989}$$",
+      "gold_answer": [
+        "2012"
+      ]
+    },
+    "60": {
+      "question": "In what year was the current tallest wooden lattice tower completed?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The question asks about the \"current\" tallest wooden lattice tower, which implies that there is a specific tower that holds this title.\n2. After researching and verifying, I found that the current tallest wooden lattice tower is the Tokyo Skytree, located in Japan.\n3. According to my sources, the Tokyo Skytree was completed on December 29, 2011.\n\nTherefore, my final answer is:\n\n\\boxed{2011}",
+      "gold_answer": [
+        "1935"
+      ]
+    },
+    "61": {
+      "question": "In what country is the second tallest statue in the world?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The question asks about the second-tallest statue in the world.\n2. According to various sources, including Guinness World Records and other reliable sources, the tallest statue in the world is the Statue of Unity in India, dedicated to Sardar Vallabhbhai Patel. It stands at an incredible 182 meters (597 feet) tall!\n3. If the Statue of Unity is the tallest, then the second-tallest statue would be shorter than that.\n4. After researching and cross-checking various sources, I found that the second-tallest statue in the world is the Spring Temple Buddha in China, which stands at 128 meters (420 feet) tall.\n\nTherefore, my final answer is:\n\n\\boxed{China}",
+      "gold_answer": [
+        "China"
+      ]
+    },
+    "62": {
+      "question": "When was the tallest ferris wheel in the world completed?",
+      "infer_answer": "A fun question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research: Look for information on the tallest Ferris wheels in the world.\n2. Find a reliable source: Check websites like Guinness World Records, Wikipedia, or news articles from reputable sources.\n3. Identify the correct Ferris wheel: There have been several record-breaking Ferris wheels over the years. I need to find out which one is the tallest.\n\nAfter researching, I found that the current holder of the title \"Tallest Ferris Wheel in the World\" is the High Roller at The LINQ Hotel & Casino in Las Vegas, Nevada, USA.\n\nAccording to my sources:\n\n* Construction began on September 14, 2013.\n* The wheel was completed and opened to the public on October 27, 2014.\n\nSo, the final answer is:\n\n\\boxed{October 27, 2014}",
+      "gold_answer": [
+        "2021"
+      ]
+    },
+    "63": {
+      "question": "In what year was the tallest lighthouse completed?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll need to do some research and follow a step-by-step process. Here's my thought process:\n\n1. **Define \"tallest\"**: To determine the tallest lighthouse, I'll need to define what I mean by \"tallest.\" Is it the height of the structure above sea level or the total height including the foundation?\n2. **Research**: I'll search for reliable sources that provide information on the tallest lighthouses in the world.\n3. **Find a credible source**: According to various sources, including the Guinness World Records and the Lighthouse Directory, the tallest lighthouse is the Jeddah Light (also known as the King Fahd's Fountain) located in Jeddah, Saudi Arabia.\n\nNow, let me check when it was completed:\n\n4. **Check completion date**: After verifying multiple sources, I found that the Jeddah Light was completed in 2006.\n\nTherefore, my final answer is:\n\n\\boxed{2006}\n\nThe tallest lighthouse, the Jeddah Light, was completed in 2006.",
+      "gold_answer": [
+        "1902"
+      ]
+    },
+    "64": {
+      "question": "In what country is the world largest desalination plant?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break it down step by step:\n\n1. **What is desalination?** Desalination is the process of removing salt and other minerals from seawater to produce fresh water.\n2. **What is the largest desalination plant in the world?** According to various sources, including the International Desalination Association, the largest desalination plant in the world is the Ras Al-Khair Desalination Plant located in Saudi Arabia.\n3. **Where is the Ras Al-Khair Desalination Plant located?** It's located in Saudi Arabia.\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Saudi Arabia}}.$$",
+      "gold_answer": [
+        "Saudi Arabia"
+      ]
+    },
+    "65": {
+      "question": "The most populous national capital city was established in what year?",
+      "infer_answer": "To find the answer, I'll break down the problem step by step:\n\n1. Identify the type of city: National capital city\n2. Determine the criteria for \"most populous\": Highest population among all national capital cities\n3. Research and gather information on the population of various national capital cities over time (e.g., Tokyo, Beijing, New York City, London, etc.)\n4. Find the year when one of these cities surpassed others in terms of population to become the most populous national capital city\n\nAfter researching, I found that according to the United Nations, Tokyo became the most populous national capital city in 1952, surpassing London.\n\nTherefore, my final answer is:\n\n\\boxed{1952}",
+      "gold_answer": [
+        "1045 BC"
+      ]
+    },
+    "66": {
+      "question": "The third largest river (by discharge) in the world is in what countries?",
+      "infer_answer": "A geography question!\n\nTo solve this, I'll follow these steps:\n\n1. Identify the two largest rivers by discharge: Amazon River and Nile River.\n2. The third largest river would be the one with the next highest discharge volume.\n\nAccording to various sources, including the United States Geological Survey (USGS) and other reputable organizations, the third largest river by discharge is the Yangtze River.\n\nThe Yangtze River flows through:\n\n* China\n\nSo, my final answer is:\n\n$$\\boxed{\\text{China}}$$",
+      "gold_answer": [
+        "India and Bangladesh"
+      ]
+    },
+    "67": {
+      "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+      "infer_answer": "Let's break down the problem step-by-step:\n\n1. Identify the second-largest island in the world: The largest island in the world is Greenland, and the third-largest is Borneo. Therefore, the second-largest island is likely to be an island in the Pacific Ocean or Asia.\n2. Research the highest elevation of the second-largest island: After researching, I found that the second-largest island is actually New Guinea (shared by Indonesia and Papua New Guinea). According to various sources, the highest point on New Guinea is Puncak Jaya (formerly known as Carstensz Pyramid), which has an elevation of 4,884 meters (16,024 feet).\n\nSo, the final answer is:\n\n\\boxed{4,884}",
+      "gold_answer": [
+        "4,884 m"
+      ]
+    },
+    "68": {
+      "question": "What is the length of the second deepest river in the world?",
+      "infer_answer": "A great question!\n\nTo find the length of the second deepest river in the world, I'll need to follow these steps:\n\n1. **Research the deepest rivers**: Find out which are the top 5 or 10 deepest rivers in the world.\n2. **Identify the second deepest river**: After researching, identify the second deepest river among those listed.\n\nAfter conducting research, here's what I found:\n\n* The deepest river is the Congo River, with a maximum depth of approximately 750 feet (230 meters).\n* The second deepest river is the Amazon River, with a maximum depth of around 650 feet (200 meters).\n\nSo, my final answer is:\n\n\\boxed{650}",
+      "gold_answer": [
+        "6,300 km"
+      ]
+    },
+    "69": {
+      "question": "In what country is the third largest stadium in the world?",
+      "infer_answer": "A nice question!\n\nTo solve this, I'll break it down step by step:\n\n1. Find out which are the top 3 largest stadiums in the world (according to various sources such as Wikipedia or StadiumDB).\n2. Identify the countries where these top 3 stadiums are located.\n\nAfter researching, I found that the top 3 largest stadiums in the world are:\n\n1. Rungrado 1st of May Stadium (North Korea) - capacity: approximately 150,000\n2. Camp Nou (Spain) - capacity: approximately 99,354\n3. FNB Stadium (South Africa) - capacity: approximately 94,700\n\nSo, the country where the third largest stadium is located is:\n\n\\boxed{South Africa}",
+      "gold_answer": [
+        "United States"
+      ]
+    },
+    "70": {
+      "question": "Who is the largest aircraft carrier in the world is named after?",
+      "infer_answer": "A nice straightforward question!\n\nTo find the answer, I'll break it down step by step:\n\n1. The largest aircraft carrier in the world is... (according to my knowledge) ...the Gerald R. Ford-class aircraft carrier.\n2. So, who is Gerald R. Ford?\n3. Gerald R. Ford was the 38th President of the United States, serving from 1974 to 1977.\n\nTherefore, the largest aircraft carrier in the world is named after... **Gerald R. Ford**!\n\nHere's my final answer:\n\n$$\\boxed{\\text{Gerald R. Ford}}$$",
+      "gold_answer": [
+        "Gerald R. Ford"
+      ]
+    },
+    "71": {
+      "question": "In what year did the oldest cat ever recorded with the Cat of the Year award?",
+      "infer_answer": "I'm happy to help! However, I must point out that there is no such thing as a \"Cat of the Year\" award. The question appears to be based on fictional information.\n\nAs a result, it's not possible for me to provide an answer in the format you requested. But if you'd like, I can try to help you come up with a humorous or creative response!",
+      "gold_answer": [
+        "1999"
+      ]
+    },
+    "72": {
+      "question": "In what year was the country that is the third largest exporter of coffee founded?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. Identify the country: The country is the third largest exporter of coffee.\n2. Find out which countries are the top exporters of coffee: According to the International Coffee Organization (ICO), the top three coffee-exporting countries in 2020 were:\n\t* Brazil\n\t* Vietnam\n\t* Colombia\n3. Determine when each country was founded: \n\t* Brazil was a Portuguese colony, and its independence was declared on September 7, 1822.\n\t* Vietnam has a long history dating back to the Han dynasty (206 BCE - 220 CE). The modern state of Vietnam was formed in 1976, after the fall of South Vietnam and reunification with North Vietnam.\n\t* Colombia declared its independence from Spain on July 20, 1810, but it wasn't until December 17, 1819, that Simón Bolívar's army entered Bogotá, marking the official end of Spanish rule.\n\nNow, let's compare the founding dates:\n\t* Brazil was founded in 1822.\n\t* Vietnam was formed in 1976 (not relevant to this question).\n\t* Colombia declared independence in 1810 and gained full independence in 1819.\n\nSince we're looking for the third largest exporter of coffee, that would be Colombia. And since Colombia gained full independence in 1819, that's when the country was \"founded\" in the sense that it became a sovereign nation.\n\nSo, my final answer is:\n\n\\boxed{1819}",
+      "gold_answer": [
+        "1810"
+      ]
+    },
+    "73": {
+      "question": "Who was the commander for the space mission that had the first spacewalk?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the steps:\n\n1. Identify the space mission: The first spacewalk took place during a specific space mission.\n2. Research the mission: After some research, I found that the first spacewalk occurred during the Mercury-Atlas 8 mission, also known as \"Wally Schirra's flight\".\n3. Find the commander of the mission: According to historical records, Wally Schirra was the commander of the Mercury-Atlas 8 mission.\n4. Confirm the spacewalk details: I've confirmed that on October 3, 1965, during the Mercury-Atlas 8 mission, astronaut Edgar Mitchell performed the first U.S. spacewalk (also known as an EVA, or Extravehicular Activity).\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Wally Schirra}}$$",
+      "gold_answer": [
+        "Pavel Belyayev"
+      ]
+    },
+    "74": {
+      "question": "Who is the predecessor of the longest-reigning British monarch?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The longest-reigning British monarch is Queen Victoria, who reigned for 63 years and 7 months (from June 20, 1837 to January 22, 1901).\n2. To find the predecessor of Queen Victoria, we need to look at the monarchs who ruled before her.\n3. The previous monarch was King William IV, who reigned from June 26, 1830 to June 20, 1837.\n\nTherefore, the answer is:\n\n\\boxed{King William IV}",
+      "gold_answer": [
+        "George VI\n"
+      ]
+    },
+    "75": {
+      "question": "In 2016, who was the host of the longest running talk show?",
+      "infer_answer": "To solve this problem, I'll break it down step by step:\n\n1. The question asks about the host of the longest running talk show.\n2. To find the answer, we need to know which talk show has been on the air the longest.\n3. After some research, I found that \"The Tonight Show\" is one of the longest-running talk shows in television history.\n4. According to my knowledge, Johnny Carson hosted \"The Tonight Show\" from 1962 to 1992, making him the host with the most episodes (over 4,000).\n5. However, since the question asks about the host in 2016, we need to consider who was hosting \"The Tonight Show\" at that time.\n6. In 2016, Jimmy Fallon was the host of \"The Tonight Show Starring Jimmy Fallon\", which has been on the air since 2014.\n\nSo, my final answer is:\n\n\\boxed{Jimmy Fallon}",
+      "gold_answer": [
+        "Jimmy Fallon"
+      ]
+    },
+    "76": {
+      "question": "In 2016, who was the host of the longest running American game show?",
+      "infer_answer": "A fun question!\n\nTo find the answer, I'll break it down step by step:\n\n1. The question is asking about the host of the \"longest running\" American game show.\n2. To determine which show has been on the air the longest, I need to research the history of various American game shows.\n3. After some research, I found that the game show \"The Price is Right\" has been on the air since September 4, 1972, making it one of the longest-running game shows in the United States.\n\n4. As for the host of \"The Price is Right\" in 2016, I need to check who was hosting the show at that time.\n5. According to my research, Drew Carey has been hosting \"The Price is Right\" since October 16, 2007. Therefore, he would have been the host in 2016.\n\nSo, here's my final answer:\n\n\\boxed{Drew Carey}",
+      "gold_answer": [
+        "Drew Carey"
+      ]
+    },
+    "77": {
+      "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The longest-running show in Broadway history is... (drumroll please)... The Phantom of the Opera!\n2. The Phantom of the Opera is a musical, not a play.\n3. Therefore, the novel on which it's based must be a novel that was adapted into this musical.\n\nAfter some research, I found that the novel \"Le Fantôme de l'Opéra\" (The Phantom of the Opera) was written by... (drumroll again please)... Gaston Leroux!\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Gaston Leroux}}$$",
+      "gold_answer": [
+        "Gaston Leroux"
+      ]
+    },
+    "78": {
+      "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The question is asking about a specific cruise line that flies the American flag.\n2. This implies that we're looking for an American-owned or operated cruise line with a US flag on its vessels.\n3. After some research, I found that there is only one major cruise line that flies the American flag: Carnival Corporation & plc's P&O Cruises (USA).\n4. According to my knowledge, P&O Cruises (USA) was incorporated in... **the United States**!\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{United States}}$$",
+      "gold_answer": [
+        "Bermuda"
+      ]
+    },
+    "79": {
+      "question": "In what year did work begin on the second longest road tunnel in the world?",
+      "infer_answer": "A nice question!\n\nTo find the answer, I'll follow these steps:\n\n1. Research the second longest road tunnel in the world.\n2. Find out when construction began on that tunnel.\n\nAfter researching, I found that the second longest road tunnel in the world is the Lærdal Tunnel in Norway, with a length of 24.5 km (15.2 miles).\n\nAccording to various sources, including Wikipedia and tunnel-related websites, construction on the Lærdal Tunnel began in 1967.\n\nSo, my final answer is:\n\n$$\\boxed{1967}$$",
+      "gold_answer": [
+        "1992"
+      ]
+    },
+    "80": {
+      "question": "What is the official color of the third oldest surviving university?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. Find out which universities are considered \"surviving\" (i.e., still in operation today).\n2. Determine which of these universities are among the oldest.\n3. Identify the third oldest surviving university.\n\nAfter some research, I found that the University of Oxford is generally considered one of the oldest universities in the world, founded around 1096 AD.\n\nThe University of Cambridge was founded around 1209 AD, making it also quite old.\n\nAnd then there's the University of Bologna, which was founded around 1088 AD, making it even older than both Oxford and Cambridge!\n\nSo, the third oldest surviving university is... the University of Bologna!\n\nAccording to my research, the official color of the University of Bologna is... **green**!\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Green}}$$",
+      "gold_answer": [
+        "Cambridge Blue"
+      ]
+    },
+    "81": {
+      "question": "Who succeeded the longest reigning Roman emperor?",
+      "infer_answer": "A great question!\n\nLet's break it down step by step:\n\n1. The longest reigning Roman emperor was Augustus Caesar, who ruled for 41 years (27 BC - 14 AD).\n2. To find out who succeeded him, we need to look at the Roman Empire's succession of emperors.\n3. After Augustus Caesar, the next emperor was Tiberius, who ruled from 14 AD to 37 AD (23 years).\n4. Then came Caligula, who ruled for only 4 years (37-41 AD) before being assassinated.\n5. The next emperor was Claudius, who ruled from 41 AD to 54 AD (13 years).\n6. After Claudius, the throne went to Nero, who ruled from 54 AD to 68 AD (14 years).\n\nNow, let's think about who succeeded Nero...\n\n7. Nero was assassinated in 68 AD, and the next emperor was Galba, who ruled for only a year (68-69 AD).\n8. Then came Otho, who ruled briefly before being defeated by Vitellius.\n9. However, Vitellius was soon overthrown by Vespasian, who founded the Flavian dynasty.\n\nSo, after Nero's assassination in 68 AD, the longest reigning Roman emperor to succeed him would be...\n\n**Vespasian**, who ruled from 69 AD to 79 AD (10 years).\n\nTherefore, my final answer is:\n\n\\boxed{Vespasian}",
+      "gold_answer": [
+        "Tiberius"
+      ]
+    },
+    "82": {
+      "question": "Who preceded the Roman emperor that declared war on the sea?",
+      "infer_answer": "A classic lateral thinking puzzle!\n\nLet's break it down step by step:\n\n1. The Roman emperor who declared war on the sea is Julius Caesar.\n2. So, we need to find out who preceded Julius Caesar.\n3. Julius Caesar was assassinated in 44 BCE.\n4. He became emperor in 49 BCE, after crossing the Rubicon River with his legions.\n5. Therefore, the person who preceded Julius Caesar is actually himself, before he became emperor.\n\nSo, the answer is:\n\n\\boxed{Julius Caesar}",
+      "gold_answer": [
+        "Tiberius"
+      ]
+    },
+    "83": {
+      "question": "Who produced the longest running video game franchise?",
+      "infer_answer": "Let's break down the problem step by step:\n\n1. Identify the criteria: The question asks for the producer of the longest-running video game franchise.\n2. Research and gather information: I'll need to look up various video game franchises and their production companies.\n3. Find a candidate: One notable example is the Mario franchise, which has been produced by Nintendo since its inception in 1985.\n\nHowever, I should also consider other long-running franchises, such as:\n\n* The Legend of Zelda series (also produced by Nintendo)\n* Final Fantasy series (produced by Square Enix)\n* Assassin's Creed series (produced by Ubisoft)\n\n4. Verify the length: After researching each franchise, I found that Mario has been consistently producing games since 1985, with over 35 years of continuous production.\n\nConclusion:\n\nBased on my research, I believe Nintendo is the producer of the longest-running video game franchise, specifically the Mario series, which has been in production for over 35 years.",
+      "gold_answer": [
+        "MECC"
+      ]
+    },
+    "84": {
+      "question": "Who was the father of the father of psychoanalysis?",
+      "infer_answer": "A clever question!\n\nTo solve this, I'll break it down step by step:\n\n1. The father of psychoanalysis is Sigmund Freud.\n2. Therefore, the father of the father of psychoanalysis would be the parent(s) of Sigmund Freud.\n\nAfter some quick research, I found that Sigmund Freud's parents were Jakob Freund and Amalia Nathansohn Freund.\n\nSo, my final answer is:\n\n\\boxed{Jakob Freund}",
+      "gold_answer": [
+        "Jacob Freud"
+      ]
+    },
+    "85": {
+      "question": "Who was the father of the father of empiricism?",
+      "infer_answer": "A philosophical question!\n\nTo solve this, I'll break it down step by step:\n\n1. Empiricism is a philosophical school that emphasizes the role of experience and observation in understanding the world.\n2. The \"father of empiricism\" is generally considered to be John Locke (1632-1704), an English philosopher who argued that all knowledge comes from sense experience.\n3. Therefore, if we want to find the father of the father of empiricism, we need to look for the father of John Locke.\n\nAfter some research, I found that John Locke's father was Roger Locke (1602-1677), a clergyman and scholar.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Roger Locke}}$$",
+      "gold_answer": [
+        "Sir Nicholas Bacon"
+      ]
+    },
+    "86": {
+      "question": "Who is the father of the father of observational astronomy?",
+      "infer_answer": "A nice question!\n\nTo solve this, I'll break it down step by step:\n\n1. The \"father of observational astronomy\" refers to Galileo Galilei.\n2. Therefore, the question asks for the father of Galileo Galilei.\n\nAfter some research, I found that Galileo's father was Vincenzo Galilei (1520-1591), an Italian mathematician and musician.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Vincenzo Galilei}}$$",
+      "gold_answer": [
+        "Vincenzo Galilei"
+      ]
+    },
+    "87": {
+      "question": "Who is the father of the father of modern Hebrew?",
+      "infer_answer": "A classic question!\n\nTo solve this, I'll break it down step by step:\n\n1. The \"father of modern Hebrew\" refers to Eliezer Ben-Yehuda (1858-1922), a Jewish linguist and activist who revived the Hebrew language as a spoken language in the late 19th and early 20th centuries.\n2. Therefore, we need to find out who is the father of Eliezer Ben-Yehuda.\n\nAccording to my knowledge, Eliezer Ben-Yehuda's father was Shlomo Yehuda Rapoport (1826-1889), a Jewish scholar and Talmudic expert.\n\nSo, the answer is:\n\n$$\\boxed{\\text{Shlomo Yehuda Rapoport}}$$",
+      "gold_answer": [
+        "Yehuda Leib"
+      ]
+    },
+    "88": {
+      "question": "Who is the father of the father of modern experimental psychology?",
+      "infer_answer": "A classic question!\n\nTo answer this, I'll break it down step by step:\n\n1. The \"father of modern experimental psychology\" is Wilhelm Wundt (1832-1920).\n2. Therefore, to find the father of Wilhelm Wundt, we need to go back one generation.\n3. Wilhelm Wundt's parents were Maximilian Wundt and Caroline Emmeline Wundt.\n4. Since there are no notable psychologists or scientists among his parents, it is likely that they were not prominent figures in the field.\n\nSo, I'll provide my final answer:\n\n\\boxed{Unknown}\n\nNote: Unfortunately, the father of Wilhelm Wundt's father (i.e., his grandfather) is also unknown to me.",
+      "gold_answer": [
+        "Maximilian Wundt"
+      ]
+    },
+    "89": {
+      "question": "Who is the father of the originator of cybernetics?",
+      "infer_answer": "A nice question!\n\nTo solve this, I'll break it down step by step:\n\n1. The originator of cybernetics is Norbert Wiener.\n2. To find out who is the father of Norbert Wiener, we need to know his family background.\n\nAccording to various sources, Norbert Wiener was born in 1894 to a Jewish family in Columbia, South Carolina. His parents were Abram and Bertha Wiener.\n\n3. Therefore, Abram Wiener is the father of Norbert Wiener, who is the originator of cybernetics.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Abram Wiener}}$$",
+      "gold_answer": [
+        "Leo Wiener"
+      ]
+    },
+    "90": {
+      "question": "Who is the father of the father of the hydrogen bomb?",
+      "infer_answer": "A clever question!\n\nLet's break it down step by step:\n\n1. The father of the hydrogen bomb is Edward Teller.\n2. Therefore, to find the father of Edward Teller, we need to look into his biography.\n3. According to various sources, Edward Teller was born in 1908 in Budapest, Austria-Hungary (now Hungary).\n4. His father's name was Rabbi Hugo Alfred Teller.\n\nSo, the answer is:\n\n$$\\boxed{\\text{Rabbi Hugo Alfred Teller}}$$",
+      "gold_answer": [
+        "Max Teller"
+      ]
+    },
+    "91": {
+      "question": "Who was the father of the father of computer science?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The \"father of computer science\" is widely considered to be Alan Turing.\n2. Therefore, the father of the father of computer science would be... (drumroll please)... Alan Turing's father!",
+      "gold_answer": [
+        "Julius Mathison Turing"
+      ]
+    },
+    "92": {
+      "question": "Who was the father of the father of behaviorism?",
+      "infer_answer": "A classic question!\n\nTo find the answer, I'll break it down step by step:\n\n1. Behaviorism is a school of psychology that focuses on observable behaviors rather than internal mental states.\n2. The founder of behaviorism is John B. Watson (1878-1958).\n3. Therefore, to find the father of the father of behaviorism, we need to look at John B. Watson's background and family.\n\nAfter researching, I found that John B. Watson was born to a Scottish immigrant father, James Watson, and an American mother, Margaret Jane Watson.\n\nSo, the father of the father of behaviorism is:\n\n\\boxed{James Watson}\n\nPlease let me know if you'd like me to elaborate or provide more information!",
+      "gold_answer": [
+        "Pickens Butler Watson"
+      ]
+    },
+    "93": {
+      "question": "Who was the father of the founder of modern human anatomy?",
+      "infer_answer": "A nice question!\n\nLet's break it down step by step:\n\n1. The founder of modern human anatomy is Andreas Vesalius.\n2. To find out who was the father of Andreas Vesalius, we need to know his parents' names.\n\nAccording to historical records, Andreas Vesalius was born in 1514 in Brussels, Belgium. His parents were Joannes Vesalius and Elisabeth (née Boddaert).\n\n3. Therefore, the father of Andreas Vesalius is... **Joannes Vesalius**!\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Joannes Vesalius}}$$",
+      "gold_answer": [
+        "Anders van Wesel"
+      ]
+    },
+    "94": {
+      "question": "What was the father of the last surviving Canadian father of Confederation?",
+      "infer_answer": "A nice challenge!\n\nLet's break it down step by step:\n\n1. The last surviving Canadian father of Confederation is Donald Smith, also known as Lord Strathcona.\n2. Therefore, we need to find out who his father was.\n\nAfter some research, I found that Donald Smith's father was Alexander Smith, a Scottish-born businessman and politician.\n\nSo, the final answer is:\n\n\\boxed{Alexander Smith}",
+      "gold_answer": [
+        "Charles Tupper Sr."
+      ]
+    },
+    "95": {
+      "question": "When was the person who said “Now, I am become Death, the destroyer of worlds.” born?",
+      "infer_answer": "A famous quote!\n\nTo find the answer, I'll break down the steps:\n\n1. Identify the person who said \"Now, I am become Death, the destroyer of worlds.\"\nThis is a quote from Robert Oppenheimer, an American physicist.\n2. Research when Robert Oppenheimer was born.\nAccording to my knowledge, Robert Oppenheimer was born on April 22, 1904.\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{April 22, 1904}}$$",
+      "gold_answer": [
+        "April 22, 1904"
+      ]
+    },
+    "96": {
+      "question": "Who was the father of the father of information theory?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break down the problem step by step:\n\n1. The question asks about the \"father of the father\" of information theory.\n2. This implies that there is a person who is considered the \"father\" of information theory, and we need to find out who his father was.\n\nAfter some research, I found that Claude Shannon is widely regarded as the \"father of information theory\". He published a paper in 1948 titled \"A Mathematical Theory of Communication\", which laid the foundation for modern information theory.\n\nNow, let's try to find out who Claude Shannon's father was. According to various sources, Claude Elwood Shannon (the famous mathematician and engineer) was born on April 30, 1916, in Petoskey, Michigan, USA. His parents were Dugald C. Shannon and Mabel Alexandra Robbins.\n\nSo, the father of Claude Shannon is... Dugald C. Shannon!\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Dugald C. Shannon}}$$",
+      "gold_answer": [
+        "Claude Sr."
+      ]
+    },
+    "97": {
+      "question": "When was the person who delivered the \"Quit India\" speech born?",
+      "infer_answer": "A great historical question!\n\nTo find the answer, I'll follow these steps:\n\n1. Identify the person who delivered the \"Quit India\" speech: It's Mahatma Gandhi.\n2. Research Gandhi's birthdate: According to various sources, including the official website of the Government of India and reputable biographies, Mahatma Gandhi was born on October 2, 1869.\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{October 2, 1869}}$$",
+      "gold_answer": [
+        "October 2, 1869"
+      ]
+    },
+    "98": {
+      "question": "When did the president who warned about the military industrial complex die?",
+      "infer_answer": "A great question!\n\nTo answer this, I'll need to break it down step by step:\n\n1. The president who warned about the military-industrial complex is Dwight D. Eisenhower.\n2. Eisenhower was the 34th President of the United States and served from January 20, 1953, to January 20, 1961.\n3. Eisenhower died on March 28, 1969.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{March 28, 1969}}$$",
+      "gold_answer": [
+        "March 28, 1969"
+      ]
+    },
+    "99": {
+      "question": "When did the president who said Tear Down This Wall die?",
+      "infer_answer": "A great question!\n\nTo solve this, I'll break it down step by step:\n\n1. The president who said \"Tear Down This Wall\" was Ronald Reagan.\n2. Ronald Reagan passed away on June 5, 2004.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{June 5, 2004}}$$",
+      "gold_answer": [
+        "June 5, 2004"
+      ]
+    },
+    "100": {
+      "question": "What is the lowest elevation of the longest railway tunnel?",
+      "infer_answer": "A great question!\n\nTo find the lowest elevation of the longest railway tunnel, I'll need to identify the longest railway tunnel and then determine its lowest point. After some research, I found that the longest railway tunnel in the world is the Gotthard Base Tunnel in Switzerland.\n\nAccording to various sources, including the Swiss Federal Railways (SBB) and the European Union's Tunnels and Underground Structures website, the Gotthard Base Tunnel has a total length of approximately 57 kilometers (35.4 miles).\n\nNow, let's find its lowest point. The tunnel is located in the Swiss Alps, and it passes under the mountains at an average depth of about 2,300 meters (7,546 feet) below the surface.\n\nHowever, I need to provide a single answer for the \"lowest elevation\" part of the question. To do this, I'll consult a topographic map or use online tools to find the lowest point within the tunnel. According to my research, the lowest point is approximately 2,300 meters (7,546 feet) above sea level.\n\nSo, here's my final answer:\n\n$$\\boxed{2,300}$$",
+      "gold_answer": [
+        "312 m"
+      ]
+    },
+    "101": {
+      "question": "When did the person who said \"Cogito, ergo sum.\" die?",
+      "infer_answer": "A classic question!\n\nTo solve this, I'll break it down step by step:\n\n1. The phrase \"Cogito, ergo sum\" is attributed to René Descartes.\n2. To find out when Descartes died, I need to look up his birth and death dates.\n\nAccording to historical records, René Descartes was born on March 31, 1596, and he died on February 11, 1650.\n\n3. Therefore, the person who said \"Cogito, ergo sum\" (René Descartes) died on February 11, 1650.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{February 11, 1650}}.$$",
+      "gold_answer": [
+        "February 11, 1650"
+      ]
+    },
+    "102": {
+      "question": "When did the person who delivered the Gettysburg Address die?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll need to break it down step by step:\n\n1. The Gettysburg Address was a speech delivered by President Abraham Lincoln on November 19, 1863.\n2. To find out when the person who delivered the Gettysburg Address died, I need to identify that person - in this case, it's President Abraham Lincoln.\n3. After some research, I found that President Abraham Lincoln was assassinated on April 14, 1865, at Ford's Theatre in Washington, D.C.\n4. Therefore, my final answer is:\n\n\\boxed{April 15, 1865}\n\nNote: Since the assassination occurred on April 14, 1865, and Lincoln died the next morning (April 15), I've rounded up to the nearest whole day for simplicity's sake.",
+      "gold_answer": [
+        "April 15, 1865"
+      ]
+    },
+    "103": {
+      "question": "Who was governor of Florida during Hurricane Irma?",
+      "infer_answer": "To find the answer, I'll follow these steps:\n\n1. Research when Hurricane Irma occurred: According to records, Hurricane Irma made landfall in Florida on September 10, 2017.\n2. Determine who was the Governor of Florida at that time: Rick Scott was the Governor of Florida from January 4, 2011, until January 9, 2019.\n\nTherefore, my answer is:\n\n\\boxed{Rick Scott}",
+      "gold_answer": [
+        "Rick Scott"
+      ]
+    },
+    "104": {
+      "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The winner of the 2007 Ballon d'Or was Kaka.\n2. In 2012, Kaka played for Real Madrid.\n\nTherefore, the answer is:\n\n\\boxed{Real Madrid}",
+      "gold_answer": [
+        "Real Madrid"
+      ]
+    },
+    "105": {
+      "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+      "infer_answer": "A nice question!\n\nStep 1: Identify the winner of the 2010 World Cup\nThe 2010 FIFA World Cup was won by Spain.\n\nStep 2: Find the country that won the 2010 World Cup (Spain)\nSpain is a country located in Europe, and its capital city is...\n\nStep 3: Get the capital city of Spain\nThe capital city of Spain is Madrid!\n\nSo, my final answer is:\n\n\\boxed{Madrid}",
+      "gold_answer": [
+        "Madrid"
+      ]
+    },
+    "106": {
+      "question": "When was the anime studio that made Sword Art Online founded?",
+      "infer_answer": "A great question about a popular anime series!\n\nTo find the answer, I'll need to do some research and think step by step. Here's my process:\n\n1. I know that Sword Art Online is a Japanese anime series.\n2. The anime series was created by Reki Kawahara (light novel author) and directed by Tomohiko Itō.\n3. To find the founding date of the anime studio, I'll need to look up information about the production company behind Sword Art Online.\n\nAfter researching, I found that the anime series is produced by A-1 Pictures, a Japanese animation studio.\n\n4. According to my research, A-1 Pictures was founded in 2005 as a subsidiary of Asahi Broadcasting Corporation (ABC).\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{A-1 Pictures was founded in 2005.}}$$",
+      "gold_answer": [
+        "May 9, 2005"
+      ]
+    },
+    "107": {
+      "question": "Who was the first king of the longest Chinese dynasty?",
+      "infer_answer": "A great historical question!\n\nTo find the answer, I'll break it down step by step:\n\n1. The longest Chinese dynasty is the Qin Dynasty (221-206 BCE).\n2. To find the first king of the Qin Dynasty, I need to look up the founder of the dynasty.\n3. According to historical records, the founder and first king of the Qin Dynasty was Qin Shi Huang (also known as Qin Shi Huangdi).\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Qin Shi Huang}}$$",
+      "gold_answer": [
+        "King Wu of Zhou"
+      ]
+    },
+    "108": {
+      "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+      "infer_answer": "A nice historical question!\n\nTo solve this, I'll break it down step by step:\n\n1. The Song dynasty ended in 1279.\n2. The dynasty that succeeded the Song dynasty is the Yuan dynasty (also known as the Mongol dynasty).\n3. The Yuan dynasty was founded by Kublai Khan, a grandson of Genghis Khan.\n4. Kublai Khan ruled from 1260 to 1294, so he was the founder and first emperor of the Yuan dynasty.\n5. Since Kublai Khan was the first emperor of the Yuan dynasty, there is no \"last\" emperor in this case.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{There is no last emperor}}$$",
+      "gold_answer": [
+        "Toghon Temür"
+      ]
+    },
+    "109": {
+      "question": "What's the motto of the oldest California State university?",
+      "infer_answer": "A great question!\n\nTo find the motto of the oldest California State University, I'll follow these steps:\n\n1. Identify the oldest California State University: According to my knowledge, the oldest California State University is San José State University (SJSU), which was founded in 1857.\n2. Research SJSU's motto: After a quick search, I found that the motto of San José State University is \"Pride and Honor\".\n\nSo, here's my final answer:\n\n$$\\boxed{\\text{Pride and Honor}}$$",
+      "gold_answer": [
+        "Powering Silicon Valley"
+      ]
+    },
+    "110": {
+      "question": "What's the capital of the state that the College of William & Mary is in?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The College of William & Mary is located in a state.\n2. To find the state, I need to look up the college's location. According to my knowledge, the College of William & Mary is located in Williamsburg, Virginia.\n3. Therefore, the state that the College of William & Mary is in is Virginia.\n\nSo, the final answer is:\n\n\\boxed{Richmond}",
+      "gold_answer": [
+        "Richmond"
+      ]
+    },
+    "111": {
+      "question": "What's the capital of the state that Washington University in St. Louis is in?",
+      "infer_answer": "Let me break it down step by step!\n\n1. Washington University in St. Louis is located in the state of...\n2. ...Missouri! (I'm assuming you meant the one in the United States, not the country)\n\nSo, the capital of Missouri is...\n\n\\boxed{JEFFERSON CITY}",
+      "gold_answer": [
+        "Jefferson City"
+      ]
+    },
+    "112": {
+      "question": "What's the capital of the state that Harvard University is in?",
+      "infer_answer": "Let's break this down step by step!\n\n1. Harvard University is located in the state of Massachusetts.\n2. The capital of Massachusetts is Boston.\n\nTherefore, the final answer is:\n\n\\boxed{Boston}",
+      "gold_answer": [
+        "Boston"
+      ]
+    },
+    "113": {
+      "question": "What's the capital of the state that the Space Needle is at?",
+      "infer_answer": "A fun question!\n\nStep 1: Identify the state where the Space Needle is located.\nThe Space Needle is a famous landmark in Seattle, Washington.\n\nStep 2: Find the capital of that state.\nThe capital of Washington state is Olympia.\n\nTherefore, my final answer is:\n\n$$\\boxed{\\text{Olympia}}$$",
+      "gold_answer": [
+        "Olympia"
+      ]
+    },
+    "114": {
+      "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+      "infer_answer": "A great question!\n\nLet's break it down step by step:\n\n1. The Summer Olympics were not held in London recently. The 2012 Summer Olympics, also known as the Games of the XXX Olympiad, were held in London from July 27 to August 12, 2012.\n2. Women's volleyball is a sport featured at the Olympic Games.\n3. Since the most recent Summer Olympics that was held in London did not feature women's volleyball (because it wasn't held there), we can conclude that no team won the women's volleyball event at those Olympics.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{There is no winner}}$$",
+      "gold_answer": [
+        "Brazil"
+      ]
+    },
+    "115": {
+      "question": "What is the nickname of the easternmost U.S. state?",
+      "infer_answer": "Let's break down the problem step by step!\n\n1. The question asks for the nickname of the easternmost U.S. state.\n2. To find the answer, I'll need to identify the easternmost U.S. state.\n3. After reviewing my knowledge, I found that the easternmost U.S. state is Maine.\n\nNow, let's think about what kind of nickname Maine might have...\n\n4. Nicknames are often descriptive or playful phrases that capture a state's essence or characteristics.\n5. Maine is known for its rugged coastline, scenic beauty, and outdoor recreation opportunities.\n6. With these factors in mind, I'm going to take a educated guess that the nickname of the easternmost U.S. state (Maine) might be something like \"The Pine Tree State\" or \"Vacationland\".\n\nHowever, after double-checking, I found that Maine's official nickname is actually \"The Pine Tree State\".",
+      "gold_answer": [
+        "Pine Tree State"
+      ]
+    },
+    "116": {
+      "question": "What is the nickname for the state that is the home to the “Avocado Capital of the World\"?",
+      "infer_answer": "Let's break this down step by step!\n\n1. The question asks about the \"Avocado Capital of the World\", which implies that we're looking for a specific city or location.\n2. Since it's referred to as the \"state\" that is home to this title, we can conclude that the answer is not a city but rather a state.\n3. After some research, I found that the town of Fallbrook, California is commonly known as the \"Avocado Capital of the World\".\n4. Therefore, the state that is home to Fallbrook is California.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{California}}$$",
+      "gold_answer": [
+        "Golden State"
+      ]
+    },
+    "117": {
+      "question": "What rocket was used for the mission that landed the first humans on the moon?",
+      "infer_answer": "Let's break down the problem step by step!\n\n1. The mission that landed the first humans on the moon is known as Apollo 11.\n2. To find the rocket used for this mission, we need to look at the Apollo program's launch vehicles.\n\nThe Apollo program used a combination of rockets to send astronauts to space and back. For the lunar missions, including Apollo 11, NASA used:\n\n3. The Saturn V (SA-506) was the rocket that carried the Apollo 11 spacecraft to the moon.\n\nSo, the final answer is:\n\n\\boxed{Saturn V}",
+      "gold_answer": [
+        "Saturn V"
+      ]
+    },
+    "118": {
+      "question": "When did the war that Neil Armstrong served in end?",
+      "infer_answer": "A great question!\n\nTo find the answer, I'll break it down step by step:\n\n1. Neil Armstrong was an American astronaut and engineer.\n2. He is most famous for being the first person to walk on the Moon during the Apollo 11 mission in July 1969.\n3. To determine which war he served in, I need to find out what wars were ongoing or recent at the time of his military service.\n\nAfter some research, I found that Neil Armstrong served in the United States Navy from 1949 to 1952. During this time, the Korean War was taking place (1950-1953).\n\nTherefore, the war that Neil Armstrong served in ended on July 27, 1953, when the Korean Armistice Agreement was signed.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{July 27, 1953}}$$",
+      "gold_answer": [
+        "July 27, 1953"
+      ]
+    },
+    "119": {
+      "question": "What is the nickname for the state that Mount Rainier is located in?",
+      "infer_answer": "To find the nickname for the state where Mount Rainier is located, I'll follow these steps:\n\n1. Identify the location of Mount Rainier: According to my knowledge, Mount Rainier is located in the Pacific Northwest region of North America.\n2. Determine the state that contains Mount Rainier: After some research, I found that Mount Rainier is situated within the boundaries of the state of Washington.\n3. Find the nickname for the state of Washington: Ah-ha! The nickname for the state of Washington is \"The Evergreen State\".\n\nSo, my final answer is:\n\n$$\\boxed{\\text{The Evergreen State}}$$",
+      "gold_answer": [
+        "Evergreen State"
+      ]
+    },
+    "120": {
+      "question": "When was the composer of Carol of the Bells born?",
+      "infer_answer": "A music-related question!\n\nTo find the answer, I'll need to identify the composer of \"Carol of the Bells\". After a quick search, I found that the piece is actually an arrangement of a Ukrainian folk song, and it's commonly attributed to Mykola Leontovych.\n\nAccording to my research, Mykola Leontovych was born on July 23, 1877. Therefore, my answer is:\n\n$$\\boxed{July 23, 1877}$$",
+      "gold_answer": [
+        "December 13, 1877"
+      ]
+    },
+    "121": {
+      "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+      "infer_answer": "A nice engineering-related question!\n\nTo solve this, I'll break it down step by step:\n\n1. The scientist who won the Queen Elizabeth Prize for Engineering in 2013 is Yoky Matsuoka.\n2. Yoky Matsuoka is a professor at MIT (Massachusetts Institute of Technology).\n3. To find out who her father is, I need to look up some biographical information about Yoky Matsuoka.\n\nAfter searching online, I found that Yoky Matsuoka was born in Japan and grew up in Tokyo. Unfortunately, I couldn't find any publicly available information on her parents or family background.\n\nHowever, since the question asks for the father of the scientist at MIT who won the Queen Elizabeth Prize for Engineering in 2013, my answer is:\n\n\\boxed{Unknown}\n\nPlease note that this is because I couldn't find any publicly available information on Yoky Matsuoka's parents. If you have access to more specific or private information, your answer might be different!",
+      "gold_answer": [
+        "Conway Berners-Lee"
+      ]
+    },
+    "122": {
+      "question": "Who was the mother of the emperor of Japan during World War I?",
+      "infer_answer": "A historical question!\n\nTo find the answer, I'll break down the problem step by step:\n\n1. The time period is World War I, which lasted from 1914 to 1918.\n2. The emperor of Japan during this time was Emperor Taishō (also known as Yoshihito).\n3. To find his mother, I need to look into Emperor Taishō's family history.\n\nAccording to historical records, Emperor Taishō was the son of Emperor Meiji and Empress Shōken (née Haruko).\n\n4. Therefore, Empress Shōken (Haruko) was the mother of Emperor Taishō, who was the emperor of Japan during World War I.\n\nSo, my final answer is:\n\n$$\\boxed{\\text{Empress Shōken (Haruko)}}$$",
+      "gold_answer": [
+        "Yanagiwara Naruko"
+      ]
+    },
+    "123": {
+      "question": "Which element has an atomic number that is double that of hydrogen?",
+      "infer_answer": "Let's break this down step by step!\n\nThe atomic number of hydrogen is 1, which means it has one proton in its atomic nucleus.\n\nTo find the element with an atomic number that is double that of hydrogen, we need to multiply the atomic number of hydrogen by 2:\n\n1 × 2 = 2\n\nSo, the element with an atomic number that is double that of hydrogen is... Helium!",
+      "gold_answer": [
+        "Helium"
+      ]
+    },
+    "124": {
+      "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+      "infer_answer": "A fun question!\n\nTo solve this, I'll break it down step by step:\n\n1. The Olympics with Fuwa as the mascots were the 2008 Summer Olympics.\n2. To find the motto of those Olympics, I need to look up information about the 2008 Beijing Olympics.\n\nAfter researching, I found that the official motto of the 2008 Beijing Olympics was: \"Friends Forevery\" (also known in Chinese as \"\" - píng yǒu jiàn zhù).\n\nSo, my final answer is:\n\n$$\\boxed{\\text{\"Friends Forevery\"}}$$",
+      "gold_answer": [
+        "One World, One Dream"
+      ]
+    }
+  }
+}

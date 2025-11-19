@@ -1,0 +1,1354 @@
+{
+  "results": {
+    "0": {
+      "question": "Let a string consist of digit 1, 2, 3. How many such strings of length 6 have adjacent digit differing by less than or equal to 1?",
+      "infer_answer": "\\boxed{360}",
+      "gold_answer": "239"
+    },
+    "1": {
+      "question": "How many strings of length 5 using the digits {0, 1, ..., 9} (with leading zeros allowed) have strictly increasing digits?",
+      "infer_answer": "\\boxed{64800}",
+      "gold_answer": "C(10, 5), or equivalently 252"
+    },
+    "2": {
+      "question": "On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully) and the placing is also invariant to a 180-degree rotation.",
+      "infer_answer": "\\boxed{P(2n-1,2n-1)}",
+      "gold_answer": "2^floor(n/2)*floor(n/2)!"
+    },
+    "3": {
+      "question": "A one-to-one mapping p: {1, 2, ..., n}->{1, 2, ..., n} is called an involution, if p∘p=identity (i.e., p(p(i))=i for all i∈{1, ..., n}). Find the number of involutions on {1, 2, 3, 4, 5, 6}.",
+      "infer_answer": "\\boxed{16}",
+      "gold_answer": "76"
+    },
+    "4": {
+      "question": "How many subsets of {1, 2,..., 10} have no two successive numbers?",
+      "infer_answer": "\\boxed{64}",
+      "gold_answer": "144"
+    },
+    "5": {
+      "question": "In how many ways can you take an odd number of objects from n (distinct) objects?",
+      "infer_answer": "\\boxed{\\left(\\frac{1-(-1)^n}{2}\\right)}",
+      "gold_answer": "2^(n-1)"
+    },
+    "6": {
+      "question": "Consider a row of 11 seats. A child sits on each. Each child may move by at most one seat. How many possible rearrangements are there (including the original one)?",
+      "infer_answer": "\\boxed{12!}",
+      "gold_answer": "144"
+    },
+    "7": {
+      "question": "How many strings of length 5 and consisting solely of the digits 1, 2, 3 and 4 have the property that any 1 and 2 are never neighbors (i.e., the string does not contain \"12\" or \"21\" as substrings).",
+      "infer_answer": "\\boxed{384}",
+      "gold_answer": "634"
+    },
+    "8": {
+      "question": "Consider all 2^n−1 nonempty subsets of the set {1, 2,..., n}. For every such subset, we find the product of the reciprocals of each of its elements. Find the sum of all these products, as an expression of n.",
+      "infer_answer": "\\boxed{\\frac{1}{n}}",
+      "gold_answer": "n"
+    },
+    "9": {
+      "question": "How many sequences of positive integer numbers have sum n, as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{(n+1)^2}{2}}",
+      "gold_answer": "2^(n-1)"
+    },
+    "10": {
+      "question": "A diagnoal in a convex polygon is any line connecting two non-adjacent vertices. How many diagonals are there in a convex polygon of n vertices, as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{n(n-3)}{2}}",
+      "gold_answer": "n(n-3)/2"
+    },
+    "11": {
+      "question": "Along a one-way street there are n parking lots. One-by-one n cars numbered 1 to n enter the street. Each driver i heads to his favorite parking lot a_i, and, if it is free, he occupies it. Otherwise, he continues to the next free lot and occupies it. But if all succeeding lots are occupied, he leaves for good. How many sequences {a_1, ..., a_n} are such that every driver can park, as an expression of n?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "(n+1)^(n-1)"
+    },
+    "12": {
+      "question": "Of 3n+1 objects, n are indistinguishable, and the remaining ones are distinct. In how many ways can we choose n objects, as an expression of n?",
+      "infer_answer": "\\boxed{\\binom{3n+1}{n}}",
+      "gold_answer": "4^n"
+    },
+    "13": {
+      "question": "A gardener plants 3 apple trees, 3 peach trees and 2 cherry trees in a row, with a random order. What is the probability that no two apple trees are next two each other?",
+      "infer_answer": "\\boxed{\\frac{4}{7}}",
+      "gold_answer": "5/14, or approximately 35.7%"
+    },
+    "14": {
+      "question": "Find the number of ways to fill a 2 x 21 rectangle with 2 x 1 tiles such that the tiling is same when the rectangle is flipped around the middle column.",
+      "infer_answer": "\\boxed{11}",
+      "gold_answer": "89"
+    },
+    "15": {
+      "question": "Let A be a string of n binary digits (leading 0s are allowed). How many such strings have the substring \"01\" appearing exactly m times, as an expression of m and n?",
+      "infer_answer": "\\boxed{\\binom{n-m}{1}\\cdot2^{m}}",
+      "gold_answer": "C(n+1, 2m+1)"
+    },
+    "16": {
+      "question": "Does a polyhedron exists with an odd number of faces, each face having an odd number of edges?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "17": {
+      "question": "How many different ordered triples (a, b, c) of non-negative integers are there such that a+b+c=99?",
+      "infer_answer": "\\boxed{1650}",
+      "gold_answer": "5050"
+    },
+    "18": {
+      "question": "Find a closed-form formula of sum_(k=1)^n C(n, k)*k^2.",
+      "infer_answer": "\\boxed{\\frac{n(n+1)(2n+1)}{6}}",
+      "gold_answer": "n(n+1)*2^(n-2)"
+    },
+    "19": {
+      "question": "Find the number of ways to fill a 2 x 5 rectangle with 1 x 1 tiles and three-cell L-shaped tiles (i.e., a 2 x 2 tile without a corner).",
+      "infer_answer": "\\boxed{55}",
+      "gold_answer": "87"
+    },
+    "20": {
+      "question": "Each of the faces of a cube is painted by a different color. How many of the colorings are distinct up to rotations?",
+      "infer_answer": "\\boxed{24}",
+      "gold_answer": "30"
+    },
+    "21": {
+      "question": "Let 1≤r≤n and consider all subsets of r elements of the set {1, 2, ..., n}. What is the arithmetic mean of the smallest element of these subsets, as an expression of n and r?",
+      "infer_answer": "$\\boxed{\\frac{(n+1-r)(r+1)}{2}}$",
+      "gold_answer": "(n+1)/(r+1)"
+    },
+    "22": {
+      "question": "Among all strings of length n consisting of digit 1, 2, 3 and 4, how many of them have an even number of 1s, as an expression of n?",
+      "infer_answer": "\\boxed{\\binom{n}{0} + \\binom{n}{2} + \\binom{n}{4} + \\cdots = 2^{n-1}}",
+      "gold_answer": "(4^n+2^n)/2"
+    },
+    "23": {
+      "question": "Is it possible to label the edges of a cube by 1, 2,..., 12 so that, at each vertex, the labels of the edges leaving that vertex have the same sum?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "24": {
+      "question": "On a chess board, two rooks are placed peacefully if they are not on the same row or column. For an n x n chess board, find the number of ways that n rooks can be placed peacefully (i.e., any two are placed peacefully), as an expression of n.",
+      "infer_answer": "\\boxed{n! \\cdot (n-1)!}",
+      "gold_answer": "n!"
+    },
+    "25": {
+      "question": "How many strings of length 6 and consisting solely of the digits 1, 2 and 3 have the property that any two adjacent digits differ by at most 1.",
+      "infer_answer": "\\boxed{364}",
+      "gold_answer": "239"
+    },
+    "26": {
+      "question": "How many strings of length 5 using the digits {0, 1, ..., 9} (with leading zeros allowed) have strictly increasing or decreasing digits?",
+      "infer_answer": "\\boxed{432}",
+      "gold_answer": "2*C(10, 5), or equivalently 504"
+    },
+    "27": {
+      "question": "Find the number of strings consisting of 5 digits of 1, 2 and 3 where no two 1s are neighbors.",
+      "infer_answer": "\\boxed{144}",
+      "gold_answer": "164"
+    },
+    "28": {
+      "question": "A diagnoal in a convex polygon is any line connecting two non-adjacent vertices. For a convex polygon of n vertices, we draw all possible diagonals and suppose that no three diagonals pass through the same point. How many such intersection points do we have in the interior of the polygon, as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{n(n-3)}{2}}",
+      "gold_answer": "C(n, 4), or an equivalent form such as n(n-1)(n-2)(n-3)/4!"
+    },
+    "29": {
+      "question": "When (x+y+z)^1999 is expanded and like terms are collected (e.g., collecting 2*x^2*y*z^3 and 3*x^2*y*z^3 into a single term of 5*x^2*y*z^3), how many terms will there be?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "2001000"
+    },
+    "30": {
+      "question": "8 dogs fight over 3 cookies. It is possible that a dog gets more than one cookie or no cookies. However, no two dogs would share the same cookie and there are no cookies left unclaimed. If the cookies are the same but the dogs are different (e.g., dog A, B, C each getting one cookie is one result but dog B, C, D each getting one cookie is a different result), how many possible results are there?",
+      "infer_answer": "\\boxed{56}",
+      "gold_answer": "120"
+    },
+    "31": {
+      "question": "In how many ways can 4 horses go through the finish (with possibility of ties)?",
+      "infer_answer": "\\boxed{5}",
+      "gold_answer": "75"
+    },
+    "32": {
+      "question": "From the set {1, 2, 3, ..., n+1}, select quadruple (x, y, z, u), with duplicate allowed, such that u>max(x, y, z). In how many ways can this be done?",
+      "infer_answer": "\\boxed{4{n \\choose 3} = 4(\\frac{n(n-1)(n-2)}{6}) = \\frac{4n(n-1)(n-2)}{3}}",
+      "gold_answer": "sum_(i=1)^n i^3, or equivalently (n(n+1)/2)^2"
+    },
+    "33": {
+      "question": "Among all sequences of positive integer numbers have sum n, for integer k<n-1, how many times does the number k appear, as an expression of n and k?",
+      "infer_answer": "\\boxed{\\frac{n-k}{k+1}}",
+      "gold_answer": "(n-k+3)*2^(n-k-2)"
+    },
+    "34": {
+      "question": "2n players are participating in a tennis tournament. Find the number of ways that n pairs can be constructed for the first round, as an expression of n.",
+      "infer_answer": "\\boxed{2n!/(2^n*n!)}",
+      "gold_answer": "(2n)!/(2^n*n!)"
+    },
+    "35": {
+      "question": "n people sit around a circular table. How many of the n! arrangements are distinct (i.e., do not have the same neighboring relations), as an expression of n?",
+      "infer_answer": "\\boxed{n!/(n-1)!}",
+      "gold_answer": "n!/(2n)"
+    },
+    "36": {
+      "question": "From the set {1, 2, 3, ..., n+1}, select triple (x, y, z), with duplicate allowed, such that z>max(x, y). In how many ways can this be done, as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{(n+2)(n+1)}{2}}",
+      "gold_answer": "sum_(i=1)^n i^2, or equivalently n(n+1)(2n+1)/6"
+    },
+    "37": {
+      "question": "There are three different toys. We give one toy to each child, selected among four boys and six girls. We want to make sure that at least two boys are selected. In how many ways can this be done?",
+      "infer_answer": "\\boxed{80}",
+      "gold_answer": "240"
+    },
+    "38": {
+      "question": "Find the number of ways to fill a 2 x 7 rectangle with 2 x 1 and 2 x 2 tiles.",
+      "infer_answer": "\\boxed{29}",
+      "gold_answer": "85"
+    },
+    "39": {
+      "question": "Find the number of ways to fill a 2 x 11 rectangle with 2 x 1 tiles.",
+      "infer_answer": "\\boxed{12}",
+      "gold_answer": "144"
+    },
+    "40": {
+      "question": "Let x be a root of the polynomial ax^2+bx+c, with a>0, a+b+c≥0, a-b+c≥0, a-c≥0. What is the range of x, expressed as an interval?",
+      "infer_answer": "\\boxed{[-\\sqrt{\\frac{b}{a}}, \\sqrt{\\frac{b}{a}}]}",
+      "gold_answer": "[-1, 1]"
+    },
+    "41": {
+      "question": "For positive a, b, what is the smallest value of (a^2+b^2)/(a+b)^2?",
+      "infer_answer": "\\boxed{\\frac{1}{4}}",
+      "gold_answer": "1/2"
+    },
+    "42": {
+      "question": "For positive a, b, c, what is the smallest value of (a^3+b^3+c^3)/((a+b+c)(a^2+b^2+c^2))?",
+      "infer_answer": "\\boxed{\\frac{3}{4}}",
+      "gold_answer": "1/3"
+    },
+    "43": {
+      "question": "What's the smallest value of (x^2+2)/sqrt(x^2+1) for real x?",
+      "infer_answer": "\\boxed{\\sqrt{2}}",
+      "gold_answer": "2"
+    },
+    "44": {
+      "question": "Find the minimum value of sin(x)^3/cos(x)+cos(x)^3/sin(x) for 0<x<π/2.",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "1"
+    },
+    "45": {
+      "question": "Let A=(1/2)*(3/4)*(5/6)*...*(99/100). Is A greater than 0.1?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "No"
+    },
+    "46": {
+      "question": "If a, b, c are side lengths of a (possibly degenerate) triangle, then what is the largest value of a/(b+c)+b/(a+c)+c/(a+b)?",
+      "infer_answer": "\\boxed{\\frac{3}{2}}",
+      "gold_answer": "2"
+    },
+    "47": {
+      "question": "For positive numbers x_1, ..., x_n, what is the smallest value of x_1^(n+1)+x_2^(n+1)+...+x_n^(n+1)-x_1*x_2*...*x_n*(x_1+x_2+...+x_n)?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "48": {
+      "question": "Let x(n)=2^2^2^...^2 with n 2's, and y(n)=3^3^3^...^3 with n 3's. Among integer values of n≥3, what is the relationship between x(n) and y(n-1): x(n)>y(n-1) for all n≥3, x(n)<y(n-1) for all n≥3, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n?",
+      "infer_answer": "\\boxed{x(n)>y(n-1)}",
+      "gold_answer": "x(n)<y(n-1) for all n≥3"
+    },
+    "49": {
+      "question": "For x, y, z>0, what is the smallest value of x^2/y^2+y^2/z^2+z^2/x^2-(y/x+z/y+x/z)?",
+      "infer_answer": "\\boxed{\\frac{1}{3}}",
+      "gold_answer": "0"
+    },
+    "50": {
+      "question": "If a_i>0 for i=1, 2, ..., n and a_1*a_2*...*a_n=1, what is the smallest value of (1+a_1)(1+a_2)...(1+a_n) as an expression of n?",
+      "infer_answer": "\\boxed{n}",
+      "gold_answer": "2^n"
+    },
+    "51": {
+      "question": "Let (a_1, a_2, ..., a_n) be a permutation of (1, 2, ..., n). What is the smallest value of sum_(k=1)^n a_k/k^2 as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{n(n+1)}{3}}",
+      "gold_answer": "sum_(k=1)^n 1/k"
+    },
+    "52": {
+      "question": "For real numbers a, b, c satisfying a+b+c=9, what is the smallest value of a^2+b^2+c^2-(ab+bc+ac)-(a+b+c)?",
+      "infer_answer": "\\boxed{-3}",
+      "gold_answer": "-9"
+    },
+    "53": {
+      "question": "Let x_1=1 and x_(n+1)=1+n/x_n. For how many values of x_1, ..., x_100 do we have the inequality sqrt(i)≤x_i≤sqrt(i)+1?",
+      "infer_answer": "\\boxed{101}",
+      "gold_answer": "100 (i.e., all values)"
+    },
+    "54": {
+      "question": "Find the minimum value of a^4+b^4+c^4-a^2*bc-b^2*ac-c^2*ab for positive numbers a, b, c.",
+      "infer_answer": "\\boxed{8}",
+      "gold_answer": "0"
+    },
+    "55": {
+      "question": "What is the smallest value of a/(b+c)+b/(a+c)+c/(a+b) for positive numbers a, b, c?",
+      "infer_answer": "\\boxed{\\frac{3}{2}}",
+      "gold_answer": "3/2"
+    },
+    "56": {
+      "question": "Let x_1, x_2, ..., x_n>0 and x_1+x_2+...+x_n=1. Let s be the greatest of x_1/(1+x_1), x_2/(1+x_1+x_2), ..., x_n/(1+x_1+x_2+...+x_n). What is the smallest value of s as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{1}{n}}",
+      "gold_answer": "1-1/2^(1/n)"
+    },
+    "57": {
+      "question": "For positive a, b, c, what is the largest value of sqrt(ab+bc+ac)/(a+b+c)?",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "sqrt(3)/3, or equivalently 1/sqrt(3)"
+    },
+    "58": {
+      "question": "For positive a, b, c, d, at most how many of the three inequalities a+b<c+d, (a+b)(c+d)<ab+cd, (a+b)cd<ab(c+d) can be true at the same time?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "2 inequalities"
+    },
+    "59": {
+      "question": "For real values a, b, c, with a^2+b^2+c^2=1, what is the difference between the largest and smallest possible values of ab+bc+ac?",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "3/2"
+    },
+    "60": {
+      "question": "For positive real number a, b and positive integer n, what is the largest value of (a*b^n)^(1/(n+1))/(a+bn) as an expression of n?",
+      "infer_answer": "\\boxed{\\sqrt[n+1]{a}}",
+      "gold_answer": "1/(n+1)"
+    },
+    "61": {
+      "question": "Let a, b, c be the lengths of the three sides of a (possibly degenerate) triangle. What is the largest value of (a^2+b^2+c^2)/(ab+bc+ac)?",
+      "infer_answer": "\\boxed{\\frac{3}{2}}",
+      "gold_answer": "2"
+    },
+    "62": {
+      "question": "Let a, b, c>0. What is the minimum value of abc-(a+b-c)(a+c-b)(b+c-a)?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "63": {
+      "question": "Let a, b>0. What is the smallest value of (a+b)(a^4+b^4)-(a^2+b^2)(a^3+b^3)?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "64": {
+      "question": "For how many values of n in {1, 2, ..., 100}, do we have (1/2)*(3/4)*(5/6)*...*(2n-1)/(2n)≤1/sqrt(3n+1)?",
+      "infer_answer": "\\boxed{59}",
+      "gold_answer": "100 (i.e., all values)"
+    },
+    "65": {
+      "question": "For real number a, b, what is the largest value of |a+b|/(1+|a+b|)-|a|/(1+|a|)-|b|/(1+|b|)?",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "0"
+    },
+    "66": {
+      "question": "What is the smallest value of a^3+b^3+c^3-a^2*b-b^2*c-c^2*a for positive a, b, c?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "67": {
+      "question": "Let A=(1/2)*(3/4)*(5/6)*...*(99/100). Is A greater than 1/15?",
+      "infer_answer": "\\boxed{False}",
+      "gold_answer": "Yes"
+    },
+    "68": {
+      "question": "For positive real a, b and integer m, what is the smallest value of (1+a/b)^m+(1+b/a)^m as an expression of m?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "2^(m+1)"
+    },
+    "69": {
+      "question": "For positive numbers a_1, ..., a_n, let s=a_1+a_2+...+a_n. What is the smallest value of a_1/(s-a_1)+a_2/(s-a_2)+...+a_n/(s-a_n) as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{n}{n-1}}",
+      "gold_answer": "n/(n-1)"
+    },
+    "70": {
+      "question": "Let x_i>0, and s=x_1+x_2+···+x_n. What is the smallest value of s/(s-x_1)+s/(s-x_2)+...+s/(s-x_n) in terms of n?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "n^2/(n-1)"
+    },
+    "71": {
+      "question": "Let x(n)=3^3^3^...^3 with n 3's, and y(n)=4^4^4^...^4 with n 4's. Among integer values of n≥2, what is the relationship between x(n) and y(n-1): x(n)>y(n-1) for all n≥2, x(n)<y(n-1) for all n≥2, or x(n)>y(n-1) for some n and x(n)<y(n-1) for some other n?",
+      "infer_answer": "\\boxed{x(n)=y(n-1)}",
+      "gold_answer": "x(n)>y(n-1) for all n≥2"
+    },
+    "72": {
+      "question": "If a, b, c are sides of a non-degenerate 90-degree triangle with c being the hypotenuse, then for how many values of n in {1, 2, 3, ..., 100} do we have c^n>a^n+b^n?",
+      "infer_answer": "\\boxed{30}",
+      "gold_answer": "98 values"
+    },
+    "73": {
+      "question": "Let x, y>0 and s be the smallest of x, 1/x+y, 1/y. What is the largest possible value of s?",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "sqrt(2)"
+    },
+    "74": {
+      "question": "For how many values of n in {101, ..., 1000} is 1/(n+1)+1/(n+2)+...+1/(2n)<3/4?",
+      "infer_answer": "\\boxed{249}",
+      "gold_answer": "900 (i.e., all values)"
+    },
+    "75": {
+      "question": "For non-negative a, b, c, d, what is the smallest value of sqrt((a+c)(b+d))-sqrt(ab)-sqrt(cd)-1?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "-1"
+    },
+    "76": {
+      "question": "For positive a, b, c, what is the smallest value of sqrt(ab+bc+ac)/(abc)^(1/3)?",
+      "infer_answer": "\\boxed{\\frac{2}{3}}",
+      "gold_answer": "sqrt(3)"
+    },
+    "77": {
+      "question": "For x, y, z>0, what is the smallest value of x^2/y^2+y^2/z^2+z^2/x^2-(x/y+y/z+z/x)?",
+      "infer_answer": "\\boxed{\\frac{9}{2}}",
+      "gold_answer": "0"
+    },
+    "78": {
+      "question": "For how many values of n in {101, ..., 1000} is 1/(n+1)+1/(n+2)+...+1/(2n)>1/2?",
+      "infer_answer": "\\boxed{148}",
+      "gold_answer": "900 (i.e., all values)"
+    },
+    "79": {
+      "question": "For positive a, b, c, at most how many of the three inequalities a(1-b)>1/4, b(1-c)>1/4, c(1-a)>1/4 can be true at the same time?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "2 inequalities"
+    },
+    "80": {
+      "question": "Let a_i≥1 for all i. What is the minimum value of (1+a_1)(1+a_2)...(1+a_n)/(1+a_1+a_2+...+a_n) as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{1}{n}}",
+      "gold_answer": "2^n/(n+1)"
+    },
+    "81": {
+      "question": "For positive a, b, c, find the largest value of (ab(a+b)+bc(b+c)+ac(a+c)-a^3-b^3-c^3)/abc.",
+      "infer_answer": "\\boxed{\\frac{27}{2}}",
+      "gold_answer": "3"
+    },
+    "82": {
+      "question": "Let a, b, c>0. What is the largest value of ((a+b+c)/(abc))/(1/a^2+1/b^2+1/c^2)?",
+      "infer_answer": "\\boxed{\\frac{3}{4}}",
+      "gold_answer": "1"
+    },
+    "83": {
+      "question": "The product of three positive real numbers is 1, and their sum is greater than the sum of their reciprocals. How many of them can be greater than 1?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "Exactly one"
+    },
+    "84": {
+      "question": "For a, b, c>0, are there possible values of them to make (a^3*b+b^3*c+c^3*a)/(a+b+c) less than abc?",
+      "infer_answer": "\\boxed{\\text{Yes}}",
+      "gold_answer": "No"
+    },
+    "85": {
+      "question": "For x_1, x_2, ..., x_n≥0, with x_1+x_2+...+x_n=1, what is the minimum value of x_1^2+x_2^2+...+x_n^2, as an expression of n?",
+      "infer_answer": "\\boxed{\\frac{1}{n}}",
+      "gold_answer": "1/n"
+    },
+    "86": {
+      "question": "For positive numbers a, b, c, what is the smallest value of (a+b)(b+c)(a+c)/(abc)?",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "8"
+    },
+    "87": {
+      "question": "For how many values of n in {1, 2, ..., 100} do we have (n+1)^n≥2^n*n!?",
+      "infer_answer": "\\boxed{27}",
+      "gold_answer": "100 (i.e., all values)"
+    },
+    "88": {
+      "question": "What is the smallest value of |x+y-z|+|x-y+z|+|-x+y+z|-|x|-|y|-|z|?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "89": {
+      "question": "Let a, b, c>0. What is the minimum value of a^3+b^3+c^3-(a^2*b+b^2*c+c^2*a)?",
+      "infer_answer": "\\boxed{\\frac{3}{2}\\sqrt[3]{(abc)^2}}",
+      "gold_answer": "0"
+    },
+    "90": {
+      "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1985=z^2?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "No"
+    },
+    "91": {
+      "question": "Do there exist positive integers x, y such that x+y, x+2y and 2x+y are both squares?",
+      "infer_answer": "\\boxed{\\text{Yes}}",
+      "gold_answer": "No"
+    },
+    "92": {
+      "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all three-digit automorphic numbers.",
+      "infer_answer": "\\boxed{121, 135, 136, 141, 152, 153, 154, 155, 171, 172, 181, 182, 183, 184, 185, 191, 192, 193, 194, 195}",
+      "gold_answer": "376 and 625"
+    },
+    "93": {
+      "question": "Find all positive integer solutions to the equation x^3-y^3=xy+61.",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "x=6, y=5"
+    },
+    "94": {
+      "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all four-digit automorphic numbers.",
+      "infer_answer": "\\boxed{6769}",
+      "gold_answer": "9376"
+    },
+    "95": {
+      "question": "Use digit 1-9 exactly once to construct two numbers. What are the two numbers that achieve the maximal product?",
+      "infer_answer": "\\boxed{9726}",
+      "gold_answer": "9642 and 87531"
+    },
+    "96": {
+      "question": "Find all integer solutions to the equation x(x+1)=y^z for x>0, y>0, z>1.",
+      "infer_answer": "\\boxed{(x,y,z)=(1,1,2)}",
+      "gold_answer": "No integer solutions"
+    },
+    "97": {
+      "question": "Find all possible solutions to the equation (n-1)n(n+1)=a^m for integer n, a>0 and m>1.",
+      "infer_answer": "\\boxed{(2, 3, 4)}",
+      "gold_answer": "No possible solutions"
+    },
+    "98": {
+      "question": "Find all positive integer solutions to the equation x^2+y^2+z^2=2xyz.",
+      "infer_answer": "\\boxed{(1,1,1)}",
+      "gold_answer": "No positive integer solutions"
+    },
+    "99": {
+      "question": "Let (x, y, z) be an integer-valued solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 5?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "At least 1 number"
+    },
+    "100": {
+      "question": "Which is the smallest positive integer that becomes 57 times smaller when its first digit is removed?",
+      "infer_answer": "\\boxed{756}",
+      "gold_answer": "7125"
+    },
+    "101": {
+      "question": "An integer a is called automorphic if a^2 ends in a. For example, 5 is automorphic because 5^2=25 ends in 5. 25 is also automorphic because 25^2=625 ends in 25. Find all two-digit automorphic numbers besides 25.",
+      "infer_answer": "\\boxed{76}",
+      "gold_answer": "76"
+    },
+    "102": {
+      "question": "What is the smallest value of |36^m-5^n| for positive integers m and n?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "11"
+    },
+    "103": {
+      "question": "Is 4^545+545^4 a prime number?",
+      "infer_answer": "\\boxed{\\text{No}}",
+      "gold_answer": "No"
+    },
+    "104": {
+      "question": "Can there exist a polynomial f(x) of integer coefficients with f(7)=11 and f(11)=13?",
+      "infer_answer": "\\boxed{\\text{No}}",
+      "gold_answer": "No"
+    },
+    "105": {
+      "question": "Can n+2 be a factor of 1^1987+2^1987+...+n^1987 for some n?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "106": {
+      "question": "Find a perfect square number that can be written as aabb (i.e., first two digits are the same, and last two digits are the same).",
+      "infer_answer": "\\boxed{400}",
+      "gold_answer": "7744"
+    },
+    "107": {
+      "question": "Find all integer solutions to the equation x^2-3y^2=17.",
+      "infer_answer": "\\boxed{x = 4, y = 1; x = -4, y = 1; x = 4, y = -1; x = -4, y = -1}",
+      "gold_answer": "No integer solutions"
+    },
+    "108": {
+      "question": "Find all possible values of n^5-5*n^3+4n mod 120 for integer n.",
+      "infer_answer": "\\boxed{0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "109": {
+      "question": "For positive integers a, b, c, d, e satisfying a^5+b^5+c^5+d^5+e^5 mod 25=0, what are possible values of abcde mod 5?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "110": {
+      "question": "Find all integer solutions to the equation 19x^3-84y^2=1984.",
+      "infer_answer": "\\boxed{(1,14)}",
+      "gold_answer": "No integer solutions"
+    },
+    "111": {
+      "question": "Find 3^105+4^105 mod 7.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "0"
+    },
+    "112": {
+      "question": "Find all positive integer solutions to the equation x^3+3=4y(y+1).",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "No positive integer solutions"
+    },
+    "113": {
+      "question": "Find 2^32+1 mod 641.",
+      "infer_answer": "\\boxed{257}",
+      "gold_answer": "0"
+    },
+    "114": {
+      "question": "For positive integer n, if 2^n and 5^n start with the same digit, what are possible values of this digit?",
+      "infer_answer": "\\boxed{1,4,5}",
+      "gold_answer": "3 is the only possible value"
+    },
+    "115": {
+      "question": "Let (x, y, z) be an integer-valued solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 3?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "At least 1 number"
+    },
+    "116": {
+      "question": "Let n be 22...22, with a total of 1980 digits. What is n mod 1982?",
+      "infer_answer": "\\boxed{18}",
+      "gold_answer": "0"
+    },
+    "117": {
+      "question": "How often does the factor 2 occur in the product P(n)=(n+1)(n+2)...(2n), as an expression of n?",
+      "infer_answer": "\\boxed{n-1}",
+      "gold_answer": "n times"
+    },
+    "118": {
+      "question": "Find all possible positive integer values of x such that x, 2x+1 and 4x+1 are all prime numbers.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "3 is the only possible value"
+    },
+    "119": {
+      "question": "Find all integer solutions to the equation 15x^2-7y^2=9.",
+      "infer_answer": "\\boxed{(1,0), (0,-3)}",
+      "gold_answer": "No integer solutions"
+    },
+    "120": {
+      "question": "Find all positive integer solutions to the equation 2^x-1=3^y.",
+      "infer_answer": "\\boxed{8}",
+      "gold_answer": "x=2, y=1"
+    },
+    "121": {
+      "question": "Find 3^105+4^105 mod 11.",
+      "infer_answer": "\\boxed{6}",
+      "gold_answer": "2"
+    },
+    "122": {
+      "question": "Find the smallest positive integer a, so that 1971 | 50^n+23^n*a for odd n.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "512"
+    },
+    "123": {
+      "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1984=z^2?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "Yes"
+    },
+    "124": {
+      "question": "A sequence starts with 1, 9, 7, 7, 4, 7, 5, 3, 9, 4, 1... From the fifth number, every number is the sum of the preceding four numbers mod 10. Could the sequence contain 3, 2, 6, 9 as a subsequence somewhere?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "125": {
+      "question": "Find all possible values of x^2 mod 30 for prime number x>30.",
+      "infer_answer": "\\boxed{1,29}",
+      "gold_answer": "1 and 19"
+    },
+    "126": {
+      "question": "Find 3^105+4^105 mod 13.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "0"
+    },
+    "127": {
+      "question": "For integers a, b, c, d, if a-c divides ab+cd, does it also divide ad+bc?",
+      "infer_answer": "\\boxed{\\text{Yes}}",
+      "gold_answer": "Yes"
+    },
+    "128": {
+      "question": "Find all non-negative integer solutions to the equation x^3+8x^2-6x+8=y^3.",
+      "infer_answer": "\\boxed{0, 1}",
+      "gold_answer": "x=0, y=2 and x=9, y=11"
+    },
+    "129": {
+      "question": "If n=x^2+y^2 for integers x and y, is 2n always a sum of two perfect squares?",
+      "infer_answer": "\\boxed{\\text{No}.}",
+      "gold_answer": "Yes"
+    },
+    "130": {
+      "question": "Find all possible values of n such that n^2-19n+89 is a perfect square and n>11.",
+      "infer_answer": "\\boxed{n=12, n=17}",
+      "gold_answer": "No such values"
+    },
+    "131": {
+      "question": "Fifty numbers a_1, a_2,..., a_50 are written along a circle. Each of the numbers is +1 or -1. You want to find the product of these numbers. You may find the product of three consecutive numbers in one question. How many questions do you need at least?",
+      "infer_answer": "\\boxed{17}",
+      "gold_answer": "50"
+    },
+    "132": {
+      "question": "Starting from a number x_1, form a sequence x_2, x_3, x_4... by appending one digit from 0 to 8 (i.e., 9 is not allowed) to the previous number. Can there be finitely many composite numbers in this sequence?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "133": {
+      "question": "Find all integer solutions to the equation x^2+y^2=x^2*y^2.",
+      "infer_answer": "\\boxed{(0, 0)}",
+      "gold_answer": "x=y=0"
+    },
+    "134": {
+      "question": "Let x be 1000...0001, with a total of 1961 zeros in the middle. Is x a prime number?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "135": {
+      "question": "For positive integer n for which 2n+1 and 3n+1 are both perfect squares, what are possible values of n mod 40?",
+      "infer_answer": "\\boxed{0,4,20}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "136": {
+      "question": "Find all integer values of m such that 1000^m-1 is a factor of 1978^m-1.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "No such values"
+    },
+    "137": {
+      "question": "Is (5^125-1)/(5^25-1) a prime number?",
+      "infer_answer": "\\boxed{\\text{Yes}}",
+      "gold_answer": "No"
+    },
+    "138": {
+      "question": "For three integer numbers a, b, c, if their sum a+b+c is divisible by 6, is their cubed sum a^3+b^3+c^3 always divisble by 6?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "Yes"
+    },
+    "139": {
+      "question": "Find the five-digit number abcde such that 4*abcde=edcba.",
+      "infer_answer": "\\boxed{24680}",
+      "gold_answer": "21978"
+    },
+    "140": {
+      "question": "Find the smallest positive integer with the property that, if you move the first digit to the end, the new number is exactly 1.5 times as large as the old one.",
+      "infer_answer": "\\boxed{18}",
+      "gold_answer": "(20*10^15-2)/17, or equivalently 1176470588235294"
+    },
+    "141": {
+      "question": "Let Q(n) be the digit sum of n. If Q(n)=Q(2n), what are possible values of n mod 9?",
+      "infer_answer": "\\boxed{0,3,6}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "142": {
+      "question": "Find all possible values of p^2 mod 24 for prime number p.",
+      "infer_answer": "\\boxed{1,3,9,11}",
+      "gold_answer": "1, 4 and 9"
+    },
+    "143": {
+      "question": "How many pairs of positive odd integer (a, b) both under 100 make a^2+b^2 be a perfect square?",
+      "infer_answer": "\\boxed{8}",
+      "gold_answer": "0 pairs"
+    },
+    "144": {
+      "question": "Let (x, y, z) be an integer solution to the equation x^2+y^2=z^2. At least how many of the three numbers must be divisible by 4?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "At least 1 number"
+    },
+    "145": {
+      "question": "Positive integers a, b satisfy that (a+1)/b+(b+1)/a is also a positive integer. Let d=gcd(a, b). What are possible values of a+b mod d^2?",
+      "infer_answer": "\\boxed{0, 1}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "146": {
+      "question": "Find all possible values of 4^n+15n-1 mod 9 for interger n≥0.",
+      "infer_answer": "\\boxed{0,3,6}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "147": {
+      "question": "Find all possible values of 2(1^k+2^k+...+n^k) mod n(n+1) for odd k.",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "148": {
+      "question": "How many integer solutions does the equation x^2+y^2+z^2=x^3+y^3+z^3 have?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "Infinitely many solutions"
+    },
+    "149": {
+      "question": "Find all possible integer values of x such that x and 8x^2+1 are both prime numbers.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "3 is the only possible value"
+    },
+    "150": {
+      "question": "For positive integers a, b, c, d, n satisfying ab=cd, can a^n+b^n+c^n+d^n be a prime number?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "151": {
+      "question": "Find all prime number values of n>2 such that 1+2+...+(n-2)+(n-1) is a factor of 1*2*...*(n-2)*(n-1).",
+      "infer_answer": "\\boxed{3,5}",
+      "gold_answer": "No such values"
+    },
+    "152": {
+      "question": "Is 385^1980+18^1980 a perfect square?",
+      "infer_answer": "\\boxed{\\text{No}}",
+      "gold_answer": "No"
+    },
+    "153": {
+      "question": "Find all positive integer solutions to the equation m^2+(m+1)^2=n^4+(n+1)^4.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "No positive integer solutions"
+    },
+    "154": {
+      "question": "Find all prime number solutions to the equation p^2-2*q^2=1.",
+      "infer_answer": "\\boxed{p = 3, q = 1}",
+      "gold_answer": "p=3, q=2 and p=5, q=3"
+    },
+    "155": {
+      "question": "If n is a composite number, find all possible values of 1*2*...*(n-2)*(n-1) mod 1+2+...+(n-2)+(n-1).",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "156": {
+      "question": "For how many integers n in {1, 2, ..., 99} is n^4+4^n a prime number?",
+      "infer_answer": "\\boxed{3}",
+      "gold_answer": "1"
+    },
+    "157": {
+      "question": "Find all integer solutions to the equation (n-2)^2+(n-1)^2+n^2+(n+1)^2+(n+2)^2=m^2.",
+      "infer_answer": "\\boxed{m=6}",
+      "gold_answer": "No integer solutions"
+    },
+    "158": {
+      "question": "For prime number p, how many positive integer solutions does the equation 1/x+1/y=1/p have?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "3"
+    },
+    "159": {
+      "question": "Find all positive integer solutions to the equation 2^x+1=3^y.",
+      "infer_answer": "\\boxed{8}",
+      "gold_answer": "x=1, y=1 and x=3, y=2"
+    },
+    "160": {
+      "question": "What is the smallest value of |12^m-5^n| for positive integers m and n?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "7"
+    },
+    "161": {
+      "question": "If positive integers x and y are such that x^2+2y^2 is a prime number, what are all possible values of x^2+2y^2 mod 8?",
+      "infer_answer": "\\boxed{1,3}",
+      "gold_answer": "1 and 3"
+    },
+    "162": {
+      "question": "What are possible values of 20^n+16^n-3^n-1 mod 323 for even n?",
+      "infer_answer": "\\boxed{0, 2, 4, 6, 8, 12, 14, 18, 22, 26, 30}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "163": {
+      "question": "Find all possible positive integer values of x such that x, x+10 and x+14 are all prime numbers.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "3 is the only possible value"
+    },
+    "164": {
+      "question": "Are there integer solutions to the equation (x^2-1)(y^2-1)+1981=z^2?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "No"
+    },
+    "165": {
+      "question": "Find the four-digit number abcd such that 4*abcd=dcba.",
+      "infer_answer": "\\boxed{1440}",
+      "gold_answer": "2178"
+    },
+    "166": {
+      "question": "If the integer m ends with digit 5, what are possible values of 12^m+9^m+8^m+6^m mod 1991?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "167": {
+      "question": "Find all possible values of p^2-q^2 mod 24 for prime numbers p and q greater than 3.",
+      "infer_answer": "\\boxed{\\pm6,0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "168": {
+      "question": "Let integer p, q satisfy p/q=1-1/2+1/3-1/4+...-1/1318+1/1319 with gcd(p,q)=1. What is p mod 1979?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "169": {
+      "question": "Can the digit sum of a perfect square be 1977?",
+      "infer_answer": "\\boxed{\\text{No}}",
+      "gold_answer": "No"
+    },
+    "170": {
+      "question": "What is the remainder of nx^(n+1)−(n+1)x^n+1 divided by (x−1)^2?",
+      "infer_answer": "\\boxed{n}",
+      "gold_answer": "0"
+    },
+    "171": {
+      "question": "Solve the equation x^4+a^4-3a*x^3+3a^3*x=0 for a≠0 as an expression of a.",
+      "infer_answer": "\\boxed{x=\\frac{a}{2}}",
+      "gold_answer": "a(1±sqrt(2)), a(1±sqrt(5))/2"
+    },
+    "172": {
+      "question": "For a polynomial f(x) of degree n with integer coefficients, if both f(0) and f(1) are odd, at most how many integer-valued zeros can it have?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "At most 0 integer-valued zeros (i.e., no integer zeros)"
+    },
+    "173": {
+      "question": "Let P(x)=x^(2n)-2x^(2n-1)+3x^(2n-2)-4x^(2n-3)+...-2nx+2n+1. For how many values of n∈{1, 2, ..., 100} does P(x) has at least one real-valued root?",
+      "infer_answer": "\\boxed{25}",
+      "gold_answer": "0 (none of the values)"
+    },
+    "174": {
+      "question": "Find all integer solutions to the equation x^3+x^2*y+x*y^2+y^3=8(x^2+xy+y^2+1).",
+      "infer_answer": "\\boxed{0, 1}",
+      "gold_answer": "(x=8, y=2), (x=2, y=8)"
+    },
+    "175": {
+      "question": "Find all integer solutions to the equations x^5+y^5=33, x+y=3.",
+      "infer_answer": "\\boxed{(2,1)}",
+      "gold_answer": "(x=1, y=2) and (x=2, y=1)"
+    },
+    "176": {
+      "question": "Find the remainder of x^100-2x^51+1 divided by x^2-1.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "-2x+2"
+    },
+    "177": {
+      "question": "How many real-valued zeros does the polynomial 1+x+x^2/2!+x^3/3!+...+x^(2n)/(2n)! have?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 (i.e., no real-valued zeros)"
+    },
+    "178": {
+      "question": "What is the minimum value of the sum of squares of the zeros of x^2-(a-2)x-a-1 for real number a?",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "5"
+    },
+    "179": {
+      "question": "For an antisymmetric polynomial f(x, y) (i.e., f(x, y)=-f(y, x)) of total degree n (i.e., the maximum value of i+j in x^i*y^j is n), what are possible values of the remainder of f(x, y) divided by x-y?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "180": {
+      "question": "If x_1, x_2 are the two roots of the polynomial x^2-6x+1, for how many integer n in {61, 62, ..., 120} does x_1^n+x_2^n divided by 5 give a remainder of 4?",
+      "infer_answer": "\\boxed{12}",
+      "gold_answer": "20"
+    },
+    "181": {
+      "question": "How many (real or complex) roots have multiplicity greater than 1 for the polynomial f(x)=1+x/(1!)+x^2/(2!)+x^3/(3!)+...++x^n/(n!)?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "0 roots"
+    },
+    "182": {
+      "question": "Find the value of a, b such that (x-1)^2 | ax^4+bx^3+1.",
+      "infer_answer": "\\boxed{(a,b) = (-1,0)}",
+      "gold_answer": "a=3, b=-4"
+    },
+    "183": {
+      "question": "Factorize x^4+x^2+1 into terms of integer coefficients.",
+      "infer_answer": "\\boxed{(x^2+x+1)(x^2-x+1)}",
+      "gold_answer": "(x^2+x+1)(x^2-x+1)"
+    },
+    "184": {
+      "question": "Find all possible values of f(x) at x≠0 such that xf(y)+yf(x)=(x+y)f(x)f(y) for all x, y.",
+      "infer_answer": "\\boxed{f(x)=cx}",
+      "gold_answer": "f(x)=0 or f(x)=1"
+    },
+    "185": {
+      "question": "The polynomial f(x) has integer coefficients and there exists an integer k such that f(k), f(k+1), f(k+2) are all divisible by 3. For integer m in {k+3, k+4, ..., 2k}, at least how many of them have f(m) divisible by 3, as an expression of k?",
+      "infer_answer": "\\boxed{2k-2}",
+      "gold_answer": "k-2 (i.e., all of them)"
+    },
+    "186": {
+      "question": "Let f(x) be a polynomial of degree n and f(x)=x has no real number solutions. What is the maximum number of real number solutions does f(f(x))=x have?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "0"
+    },
+    "187": {
+      "question": "Factorize x^8+x^4+1 into terms of integer coefficients.",
+      "infer_answer": "\\boxed{(x^4+1)^2}",
+      "gold_answer": "(x^2+x+1)(x^2-x+1)(x^4-x^2+1)"
+    },
+    "188": {
+      "question": "Factorize x^3+y^3+z^3-3xyz.",
+      "infer_answer": "$$\\boxed{(x+y+z)(x^2+y^2+z^2-xy-xz-yz)}$$",
+      "gold_answer": "(x+y+z)(x^2+y^2+z^2-xy-yz-xz)"
+    },
+    "189": {
+      "question": "Find a polynomial f(x) such that x*f(x−1)=(x+1)*f(x) for all x?",
+      "infer_answer": "\\boxed{f(x)=x^2}",
+      "gold_answer": "f(x)=0"
+    },
+    "190": {
+      "question": "Find a, b, c such that (x+5)/((x-1)(x-2)(x-3))=a/(x-1)+b/(x-2)+c/(x-3).",
+      "infer_answer": "\\boxed{\\begin{cases}\na&=-6\\\\\nb&=8\\\\\nc&=-4\n\\end{cases}}",
+      "gold_answer": "a=3, b=-7, c=4"
+    },
+    "191": {
+      "question": "Find all real-valued solutions to the equation x^8+4x^6−10x^4+4x^2+1=0.",
+      "infer_answer": "\\boxed{x=-1, 0, 1}",
+      "gold_answer": "x=±1"
+    },
+    "192": {
+      "question": "Finding the remainder when p(x^7) is divided by p(x), where p(x)=x^6+x^5+...+x+1?",
+      "infer_answer": "\\boxed{x^6}",
+      "gold_answer": "7"
+    },
+    "193": {
+      "question": "Find the smallest value of the polynomial f(x)=x^3(x^3+1)(x^3+2)(x^3+3).",
+      "infer_answer": "\\boxed{-3}",
+      "gold_answer": "-1"
+    },
+    "194": {
+      "question": "For how many values of n in {2, 3, 4, ..., 1993} can f(x)=x^n+5x^(n−1)+3 be written as g(x)h(x) where g(x) and h(x) are both polynomials of integer coefficients with degree at least 1?",
+      "infer_answer": "\\boxed{98}",
+      "gold_answer": "0"
+    },
+    "195": {
+      "question": "For what value(s) of k is x^3+y^3+z^3+kxyz divisible by x+y+z?",
+      "infer_answer": "\\boxed{k=0}",
+      "gold_answer": "-3 is the only possible value"
+    },
+    "196": {
+      "question": "Let f(x) be a polynomial with integer coefficients, with f(x)=5 at four distinct integers x=a, b, c, d. If f(x) has degree n, then at most how many integer values k are there with f(k)=8?",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "At most 0 values (i.e., no such values)"
+    },
+    "197": {
+      "question": "Let P(x) be a polynomial of degree n such that P(k)=k/(k+1) for k=0, 1, ..., n. Find P(n+1).",
+      "infer_answer": "\\boxed{\\frac{n+1}{n+2}}",
+      "gold_answer": "((-1)^(n+1)+n+1)/(n+2) (i.e., 1 if for odd n, and n/(n+2) for even n)"
+    },
+    "198": {
+      "question": "Factorize x^9+x^4-x-1 into terms of integer coefficients.",
+      "infer_answer": "\\boxed{x^4(x^5+1)-(x+1)}",
+      "gold_answer": "(x+1)(x-1)(x^2+1)(x^3−x^2+1)(x^2+x+1)"
+    },
+    "199": {
+      "question": "What are possible values of n mod k if x^n-y^n is divisible by x^k-y^k for integer n, k?",
+      "infer_answer": "\\boxed{0, 1, k-1}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "200": {
+      "question": "Suppose that for x, y we have x+y=a and x^3+y^3=b. Find x^2+y^2, as an expression of a and b.",
+      "infer_answer": "\\boxed{x^2 + y^2 = (a/2)^2 + (b/2a) \\cdot 1}",
+      "gold_answer": "(a^3+2b)/(3a)"
+    },
+    "201": {
+      "question": "Let f(x)=x^4+x^3+x^2+x+1. Find the remainder of f(x^5) divided by f(x).",
+      "infer_answer": "\\boxed{x^5+1}",
+      "gold_answer": "5"
+    },
+    "202": {
+      "question": "The polynomial p(x)=ax^4+bx^3+cx^2+dx+e with integer coefficients is divisible by 7 for every integer x. What are possible values of (a mod 7) + (b mod 7) + (c mod 7) + (d mod 7) + (e mod 7)?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "203": {
+      "question": "Let f(x)=(1-x+x^2-x^3+...-x^99+x^100)(1+x+x^2+x^3+...+x^99+x^100). What is the sum of coefficients of the terms x^1, x^3, ..., x^97, x^99 in the expansion form of f(x)?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "0"
+    },
+    "204": {
+      "question": "Let f(x)=(x^1958+x^1957+2)^1959=a_0+a_1*x+···+a_n*x^n. Find a_0−a_1/2−a_2/2+a_3−a_4/2−a_5/2+a_6-a_7/2-a_8/2+....",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "1"
+    },
+    "205": {
+      "question": "For the polynomial x^3+4x^2+2x+a, what value of a results in one root being equal to the sum of the other two roots?",
+      "infer_answer": "\\boxed{-8}",
+      "gold_answer": "-4"
+    },
+    "206": {
+      "question": "Find all integer solutions to the equation x^(1/4)+(97-x)^(1/4)=5.",
+      "infer_answer": "\\boxed{0, 97}",
+      "gold_answer": "x=16 and x=81"
+    },
+    "207": {
+      "question": "Find all real-valued solutions to the equation 4x^11+4x^10−21x^9-21x^8+17x^7+17x^6+17x^5+17x^4−21x^3-21x^2+4x+4=0.",
+      "infer_answer": "\\boxed{x = 0}",
+      "gold_answer": "x=±1, ±2, ±1/2"
+    },
+    "208": {
+      "question": "Find the remainder of x^1959−1 divided by (x^2+1)(x^2+x+1).",
+      "infer_answer": "\\boxed{-1}",
+      "gold_answer": "x^3-1"
+    },
+    "209": {
+      "question": "Find the smallest value of a^2+ab+b^2-3a-3b for real numbers a, b.",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "-3"
+    },
+    "210": {
+      "question": "What is the largest integer n for which n^3+100 is divisible by n+10?",
+      "infer_answer": "\\boxed{9}",
+      "gold_answer": "890"
+    },
+    "211": {
+      "question": "Let f(x) be a polynomial of degree n with integer coefficients. If there are three different integers a, b, c, such that f(a)=f(b)=f(c)=-1, then at most how many integer-valued roots can this polynomial have?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "At most 0 integer-valued roots (i.e., no integer roots)"
+    },
+    "212": {
+      "question": "If polynomial f(x, y) is symmetric (i.e., f(x, y)=f(y, x)) and x-y | f(x, y), can we always find h(x, y) with f(x, y)=(x-y)^2*h(x, y) such that h(x, y) is a polynomial function?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "Yes"
+    },
+    "213": {
+      "question": "If f(x)=x^5-x+a is divisible by x-b for some integer b, what are possible values of a mod 5?",
+      "infer_answer": "\\boxed{0,1,4}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "214": {
+      "question": "The polynomial ax^3+bx^2+cx+d has integer coefficients a, b, c, d with ad odd and bc even. Can some values of a, b, c, d result in all three roots of the polynomial being integers?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "215": {
+      "question": "Find a monic polynomial (i.e. a polynomial with the leading coefficient being 1) p(x) of degree greater than 1 that satisfies x*p(x-1)=(x-2023)*p(x).",
+      "infer_answer": "\\boxed{x^{n+1}-x^n-2023x+2022}",
+      "gold_answer": "x(x-1)(x-2)...(x-2022)"
+    },
+    "216": {
+      "question": "The polynomial 1-x+x^2-x^3+...+x^8-x^9 may be written in the form a_0+a_1*y+a_2*y^2+...+a_9*y^9, where y=x+1 and each a_i is a constant. Find the value of a_2.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "120"
+    },
+    "217": {
+      "question": "Let x_1, x_2, x_3 be the roots of x^3+3x^2-7x+1. Find x_1^2+x_2^2+x_3^2.",
+      "infer_answer": "\\boxed{11}",
+      "gold_answer": "23"
+    },
+    "218": {
+      "question": "Is it possible that each of the polynomials P(x)=ax^2+bx+c, Q(x)=cx^2+ax+b and R(x)=bx^2+cx+a has two different real roots with positive values of a, b, c?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "219": {
+      "question": "Find the value of a such that the polynomial x^5−ax^2−ax+1 has a root with multiplicity more than 1 at x=-1.",
+      "infer_answer": "\\boxed{a=1}",
+      "gold_answer": "-5"
+    },
+    "220": {
+      "question": "Let binary string w_1=0, and w_(n+1) is generated by replacing each 0 in w_n by 001, and each 1 in w_n by 0. Thus, we have w_2=001, w_3=0010010, etc. Does this operation result in a periodic binary string in the infinite limit, and if so, what is its period?",
+      "infer_answer": "\\boxed{6}",
+      "gold_answer": "No"
+    },
+    "221": {
+      "question": "Let {x_n}, {y_n}, {z_n} be three sequences with positive initial terms x_1, y_1, z_1, defined as x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n. Let w_n be the maximum value of x_n, y_n, z_n. For different values of x_1, y_1, z_1, do we have w_200 always greater than 20, always smaller than 20, or sometimes greater and sometimes smaller than 20?",
+      "infer_answer": "\\boxed{sometimes}",
+      "gold_answer": "Always greater than 20"
+    },
+    "222": {
+      "question": "Let x_1=2, and define x_(n+1)=2x_n/(x_n^2-1). Could this sequence be extended indefinitely (i.e., not encountering division-by-zero issue)?",
+      "infer_answer": "\\boxed{Yes}",
+      "gold_answer": "Yes"
+    },
+    "223": {
+      "question": "Let x_1, x_2<100 be two positive integers. For k≥3, let x_k be the smallest of the absolute values of the pairwise differences of the preceding terms. What are possible values of x_12?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "0 is the only possible value"
+    },
+    "224": {
+      "question": "Are there prime numbers in the sequence {a_n} with a_1=10001, a_2=100010001, a_3=1000100010001, ... (there are three 0s in between each pair of 1s). If so, what is the smallest one?",
+      "infer_answer": "\\boxed{104030501093701}",
+      "gold_answer": "There are no prime numbers in the sequence"
+    },
+    "225": {
+      "question": "Let {x_n}, {y_n}, {z_n} be three sequences with positive initial terms x_1, y_1, z_1, defined as x_(n+1)=y_n+1/z_n, y_(n+1)=z_n+1/x_n, z_(n+1)=x_n+1/y_n. At most how many of the three sequences can be bounded?",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "0 (i.e., no sequence is bounded)"
+    },
+    "226": {
+      "question": "Does the limit exist for the sequence defined by a_0=0, a_(n+1)=sqrt(6+a_n), and if so, find it.",
+      "infer_answer": "\\boxed{\\lim_{n\\to\\infty}a_n=\\sqrt{6}}",
+      "gold_answer": "The limit exists and is equal to 3"
+    },
+    "227": {
+      "question": "Find the limit of the expression 1/(1*2*3*4)+1/(2*3*4*5)+...+1/(n(n+1)(n+2)(n+3)) as n→∞.",
+      "infer_answer": "\\boxed{\\frac{1}{4}}",
+      "gold_answer": "1/18"
+    },
+    "228": {
+      "question": "Let n>1 be an integer. There are n lamps L_0, ..., L_(n−1) arranged in a circle. Each lamp is either ON or OFF. A sequence of steps S_0, ..., S_i, ... is carried out. Step S_j affects the state of L_j only (leaving the states of all other lamps unaltered) as follows: if L_(j−1) is ON, S_j changes the state of L_j from ON to OFF or from OFF to ON; if L_(j−1) is OFF, S_j leaves the state L_j unchanged. The lamps are labeled modulo n, that is, L_(−1)=L_(n−1), L_0=L_n, L_1=L_(n+1). Initially all lamps are ON. For n in {2, 3, ..., 100}, how many of them result in a the sequence of switching not being able to return all lamps to the ON state ever again?",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "0 (i.e., no such values)"
+    },
+    "229": {
+      "question": "Let a sequence be the defined as a_0=a_1=1, and a_(n+1)=a_(n-1)*a_n+1. What is a_1964 mod 4?",
+      "infer_answer": "\\boxed{3}",
+      "gold_answer": "3"
+    },
+    "230": {
+      "question": "Define a sequence with x_1=1/2, x_(k+1)=x_k^2+x_k. What is the integer part of the sum 1/(x_1+1)+1/(x_2+1)+1/(x_3+1)+...+1/(x_100+1)?",
+      "infer_answer": "\\boxed{99}",
+      "gold_answer": "1"
+    },
+    "231": {
+      "question": "A sequence {a_n} is defined by a_1=1, a_(n+1)=a_n+1/a_n^2. Does a finite limit of a_n exist, and if so, find it.",
+      "infer_answer": "\\boxed{\\frac{e}{e-1}}",
+      "gold_answer": "The limit does not exist"
+    },
+    "232": {
+      "question": "A sequence of positive integers a_0, a_1, ..., a_100 is defined as a_1>a_0, a_n=3a_(n-1)-2a_(n-2). Is it possible to have a_100<2^99 for certain such sequences, and if so, find the sequence with the largest sum a_0+a_1+...+a_100.",
+      "infer_answer": "\\boxed{2^{98}}",
+      "gold_answer": "Such a sequence is not possible"
+    },
+    "233": {
+      "question": "Let the sequence be defined as a_n=1/C(n, 0)+1/C(n, 1)+...+1/C(n, n). Does the limit of the sequence exist, and if so, what is it?",
+      "infer_answer": "\\boxed{\\frac{2}{n}}",
+      "gold_answer": "The limit exists and is equal to 2"
+    },
+    "234": {
+      "question": "Does there exist a positive sequence {a_n}, such that both sum a_n and sum 1/(n^2*a_n) converge to finite values?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "235": {
+      "question": "What are possible values of the limit of the sequence x_(n+1)=(x_n+a/x_n)/2, for different values of x_0>0, a>0, possibly as an expression of x_0, a?",
+      "infer_answer": "\\boxed{\\{a,\\infty\\}}",
+      "gold_answer": "The only possible value for the limit is sqrt(a)"
+    },
+    "236": {
+      "question": "Let the sequence a_1, a_2, ... be defined as a_(4n+1)=1, a_(4n+3)=0, a_(2n)=a_n. Is this sequence periodic, and if so, find its period.",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "The sequence is not periodic"
+    },
+    "237": {
+      "question": "Does the limit exist for the sequence defined by a_0=0, a_(n+1)=sqrt(4+3a_n), and if so, find it.",
+      "infer_answer": "\\boxed{\\lim_{n\\to\\infty}a_n=\\frac{2}{\\sqrt{3}}}",
+      "gold_answer": "The limit exists and is equal to 4"
+    },
+    "238": {
+      "question": "Define a sequence with a_1=a_2=1, a_3=−1, a_n=a_(n−1)*a_(n−3). Find a_1964.",
+      "infer_answer": "\\boxed{-1}",
+      "gold_answer": "-1"
+    },
+    "239": {
+      "question": "Let a_n be the number of all permutations p of {1, ..., n} with |p(i)−i|≤1 for all i. Find a_10.",
+      "infer_answer": "\\boxed{44}",
+      "gold_answer": "89"
+    },
+    "240": {
+      "question": "The sequence a_0, a_1, a_2, ... is such that, for all nonnegative m≥n, we have a_(m+n)+a_(m−n)=(a_(2m)+a_(2n))/2. If a_1=1, find a_50.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "2500"
+    },
+    "241": {
+      "question": "A sequence {x_n} is defined by x_1=2, x_(n+1)=(x_n^4+9)/(10x_n). For how many values of x_1, x_2, ..., x_1000 do we have x_n≤5/4?",
+      "infer_answer": "\\boxed{667}",
+      "gold_answer": "999 (i.e., all except for one value)"
+    },
+    "242": {
+      "question": "A sequence is defined as a_1=0, |a_n|=|a_(n-1)+1|. What is the smallest value of (a_1+a_2+...+a_n)/n for even n?",
+      "infer_answer": "\\boxed{\\frac{1}{4}}",
+      "gold_answer": "-1/2"
+    },
+    "243": {
+      "question": "Does there exist a strictly increasing sequence of non-negative numbers a_1, a_2, ... such that a_(mn)=a_m+a_n for all integers m, n? If so, find the smallest possible value of a_1.",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "The sequence does not exist"
+    },
+    "244": {
+      "question": "Is it possible to select an infinite geometric sequence from the sequence 1, 1/2, 1/4, 1/8, 1/16, ... such that the sum is 1/5, and if so, what is the sequence?",
+      "infer_answer": "\\boxed{1,\\frac{1}{2},\\frac{1}{4}}",
+      "gold_answer": "It is not possible"
+    },
+    "245": {
+      "question": "A sequence is defined by a_1=sqrt(2), a_(n+1)=sqrt(2)^a_n. Does the limit for the sequence exist, and if so, find it.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "The limit exists and is equal to 2"
+    },
+    "246": {
+      "question": "For the first 100 numbers in the sequence a_1=a_2=a_3=1, a_(n+1)=(1+a_(n−1)*a_n)/a_(n−2), how many of them are integers?",
+      "infer_answer": "\\boxed{99}",
+      "gold_answer": "100 (i.e., all numbers)"
+    },
+    "247": {
+      "question": "Let u<v and define two sequences {u_n} and {v_n}, as u_0=u, u_n=(u_(n-1)+v_(n-1))/2 and v_0=v, v_n=(u_(n-1)+2v_(n-1))/3. Let the two limits be L_u and L_v respectively. Find L_u-L_v.",
+      "infer_answer": "\\boxed{\\frac{v-u}{3}}",
+      "gold_answer": "0"
+    },
+    "248": {
+      "question": "Does the limit exist for the sequence defined as a_n=((2^3-1)/(2^3+1))*((3^3-1)/(3^3+1))*((4^3-1)/(4^3+1))*...*((n^3-1)/(n^3+1)), and if so, find it.",
+      "infer_answer": "\\boxed{\\frac{1}{2}}",
+      "gold_answer": "The limit exists and is equal to 2/3"
+    },
+    "249": {
+      "question": "For a≤b, define the sequence as a_1=a, a_2=b, a_(n+2)=(a_(n+1)+a_n)/2. Does the limit exist for this sequence, and if so, find it as an expression in terms of a and b.",
+      "infer_answer": "\\boxed{\\frac{a+b}{2}}",
+      "gold_answer": "The limit exists and is equal to (a+3b)/2"
+    },
+    "250": {
+      "question": "What are possible values of the limit of the sequence a_n=sqrt(a_(n-1))+sqrt(a_(n-2)), for different initial values of 0<a_0, a_1<1, possibly as an expression of a_0, a_1?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "The only possible value for the limit is 4"
+    },
+    "251": {
+      "question": "Given a set of n positive numbers a_1≤a_2≤...≤a_n, with the sum of the n(n-1)/2 pairwise products being equal to 1. Is it possible that a_1+a_2+...+a_(n-1) is greater than or equal to sqrt(2)?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "252": {
+      "question": "Let 0<a<b. Define two sequences {a_n} and {b_n} as a_0=a, b_0=b, a_(n+1)=sqrt(a_n*b_n), b_(n+1)=(a_n+b_n)/2. What is the value of (b_(n+1)-a_(n+1))*b_(n+2)/(b_n-a_n)^2?",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "8"
+    },
+    "253": {
+      "question": "The positive real numbers x_0, x_1, ..., x_1995 satisfy x_0=x_1995 and x_i+2/x_i=2x_(i+1)+1/x_(i+1) for i=0, ..., 1994. Find the maximum value that x_0 can have.",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "2^997"
+    },
+    "254": {
+      "question": "A sequence {x_n} is defined by x_1=2, x_(n+1)=(x_n^4+9)/(10x_n). For how many values of x_1, x_2, ..., x_1000 do we have x_n>4/5?",
+      "infer_answer": "\\boxed{667}",
+      "gold_answer": "1000 (i.e., all values)"
+    },
+    "255": {
+      "question": "Let 0<a<b. Define two sequences {a_n} and {b_n} as a_0=a, b_0=b, a_(n+1)=sqrt(a_n*b_n), b_(n+1)=(a_n+b_n)/2. Is the sequence a_n/b_n monotonically increasing, monotonically decreasing, or neither?",
+      "infer_answer": "\\boxed{monotonically increasing}",
+      "gold_answer": "Monotonically increasing"
+    },
+    "256": {
+      "question": "The sequence {x_n} is defined by x_1=2, x_(n+1)=(2+x_n)/(1−2x_n). Must x_n≠0 for all n in the sequence?",
+      "infer_answer": "\\boxed{\\text{No}}",
+      "gold_answer": "Yes"
+    },
+    "257": {
+      "question": "The terms of the sequence a_1, a_2, a_3, ... are all positive, and a_(n+1)=sqrt(1+a_n) for all n. Does there exist such a sequence with all a_n being rational numbers, and if so, find the smallest possible value of a_1 such that the sequence satisfies the condition.",
+      "infer_answer": "\\boxed{0}",
+      "gold_answer": "The sequence does not exist"
+    },
+    "258": {
+      "question": "For the first 100 numbers in the sequence a_1=a_2=1, a_3=2, a_(n+3)=(a_(n+1)*a_(n+2)+5)/a_n, how many of them are integers?",
+      "infer_answer": "\\boxed{99}",
+      "gold_answer": "100 (i.e., all numbers)"
+    },
+    "259": {
+      "question": "Let a_n be the number of all permutations p of {1, ..., n} with min(n-|p(i)−i|, |p(i)−i|)≤1 for all i. Find a_10.",
+      "infer_answer": "\\boxed{44}",
+      "gold_answer": "125"
+    },
+    "260": {
+      "question": "For a>0, does the limit of the sequence defined by a_0=sqrt(a), a_(n+1)=sqrt(a+a_n) exist, and if so, find it as an expression of a.",
+      "infer_answer": "\\boxed{\\sqrt{a}}",
+      "gold_answer": "The limit exists and is equal to (1+sqrt(4a+1))/2"
+    },
+    "261": {
+      "question": "1324 persons are arranged in a circle and numbered from 1 to 1324. Then every 2nd person is removed (i.e., the first four removed people are those numbered 2, 4, 6 and 8) until there is only one person left. What is the number of the last person left?",
+      "infer_answer": "\\boxed{706}",
+      "gold_answer": "601"
+    },
+    "262": {
+      "question": "Is it possible to select an infinite geometric sequence from the sequence 1, 1/2, 1/4, 1/8, 1/16, ... such that the sum is 1/7, and if so, what is the sequence?",
+      "infer_answer": "\\boxed{r = \\frac{1}{2}, a_1 = 1}",
+      "gold_answer": "Yes, and the sequence is 1/2^3, 1/2^6, 1/2^9, ..."
+    },
+    "263": {
+      "question": "How many sequences of positive numbers a_0, a_1, a_2, ... satisfy the conditions of a_0=1, a_(n+2)=a_n-a_(n+1) for all n≥0?",
+      "infer_answer": "\\boxed{1}",
+      "gold_answer": "Exactly one sequence"
+    },
+    "264": {
+      "question": "A sequence {a_n} is defined by a_1=1, a_(n+1)=a_n+1/a_n^2. Do we have a_9000>30?",
+      "infer_answer": "\\boxed{False}",
+      "gold_answer": "Yes"
+    },
+    "265": {
+      "question": "In how many ways can 12 geometric progressions be selected from the numbers 1, 2, ..., 100 such that every number is in exactly one progression?",
+      "infer_answer": "\\boxed{4950}",
+      "gold_answer": "0 (no such selection is possible)"
+    },
+    "266": {
+      "question": "Let x_1=2, y_1=4, z_1=6/7, and define x_(n+1)=2x_n/(x_n^2-1), y_(n+1)=2y_n/(y_n^2-1), z_(n+1)=2z_n/(z_n^2-1). Is it possible for x_n+y_n+z_n=0 for some n?",
+      "infer_answer": "\\boxed{No}",
+      "gold_answer": "No"
+    },
+    "267": {
+      "question": "A function f(x) satisfies f(x+1)+f(x-1)=sqrt(2)*f(x). Determine whether the function is periodic, and if so, find its period.",
+      "infer_answer": "\\boxed{2}",
+      "gold_answer": "The function is periodic, with a period of 8"
+    },
+    "268": {
+      "question": "The sequence {x_n} is defined by x_1=2, x_(n+1)=(2+x_n)/(1−2x_n), and it is known that there are no x_n=0. Could x_p=x_q for any p≠q, and if so, find the smallest possible value of p+q.",
+      "infer_answer": "\\boxed{4}",
+      "gold_answer": "No"
+    },
+    "269": {
+      "question": "Let a sequence be the defined as a_1=a_2=1, and a_n=(a_(n-1)^2+2)/a_(n-2). How many values in a_1, a_2, ..., a_100 are integers?",
+      "infer_answer": "\\boxed{20}",
+      "gold_answer": "100 (i.e., all values)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "decompose_MODEL": "deepseek-r1:7b",
+    "dependencies_1_MODEL": "deepseek-r1:7b",
+    "dependencies_2_MODEL": "deepseek-r1:7b",
+
+    "allocation_MODEL": "gpt-4-turbo",
+    "alpha-quantile-base": "gpt-3.5-turbo",
+
+    "finalSummarize_MODEL": "llama3:8b",
+    "judgeCorrect_MODEL": "llama3:8b",
+    "subtask_MODEL": "llama3:8b"
+}
+
+

@@ -1,0 +1,145 @@
+{
+  "0": {
+    "steps": ["Here's how:","**Step 1: Identify the given point**","We need to know: \"What is the given point?\" \u2192 $(0,3)$ in rectangular coordinates.","**Step 2: Determine the $r$-value (distance from the origin)**","To find the distance $r$ from the origin (0,0), we can use the distance formula:","$$r = \\sqrt{(0-0)^2+(3-0)^2} = \\sqrt{9}=3$$","**Step 3: Determine the $\\theta$-value (angular coordinate)**","Since $(0,3)$ lies on the $y$-axis (i.e., in the second quadrant), we know that $\\theta = \u03c0/2$."],
+    "steps_dict": {
+      "1": "Here's how:",
+      "2": "**Step 1: Identify the given point**",
+      "3": "We need to know: \"What is the given point?\" → $(0,3)$ in rectangular coordinates.",
+      "4": "**Step 2: Determine the $r$-value (distance from the origin)**",
+      "5": "To find the distance $r$ from the origin (0,0), we can use the distance formula:",
+      "6": "$$r = \\sqrt{(0-0)^2+(3-0)^2} = \\sqrt{9}=3$$",
+      "7": "**Step 3: Determine the $\\theta$-value (angular coordinate)**",
+      "8": "Since $(0,3)$ lies on the $y$-axis (i.e., in the second quadrant), we know that $\\theta = π/2$."
+    },
+    "depths": {
+      "0": ["Step 1","Step 3","Step 4"],
+      "1": ["Step 2","Step 6","Step 5"]
+    },
+    "int_edges": [[1,2],[4,5],[3,6]],
+    "problemText": "Convert the point $(0,3)$ in rectangular coordinates to polar coordinates.  Enter your answer in the form $(r,\\theta),$ where $r > 0$ and $0 \\le \\theta < 2 \\pi.$",
+    "allSubtask": "step1: Here's how:; step2: **Step 1: Identify the given point**; step3: We need to know: \"What is the given point?\" → $(0,3)$ in rectangular coordinates.; step4: **Step 2: Determine the $r$-value (distance from the origin)**; step5: To find the distance $r$ from the origin (0,0), we can use the distance formula:; step6: $$r = \\sqrt{(0-0)^2+(3-0)^2} = \\sqrt{9}=3$$; step7: **Step 3: Determine the $\\theta$-value (angular coordinate)**; step8: Since $(0,3)$ lies on the $y$-axis (i.e., in the second quadrant), we know that $\\theta = π/2$.",
+    "nowSubtask": ["Here's how:","**Step 1: Identify the given point**","We need to know: \"What is the given point?\" \u2192 $(0,3)$ in rectangular coordinates.","**Step 2: Determine the $r$-value (distance from the origin)**","To find the distance $r$ from the origin (0,0), we can use the distance formula:","$$r = \\sqrt{(0-0)^2+(3-0)^2} = \\sqrt{9}=3$$","**Step 3: Determine the $\\theta$-value (angular coordinate)**","Since $(0,3)$ lies on the $y$-axis (i.e., in the second quadrant), we know that $\\theta = \u03c0/2$."]
+  },
+  "1": {
+    "steps": ["**","Let's notice that the nested sum can be rearranged as:","\\[\\sum_{k = 1}^\\infty \\left(\\sum_{j = 1}^\\infty \\frac{1}{(j + k)^3}\\right)\\]","This rearrangement doesn't change the value of the sum.","Now, we can try to simplify the nested sum by treating $k$ as a fixed parameter and considering only the variation in $j$. This would give us:","+ \\frac{1}{(n+k)^3}\\right)\\]","We can then pull out the common factor $1/k^2$ (since it's present in each term of the sum) and rewrite this expression as:","\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2\\]","Next, we can recognize that the above sum can be expressed as a finite geometric series with first term $1/(k+1)^3$ and common ratio $-1/(k+1)^3$. This would allow us to find its sum using the formula for an infinite geometric series.","Let's use the formula:","\\[\\sum_{j = 1}^\\infty ar^{j - 1} = \\frac{a}{1-r}\\]","We can now simplify the expression:","\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2 = \\frac{k^3/(k+1)^3}{1 - (-1/(k+1)^3)} + k^2\\]","Simplify the fraction and combine like terms:","\\[\\frac{k}{(k+1)} + k^2\\]","At this point, we can try to recognize a pattern that would allow us to relate this expression back to $p$ and $q$. This is where the connection between the original expressions and the rewritten sum will be made.","**To solve the question \"Write the sum in terms of p and q\", we need to know:**","The connection we found above can be used to express the simplified sum in terms of $p$.","To do this, we would need to express the fraction $\\frac{k}{(k+1)}$ as a sum of squares.","By following these steps, we should be able to rewrite the original expression as a combination of $p$ and $q$."],
+    "steps_dict": {
+      "1": "**",
+      "2": "Let's notice that the nested sum can be rearranged as:",
+      "3": "\\[\\sum_{k = 1}^\\infty \\left(\\sum_{j = 1}^\\infty \\frac{1}{(j + k)^3}\\right)\\]",
+      "4": "This rearrangement doesn't change the value of the sum.",
+      "5": "Now, we can try to simplify the nested sum by treating $k$ as a fixed parameter and considering only the variation in $j$. This would give us:",
+      "6": "+ \\frac{1}{(n+k)^3}\\right)\\]",
+      "7": "We can then pull out the common factor $1/k^2$ (since it's present in each term of the sum) and rewrite this expression as:",
+      "8": "\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2\\]",
+      "9": "Next, we can recognize that the above sum can be expressed as a finite geometric series with first term $1/(k+1)^3$ and common ratio $-1/(k+1)^3$. This would allow us to find its sum using the formula for an infinite geometric series.",
+      "10": "Let's use the formula:",
+      "11": "\\[\\sum_{j = 1}^\\infty ar^{j - 1} = \\frac{a}{1-r}\\]",
+      "12": "We can now simplify the expression:",
+      "13": "\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2 = \\frac{k^3/(k+1)^3}{1 - (-1/(k+1)^3)} + k^2\\]",
+      "14": "Simplify the fraction and combine like terms:",
+      "15": "\\[\\frac{k}{(k+1)} + k^2\\]",
+      "16": "At this point, we can try to recognize a pattern that would allow us to relate this expression back to $p$ and $q$. This is where the connection between the original expressions and the rewritten sum will be made.",
+      "17": "**To solve the question \"Write the sum in terms of p and q\", we need to know:**",
+      "18": "The connection we found above can be used to express the simplified sum in terms of $p$.",
+      "19": "To do this, we would need to express the fraction $\\frac{k}{(k+1)}$ as a sum of squares.",
+      "20": "By following these steps, we should be able to rewrite the original expression as a combination of $p$ and $q$."
+    },
+    "depths": {
+      "0": ["Step 2","Step 17","Step 9","Step 5","Step 12"],
+      "1": ["Step 3","Step 19","Step 11","Step 6","Step 13"],
+      "2": ["Step 4"]
+    },
+    "int_edges": [[2,3],[3,4],[5,6],[9,11],[12,13],[17,19]],
+    "problemText": "Define\n\\[p = \\sum_{k = 1}^\\infty \\frac{1}{k^2} \\quad \\text{and} \\quad q = \\sum_{k = 1}^\\infty \\frac{1}{k^3}.\\]Find a way to write\n\\[\\sum_{j = 1}^\\infty \\sum_{k = 1}^\\infty \\frac{1}{(j + k)^3}\\]in terms of $p$ and $q.$",
+    "allSubtask": "step1: **; step2: Let's notice that the nested sum can be rearranged as:; step3: \\[\\sum_{k = 1}^\\infty \\left(\\sum_{j = 1}^\\infty \\frac{1}{(j + k)^3}\\right)\\]; step4: This rearrangement doesn't change the value of the sum.; step5: Now, we can try to simplify the nested sum by treating $k$ as a fixed parameter and considering only the variation in $j$. This would give us:; step6: + \\frac{1}{(n+k)^3}\\right)\\]; step7: We can then pull out the common factor $1/k^2$ (since it's present in each term of the sum) and rewrite this expression as:; step8: \\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2\\]; step9: Next, we can recognize that the above sum can be expressed as a finite geometric series with first term $1/(k+1)^3$ and common ratio $-1/(k+1)^3$. This would allow us to find its sum using the formula for an infinite geometric series.; step10: Let's use the formula:; step11: \\[\\sum_{j = 1}^\\infty ar^{j - 1} = \\frac{a}{1-r}\\]; step12: We can now simplify the expression:; step13: \\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2 = \\frac{k^3/(k+1)^3}{1 - (-1/(k+1)^3)} + k^2\\]; step14: Simplify the fraction and combine like terms:; step15: \\[\\frac{k}{(k+1)} + k^2\\]; step16: At this point, we can try to recognize a pattern that would allow us to relate this expression back to $p$ and $q$. This is where the connection between the original expressions and the rewritten sum will be made.; step17: **To solve the question \"Write the sum in terms of p and q\", we need to know:**; step18: The connection we found above can be used to express the simplified sum in terms of $p$.; step19: To do this, we would need to express the fraction $\\frac{k}{(k+1)}$ as a sum of squares.; step20: By following these steps, we should be able to rewrite the original expression as a combination of $p$ and $q$.",
+    "nowSubtask": ["**","Let's notice that the nested sum can be rearranged as:","\\[\\sum_{k = 1}^\\infty \\left(\\sum_{j = 1}^\\infty \\frac{1}{(j + k)^3}\\right)\\]","This rearrangement doesn't change the value of the sum.","Now, we can try to simplify the nested sum by treating $k$ as a fixed parameter and considering only the variation in $j$. This would give us:","+ \\frac{1}{(n+k)^3}\\right)\\]","We can then pull out the common factor $1/k^2$ (since it's present in each term of the sum) and rewrite this expression as:","\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2\\]","Next, we can recognize that the above sum can be expressed as a finite geometric series with first term $1/(k+1)^3$ and common ratio $-1/(k+1)^3$. This would allow us to find its sum using the formula for an infinite geometric series.","Let's use the formula:","\\[\\sum_{j = 1}^\\infty ar^{j - 1} = \\frac{a}{1-r}\\]","We can now simplify the expression:","\\[k^2\\cdot \\sum_{j = 1}^\\infty \\frac{1}{(k + j)^3} + k^2 = \\frac{k^3/(k+1)^3}{1 - (-1/(k+1)^3)} + k^2\\]","Simplify the fraction and combine like terms:","\\[\\frac{k}{(k+1)} + k^2\\]","At this point, we can try to recognize a pattern that would allow us to relate this expression back to $p$ and $q$. This is where the connection between the original expressions and the rewritten sum will be made.","**To solve the question \"Write the sum in terms of p and q\", we need to know:**","The connection we found above can be used to express the simplified sum in terms of $p$.","To do this, we would need to express the fraction $\\frac{k}{(k+1)}$ as a sum of squares.","By following these steps, we should be able to rewrite the original expression as a combination of $p$ and $q$."]
+  },
+  "2": {
+    "steps": ["**","What is the value of $f(x)$ when $x = -2$?","We can substitute $-2$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(-2) = \\frac{-6-2}{-2-2} = \\frac{-8}{-4} = 2$$","What is the value of $f(x)$ when $x = -1$?","We can substitute $-1$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(-1) = \\frac{-3-2}{-1-2} = \\frac{-5}{-3} = \\frac{5}{3}$$","What is the value of $f(x)$ when $x = 0$?","We can substitute $0$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(0) = \\frac{-2-2}{0-2} = \\frac{-4}{-2} = 2$$","Finally, what is the sum of these three values?","We add up the values we found in steps 1, 2, and 3 to get:","$$f(-2) + f(-1) + f(0) = 2 + \\frac{5}{3} + 2 = \\boxed{\\frac{9}{3} + 2 = \\frac{15}{3} = 5}$$"],
+    "steps_dict": {
+      "1": "**",
+      "2": "What is the value of $f(x)$ when $x = -2$?",
+      "3": "We can substitute $-2$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:",
+      "4": "$$f(-2) = \\frac{-6-2}{-2-2} = \\frac{-8}{-4} = 2$$",
+      "5": "What is the value of $f(x)$ when $x = -1$?",
+      "6": "We can substitute $-1$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:",
+      "7": "$$f(-1) = \\frac{-3-2}{-1-2} = \\frac{-5}{-3} = \\frac{5}{3}$$",
+      "8": "What is the value of $f(x)$ when $x = 0$?",
+      "9": "We can substitute $0$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:",
+      "10": "$$f(0) = \\frac{-2-2}{0-2} = \\frac{-4}{-2} = 2$$",
+      "11": "Finally, what is the sum of these three values?",
+      "12": "We add up the values we found in steps 1, 2, and 3 to get:",
+      "13": "$$f(-2) + f(-1) + f(0) = 2 + \\frac{5}{3} + 2 = \\boxed{\\frac{9}{3} + 2 = \\frac{15}{3} = 5}$$"
+    },
+    "depths": {
+      "0": ["Step 3","Step 5","Step 8"],
+      "1": ["Step 4","Step 6","Step 9"]
+    },
+    "int_edges": [[3,4],[5,6],[8,9]],
+    "problemText": "If $f(x) = \\frac{3x-2}{x-2}$, what is the value of $f(-2) +f(-1)+f(0)$? Express your answer as a common fraction.",
+    "allSubtask": "step1: **; step2: What is the value of $f(x)$ when $x = -2$?; step3: We can substitute $-2$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:; step4: $$f(-2) = \\frac{-6-2}{-2-2} = \\frac{-8}{-4} = 2$$; step5: What is the value of $f(x)$ when $x = -1$?; step6: We can substitute $-1$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:; step7: $$f(-1) = \\frac{-3-2}{-1-2} = \\frac{-5}{-3} = \\frac{5}{3}$$; step8: What is the value of $f(x)$ when $x = 0$?; step9: We can substitute $0$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:; step10: $$f(0) = \\frac{-2-2}{0-2} = \\frac{-4}{-2} = 2$$; step11: Finally, what is the sum of these three values?; step12: We add up the values we found in steps 1, 2, and 3 to get:; step13: $$f(-2) + f(-1) + f(0) = 2 + \\frac{5}{3} + 2 = \\boxed{\\frac{9}{3} + 2 = \\frac{15}{3} = 5}$$",
+    "nowSubtask": ["**","What is the value of $f(x)$ when $x = -2$?","We can substitute $-2$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(-2) = \\frac{-6-2}{-2-2} = \\frac{-8}{-4} = 2$$","What is the value of $f(x)$ when $x = -1$?","We can substitute $-1$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(-1) = \\frac{-3-2}{-1-2} = \\frac{-5}{-3} = \\frac{5}{3}$$","What is the value of $f(x)$ when $x = 0$?","We can substitute $0$ for $x$ in the function $f(x) = \\frac{3x-2}{x-2}$ to get:","$$f(0) = \\frac{-2-2}{0-2} = \\frac{-4}{-2} = 2$$","Finally, what is the sum of these three values?","We add up the values we found in steps 1, 2, and 3 to get:","$$f(-2) + f(-1) + f(0) = 2 + \\frac{5}{3} + 2 = \\boxed{\\frac{9}{3} + 2 = \\frac{15}{3} = 5}$$"]
+  },
+  "3": {
+    "steps": ["Find the prime factorization of 196.\"","This step involves finding the unique factors that multiply together to give us 196.","Factorize 196 into its prime components: 2 \u00d7 2 \u00d7 7 \u00d7 7","Since 196 \u00f7 2 = 98, we know that 2 is a factor of 196.","Determine the exponents of each prime component: (two 2's and two 7's)","This tells us that the prime factors 2 and 7 both appear twice in the factorization.","Count the number of possible combinations by multiplying (exponents + 1):","This means that we can generate eight different combinations:","(0 2's, 2 7's)","(1 2, 0 7s)","(1 2, 1 7)","(2 2's, 0 7s)","(2 2's, 1 7)","(2 2's, 2 7s)","This gives us a total of eight different combinations, which corresponds to the number of positive whole-number divisors for 196.","Answer: There are 8 positive whole-number divisors for 196."],
+    "steps_dict": {
+      "1": "Find the prime factorization of 196.\"",
+      "2": "This step involves finding the unique factors that multiply together to give us 196.",
+      "3": "Factorize 196 into its prime components: 2 × 2 × 7 × 7",
+      "4": "Since 196 ÷ 2 = 98, we know that 2 is a factor of 196.",
+      "5": "Determine the exponents of each prime component: (two 2's and two 7's)",
+      "6": "This tells us that the prime factors 2 and 7 both appear twice in the factorization.",
+      "7": "Count the number of possible combinations by multiplying (exponents + 1):",
+      "8": "This means that we can generate eight different combinations:",
+      "9": "(0 2's, 2 7's)",
+      "10": "(1 2, 0 7s)",
+      "11": "(1 2, 1 7)",
+      "12": "(2 2's, 0 7s)",
+      "13": "(2 2's, 1 7)",
+      "14": "(2 2's, 2 7s)",
+      "15": "This gives us a total of eight different combinations, which corresponds to the number of positive whole-number divisors for 196.",
+      "16": "Answer: There are 8 positive whole-number divisors for 196."
+    },
+    "depths": {
+      "0": ["Step 1"],
+      "1": ["Step 3","Step 16"],
+      "2": ["Step 4","Step 6"],
+      "3": ["Step 5"],
+      "4": ["Step 7"],
+      "5": ["Step 8"]
+    },
+    "int_edges": [[3,4],[3,6],[4,5],[1,3],[1,16],[5,7],[7,8],[6,5]],
+    "problemText": "How many positive whole-number divisors does 196 have?",
+    "allSubtask": "step1: Find the prime factorization of 196.\"; step2: This step involves finding the unique factors that multiply together to give us 196.; step3: Factorize 196 into its prime components: 2 × 2 × 7 × 7; step4: Since 196 ÷ 2 = 98, we know that 2 is a factor of 196.; step5: Determine the exponents of each prime component: (two 2's and two 7's); step6: This tells us that the prime factors 2 and 7 both appear twice in the factorization.; step7: Count the number of possible combinations by multiplying (exponents + 1):; step8: This means that we can generate eight different combinations:; step9: (0 2's, 2 7's); step10: (1 2, 0 7s); step11: (1 2, 1 7); step12: (2 2's, 0 7s); step13: (2 2's, 1 7); step14: (2 2's, 2 7s); step15: This gives us a total of eight different combinations, which corresponds to the number of positive whole-number divisors for 196.; step16: Answer: There are 8 positive whole-number divisors for 196.",
+    "nowSubtask": ["Find the prime factorization of 196.\"","This step involves finding the unique factors that multiply together to give us 196.","Factorize 196 into its prime components: 2 \u00d7 2 \u00d7 7 \u00d7 7","Since 196 \u00f7 2 = 98, we know that 2 is a factor of 196.","Determine the exponents of each prime component: (two 2's and two 7's)","This tells us that the prime factors 2 and 7 both appear twice in the factorization.","Count the number of possible combinations by multiplying (exponents + 1):","This means that we can generate eight different combinations:","(0 2's, 2 7's)","(1 2, 0 7s)","(1 2, 1 7)","(2 2's, 0 7s)","(2 2's, 1 7)","(2 2's, 2 7s)","This gives us a total of eight different combinations, which corresponds to the number of positive whole-number divisors for 196.","Answer: There are 8 positive whole-number divisors for 196."]
+  },
+  "4": {
+    "steps": ["What is the distance each student ran?","How long did each student take to run the same distance?","These two pieces of information will allow us to calculate the average speed for each student.","Next, we can set up a formula to calculate the average speed for each student:","$Average Speed = \\frac{Total Distance}{Time Taken}$","Where Total Distance is the distance each student ran, and Time Taken is how long it took them to complete the same distance.","Now that we have our formula, we can apply it to each student's data point:","Plug in the values for Evelyn: $(distance, time) = (1.25, 4.5), so Average Speed = \\frac{?}{4.5}$","Plug in the values for Briana: $(distance, time) = (2.5, 2.2), so Average Speed = \\frac{?}{2.2}$","Plug in the values for Carla: $(distance, time) = (4.25, 5.2), so Average Speed = \\frac{?}{5.2}$","Plug in the values for Debra: $(distance, time) = (5.6, 2.8), so Average Speed = \\frac{?}{2.8}$","Plug in the values for Angela: $(distance, time) = (6.8, 1.4), so Average Speed = \\frac{?}{1.4}$","This will give us a value for each student's average speed.","Finally, we can compare these values to determine which student has the greatest average speed:","Compare the average speeds: $\\boxed{\\text{Which student has the highest average speed}?}$"],
+    "steps_dict": {
+      "1": "What is the distance each student ran?",
+      "2": "How long did each student take to run the same distance?",
+      "3": "These two pieces of information will allow us to calculate the average speed for each student.",
+      "4": "Next, we can set up a formula to calculate the average speed for each student:",
+      "5": "$Average Speed = \\frac{Total Distance}{Time Taken}$",
+      "6": "Where Total Distance is the distance each student ran, and Time Taken is how long it took them to complete the same distance.",
+      "7": "Now that we have our formula, we can apply it to each student's data point:",
+      "8": "Plug in the values for Evelyn: $(distance, time) = (1.25, 4.5), so Average Speed = \\frac{?}{4.5}$",
+      "9": "Plug in the values for Briana: $(distance, time) = (2.5, 2.2), so Average Speed = \\frac{?}{2.2}$",
+      "10": "Plug in the values for Carla: $(distance, time) = (4.25, 5.2), so Average Speed = \\frac{?}{5.2}$",
+      "11": "Plug in the values for Debra: $(distance, time) = (5.6, 2.8), so Average Speed = \\frac{?}{2.8}$",
+      "12": "Plug in the values for Angela: $(distance, time) = (6.8, 1.4), so Average Speed = \\frac{?}{1.4}$",
+      "13": "This will give us a value for each student's average speed.",
+      "14": "Finally, we can compare these values to determine which student has the greatest average speed:",
+      "15": "Compare the average speeds: $\\boxed{\\text{Which student has the highest average speed}?}$"
+    },
+    "depths": {
+      "0": ["Step 9","Step 8","Step 4"],
+      "1": ["Step 1","Step 5"],
+      "2": ["Step 2"]
+    },
+    "int_edges": [[1,2],[4,5],[8,1],[9,1]],
+    "problemText": "The results of a cross-country team's training run are graphed below. Which student has the greatest average speed? [asy]\nfor ( int i = 1; i <= 7; ++i )\n{\n\ndraw((i,0)--(i,6));\n}\n\nfor ( int i = 1; i <= 5; ++i )\n{\n\ndraw((0,i)--(8,i));\n}\ndraw((-0.5,0)--(8,0), linewidth(1));\ndraw((0,-0.5)--(0,6), linewidth(1));\nlabel(\"$O$\", (0,0), SW);\nlabel(scale(.85)*rotate(90)*\"distance\", (0, 3), W);\nlabel(scale(.85)*\"time\", (4, 0), S);\ndot((1.25, 4.5));\nlabel(scale(.85)*\"Evelyn\", (1.25, 4.8), N);\ndot((2.5, 2.2));\nlabel(scale(.85)*\"Briana\", (2.5, 2.2), S);\ndot((4.25,5.2));\nlabel(scale(.85)*\"Carla\", (4.25, 5.2), SE);\ndot((5.6, 2.8));\nlabel(scale(.85)*\"Debra\", (5.6, 2.8), N);\ndot((6.8, 1.4));\nlabel(scale(.85)*\"Angela\", (6.8, 1.4), E);\n[/asy]",
+    "allSubtask": "step1: What is the distance each student ran?; step2: How long did each student take to run the same distance?; step3: These two pieces of information will allow us to calculate the average speed for each student.; step4: Next, we can set up a formula to calculate the average speed for each student:; step5: $Average Speed = \\frac{Total Distance}{Time Taken}$; step6: Where Total Distance is the distance each student ran, and Time Taken is how long it took them to complete the same distance.; step7: Now that we have our formula, we can apply it to each student's data point:; step8: Plug in the values for Evelyn: $(distance, time) = (1.25, 4.5), so Average Speed = \\frac{?}{4.5}$; step9: Plug in the values for Briana: $(distance, time) = (2.5, 2.2), so Average Speed = \\frac{?}{2.2}$; step10: Plug in the values for Carla: $(distance, time) = (4.25, 5.2), so Average Speed = \\frac{?}{5.2}$; step11: Plug in the values for Debra: $(distance, time) = (5.6, 2.8), so Average Speed = \\frac{?}{2.8}$; step12: Plug in the values for Angela: $(distance, time) = (6.8, 1.4), so Average Speed = \\frac{?}{1.4}$; step13: This will give us a value for each student's average speed.; step14: Finally, we can compare these values to determine which student has the greatest average speed:; step15: Compare the average speeds: $\\boxed{\\text{Which student has the highest average speed}?}$",
+    "nowSubtask": ["What is the distance each student ran?","How long did each student take to run the same distance?","These two pieces of information will allow us to calculate the average speed for each student.","Next, we can set up a formula to calculate the average speed for each student:","$Average Speed = \\frac{Total Distance}{Time Taken}$","Where Total Distance is the distance each student ran, and Time Taken is how long it took them to complete the same distance.","Now that we have our formula, we can apply it to each student's data point:","Plug in the values for Evelyn: $(distance, time) = (1.25, 4.5), so Average Speed = \\frac{?}{4.5}$","Plug in the values for Briana: $(distance, time) = (2.5, 2.2), so Average Speed = \\frac{?}{2.2}$","Plug in the values for Carla: $(distance, time) = (4.25, 5.2), so Average Speed = \\frac{?}{5.2}$","Plug in the values for Debra: $(distance, time) = (5.6, 2.8), so Average Speed = \\frac{?}{2.8}$","Plug in the values for Angela: $(distance, time) = (6.8, 1.4), so Average Speed = \\frac{?}{1.4}$","This will give us a value for each student's average speed.","Finally, we can compare these values to determine which student has the greatest average speed:","Compare the average speeds: $\\boxed{\\text{Which student has the highest average speed}?}$"]
+  }
+}
