@@ -32,3 +32,4 @@ chat = client.chat.completions.create(
 )
 # print(chat)
 print(chat.choices[0].message.content)
+print("上传成功")
